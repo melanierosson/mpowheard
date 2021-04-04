@@ -1,0 +1,128 @@
+$yellow: #FBFE3B;
+$cyan: #00E2FF;
+$hcyan: #00E2FF55;
+$lcyan: #98F3FF;
+$green: #2FFF37;
+$hgreen: #2FFF3755;
+$lgreen: #A8FE38;
+$pink: #FF0093;
+$orange: #FF4500;
+$purple: #B006FB;
+$black: #000000;
+$white: #FFFFFF;
+
+body {
+	background-color:$white;
+	font-family: "Montserrat", "sans serif";
+	overflow-x:hidden;
+	span.hotpink {
+		color: $pink;
+	}
+	br.title-br {
+		display:block;
+		@media screen and (min-width:768px) and (max-width:991px) {
+			display:none;
+		}
+		@media screen and (min-width:1201px) {
+			display:none;
+		}
+	}
+	.center {
+		text-align:center;
+	}
+	nav.navbar {
+		background-color: $yellow;
+		color: $black;
+		height:60px;
+		padding-top:0;
+		padding-bottom:0;
+		// start ---- mobile nav
+		span.navbar-toggler-icon img {
+			display:none;
+			@media screen and (max-width:991px) {
+				display:block;
+			}
+		}
+		div.navbar-collapse {
+			@media screen and (max-width:991px) {
+				margin-top:-5px;
+			}
+		}
+		ul.navbar-nav {
+			@media screen and (max-width:991px) {
+				background-color:$lgreen;
+				padding:10px 20px;
+				li.nav-item {
+					text-align:right;
+				}
+			}
+		}
+		// end ---- mobile nav
+		a.navbar-brand {
+			@media screen and (max-width:991px) {
+				padding-top:0;
+			}
+			img {
+				height:60px;
+				width:60px;
+			}
+		}
+		a:link, a:visited {
+			text-transform: uppercase;
+			color: $black !important;
+			letter-spacing:0.1rem;
+			font-weight: 600;
+		}
+		a:hover {
+			color: $pink !important;
+		}
+		li.active{
+			@media screen and (min-width:992px) {
+				border-bottom: 5px solid $purple;
+				a {
+					margin-bottom:-5px;
+				}
+			}
+			a {
+				color: $purple !important;
+			}
+			&:hover {
+				a {
+					color: $pink !important;
+				}
+			}
+		}
+		li.nav-item {
+			@media screen and (min-width:992px) {
+				padding: 10px 20px;
+			}
+		}
+		li.nav-item:hover {
+			cursor:pointer;
+			background-color:$hgreen;
+			a {
+				color: $pink !important;
+			}
+		}
+	}
+	section {
+		h1 {
+			font-weight:700;
+		}
+		h2 {
+			color: $purple; 
+			letter-spacing:0.1rem;
+			font-weight:600;
+		}
+	}
+	footer {
+		width:100vw;
+		margin:0;
+		background-color:$cyan;	
+		background-image: url('../images/dots.png');
+		background-repeat: repeat;
+		background-size: 160px;
+    	padding: 5px;
+	}
+}
+
