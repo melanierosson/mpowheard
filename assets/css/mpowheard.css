@@ -6,10 +6,10 @@ body {
     color: #FF0093; }
   body br.title-br {
     display: block; }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
+    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
       body br.title-br {
         display: none; } }
-    @media screen and (min-width: 1201px) {
+    @media screen and (min-width: 75.0625rem) {
       body br.title-br {
         display: none; } }
   body .center {
@@ -17,29 +17,29 @@ body {
   body nav.navbar {
     background-color: #FBFE3B;
     color: #000000;
-    height: 60px;
+    height: 3.75rem;
     padding-top: 0;
     padding-bottom: 0; }
     body nav.navbar span.navbar-toggler-icon img {
       display: none; }
-      @media screen and (max-width: 991px) {
+      @media screen and (max-width: 61.9375rem) {
         body nav.navbar span.navbar-toggler-icon img {
           display: block; } }
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 61.9375rem) {
       body nav.navbar div.navbar-collapse {
-        margin-top: -5px; } }
-    @media screen and (max-width: 991px) {
+        margin-top: -0.3125rem; } }
+    @media screen and (max-width: 61.9375rem) {
       body nav.navbar ul.navbar-nav {
         background-color: #A8FE38;
-        padding: 10px 20px; }
+        padding: 0.625rem 1.25rem; }
         body nav.navbar ul.navbar-nav li.nav-item {
           text-align: right; } }
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 61.9375rem) {
       body nav.navbar a.navbar-brand {
         padding-top: 0; } }
     body nav.navbar a.navbar-brand img {
-      height: 60px;
-      width: 60px; }
+      height: 3.75rem;
+      width: 3.75rem; }
     body nav.navbar a:link, body nav.navbar a:visited {
       text-transform: uppercase;
       color: #000000 !important;
@@ -47,18 +47,18 @@ body {
       font-weight: 600; }
     body nav.navbar a:hover {
       color: #FF0093 !important; }
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 62rem) {
       body nav.navbar li.active {
-        border-bottom: 5px solid #B006FB; }
+        border-bottom: 0.3125rem solid #B006FB; }
         body nav.navbar li.active a {
-          margin-bottom: -5px; } }
+          margin-bottom: -0.3125rem; } }
     body nav.navbar li.active a {
       color: #B006FB !important; }
     body nav.navbar li.active:hover a {
       color: #FF0093 !important; }
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 62rem) {
       body nav.navbar li.nav-item {
-        padding: 10px 20px; } }
+        padding: 0.625rem 1.25rem; } }
     body nav.navbar li.nav-item:hover {
       cursor: pointer;
       background-color: #2FFF3755; }
@@ -70,22 +70,20 @@ body {
     color: #B006FB;
     letter-spacing: 0.1rem;
     font-weight: 600; }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 61.9375rem) {
     body section div.pow-anim {
       display: flex;
-      justify-content: center;
-      align-content:center;
-      align-items:center; }
+      justify-content: center; }
       body section div.pow-anim img.pow-anim {
         margin-top: 0;
         padding-top: 0;
         max-width: 95vw;
         height: 50vh;
         width: auto; } }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 62rem) {
     body section div.pow-anim img.pow-anim {
-      margin-top: 50px;
-      padding-top: 30px;
+      margin-top: 3.125rem;
+      padding-top: 1.875rem;
       height: 80vh;
       width: auto; } }
   body footer {
@@ -94,5 +92,5 @@ body {
     background-color: #00E2FF;
     background-image: url("../images/dots.png");
     background-repeat: repeat;
-    background-size: 160px;
-    padding: 5px; }
+    background-size: 13.75rem;
+    padding: 0.3125rem; }

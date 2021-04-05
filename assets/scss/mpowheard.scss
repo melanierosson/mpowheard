@@ -20,10 +20,10 @@ body {
 	}
 	br.title-br {
 		display:block;
-		@media screen and (min-width:768px) and (max-width:991px) {
+		@media screen and (min-width:48rem) and (max-width:61.9375rem) {
 			display:none;
 		}
-		@media screen and (min-width:1201px) {
+		@media screen and (min-width:75.0625rem) {
 			display:none;
 		}
 	}
@@ -33,25 +33,25 @@ body {
 	nav.navbar {
 		background-color: $yellow;
 		color: $black;
-		height:60px;
+		height:3.75rem;
 		padding-top:0;
 		padding-bottom:0;
 		// start ---- mobile nav
 		span.navbar-toggler-icon img {
 			display:none;
-			@media screen and (max-width:991px) {
+			@media screen and (max-width:61.9375rem) {
 				display:block;
 			}
 		}
 		div.navbar-collapse {
-			@media screen and (max-width:991px) {
-				margin-top:-5px;
+			@media screen and (max-width:61.9375rem) {
+				margin-top:-0.3125rem;
 			}
 		}
 		ul.navbar-nav {
-			@media screen and (max-width:991px) {
+			@media screen and (max-width:61.9375rem) {
 				background-color:$lgreen;
-				padding:10px 20px;
+				padding:0.625rem 1.25rem;
 				li.nav-item {
 					text-align:right;
 				}
@@ -59,12 +59,12 @@ body {
 		}
 		// end ---- mobile nav
 		a.navbar-brand {
-			@media screen and (max-width:991px) {
+			@media screen and (max-width:61.9375rem) {
 				padding-top:0;
 			}
 			img {
-				height:60px;
-				width:60px;
+				height:3.75rem;
+				width:3.75rem;
 			}
 		}
 		a:link, a:visited {
@@ -77,10 +77,10 @@ body {
 			color: $pink !important;
 		}
 		li.active{
-			@media screen and (min-width:992px) {
-				border-bottom: 5px solid $purple;
+			@media screen and (min-width:62rem) {
+				border-bottom: 0.3125rem solid $purple;
 				a {
-					margin-bottom:-5px;
+					margin-bottom:-0.3125rem;
 				}
 			}
 			a {
@@ -93,8 +93,8 @@ body {
 			}
 		}
 		li.nav-item {
-			@media screen and (min-width:992px) {
-				padding: 10px 20px;
+			@media screen and (min-width:62rem) {
+				padding: 0.625rem 1.25rem;
 			}
 		}
 		li.nav-item:hover {
@@ -115,7 +115,7 @@ body {
 			font-weight:600;
 		}
 		div.pow-anim {
-			@media screen and (max-width:991px) {
+			@media screen and (max-width:61.9375rem) {
 				display:flex;
 				justify-content:center;
 				img.pow-anim {
@@ -126,10 +126,10 @@ body {
 					width:auto;
 				}
 			}
-			@media screen and (min-width:992px) {
+			@media screen and (min-width:62rem) {
 				img.pow-anim {
-					margin-top:50px;
-					padding-top:30px;
+					margin-top:3.125rem;
+					padding-top:1.875rem;
 					height:80vh;
 					width:auto;
 				}
@@ -143,8 +143,8 @@ body {
 		background-color:$cyan;	
 		background-image: url('../images/dots.png');
 		background-repeat: repeat;
-		background-size: 160px;
-    	padding: 5px;
+		background-size: 13.75rem;
+    	padding: 0.3125rem;
 	}
 }
 
