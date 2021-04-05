@@ -106,6 +106,12 @@ body {
 		}
 		li.nav-item:hover {
 			@media screen and (min-width:62rem) {
+				border-bottom: 0.3125rem solid $cyan;
+				a {
+					margin-bottom:-0.3125rem;
+				}
+			}
+			@media screen and (min-width:62rem) {
 				background-color:$cyanlighter;
 			}
 			cursor:pointer;
@@ -178,7 +184,7 @@ body {
 			box-shadow: 0 0 2.5rem $cyanlighter;
 			border-radius: 1.875rem;
 			div.opt-header {
-				border:0.1875rem solid $graylightest;
+				border:0.1875rem solid $cyanlighter;
 				border-radius:1.875rem 1.875rem 0 0;
 				display:flex;
 				justify-content:center;
@@ -193,7 +199,7 @@ body {
 			}
 			div.opt.row {
 				div {
-					border-color: $graylightest;
+					border-color: $cyanlighter;
 					border-style:solid;
 					display:flex;
 					align-content:center;
