@@ -98,8 +98,10 @@ body {
 			}
 		}
 		li.nav-item:hover {
+			@media screen and (min-width:62rem) {
+				background-color:$hgreen;
+			}
 			cursor:pointer;
-			background-color:$hgreen;
 			a {
 				color: $pink !important;
 			}
@@ -143,8 +145,70 @@ body {
 		background-color:$cyan;	
 		background-image: url('../images/dots.png');
 		background-repeat: repeat;
-		background-size: 13.75rem;
+		background-size: 11.25rem;
     	padding: 0.3125rem;
+	}
+}
+
+#options {
+	div.col-lg-6:nth-of-type(2) {
+		display:flex;
+		align-items:flex-end;
+		align-content:flex-end;
+	}
+	article.opts {
+		width:100%;
+		max-width:42.5rem;
+		display:flex;
+		justify-content:center;
+		align-content:flex-end;
+		padding-top:2.5rem;
+		div.container {
+			width:90%;
+			div.opt-header {
+				border:0.3125rem solid $cyan;
+				border-radius:1.875rem 1.875rem 0 0;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				align-content:center;
+				padding:1.25rem;
+				h3 {
+					margin-bottom:0;
+				}
+			}
+			div.opt.row {
+				div {
+					border-color:$green;
+					border-style:solid;
+					display:flex;
+					align-content:center;
+					padding:0.3125rem 0.625rem;
+					p {
+						margin-bottom:0;
+						a {
+							color: $orange !important;
+						}
+					}
+				}
+				div:first-of-type {
+					border-width: 0 0 0.3125rem 0.3125rem;
+					justify-content:flex-start;
+				}
+				div:nth-of-type(2) {
+					border-width: 0 0.3125rem 0.3125rem 0;
+					justify-content:flex-end;
+				}
+			}
+			div.opt.row:last-of-type {
+				div:first-of-type {
+					border-radius:0 0 0 1.875rem;
+				}
+				div:nth-of-type(2) {
+					border-radius:0 0 1.875rem 0;
+				}
+			}
+		}
 	}
 }
 
