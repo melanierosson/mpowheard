@@ -31,7 +31,7 @@ body {
         margin-top: -0.3125rem; } }
     @media screen and (max-width: 61.9375rem) {
       body nav.navbar ul.navbar-nav {
-        background-color: #D9FAFF;
+        background-color: #FEFFC6;
         padding: 0.625rem 1.25rem; }
         body nav.navbar ul.navbar-nav li.nav-item {
           text-align: right; } }
@@ -64,12 +64,7 @@ body {
       cursor: pointer; }
       @media screen and (min-width: 62rem) {
         body nav.navbar li.nav-item:hover {
-          border-bottom: 0.3125rem solid #00E2FF; }
-          body nav.navbar li.nav-item:hover a {
-            margin-bottom: -0.3125rem; } }
-      @media screen and (min-width: 62rem) {
-        body nav.navbar li.nav-item:hover {
-          background-color: #D9FAFF; } }
+          background-color: #FEFFC6; } }
       body nav.navbar li.nav-item:hover a {
         color: #FF0093 !important; }
   body section h1 {

@@ -1,4 +1,5 @@
 $yellow: #FBFE3B;
+$lyellow: #FEFFC6;
 $cyan: #00E2FF;
 $hcyan: #00E2FF55;
 $lcyan: #98F3FF;
@@ -57,7 +58,7 @@ body {
 		}
 		ul.navbar-nav {
 			@media screen and (max-width:61.9375rem) {
-				background-color:$cyanlighter;
+				background-color:$lyellow;
 				padding:0.625rem 1.25rem;
 				li.nav-item {
 					text-align:right;
@@ -105,14 +106,14 @@ body {
 			}
 		}
 		li.nav-item:hover {
+			// @media screen and (min-width:62rem) {
+			// 	border-bottom: 0.3125rem solid $cyan;
+			// 	a {
+			// 		margin-bottom:-0.3125rem;
+			// 	}
+			// }
 			@media screen and (min-width:62rem) {
-				border-bottom: 0.3125rem solid $cyan;
-				a {
-					margin-bottom:-0.3125rem;
-				}
-			}
-			@media screen and (min-width:62rem) {
-				background-color:$cyanlighter;
+				background-color:$lyellow;
 			}
 			cursor:pointer;
 			a {
