@@ -2,6 +2,8 @@ $yellow: #FBFE3B;
 $cyan: #00E2FF;
 $hcyan: #00E2FF55;
 $lcyan: #98F3FF;
+$cyanlight:#B4F6FF;
+$cyanlighter:#D9FAFF;
 $green: #2FFF37;
 $hgreen: #2FFF3755;
 $lgreen: #A8FE38;
@@ -10,11 +12,16 @@ $orange: #FF4500;
 $purple: #B006FB;
 $black: #000000;
 $white: #FFFFFF;
+$graydarker: #555555;
+$graydarkest: #333333;
+$graydark: #777777;
+$graylightest: #EFEFEF;
 
 body {
 	background-color:$white;
 	font-family: "Montserrat", "sans serif";
 	overflow-x:hidden;
+	color:$graydarkest;
 	span.hotpink {
 		color: $pink;
 	}
@@ -50,7 +57,7 @@ body {
 		}
 		ul.navbar-nav {
 			@media screen and (max-width:61.9375rem) {
-				background-color:$lgreen;
+				background-color:$cyanlighter;
 				padding:0.625rem 1.25rem;
 				li.nav-item {
 					text-align:right;
@@ -69,7 +76,7 @@ body {
 		}
 		a:link, a:visited {
 			text-transform: uppercase;
-			color: $black !important;
+			color: $graydarkest !important;
 			letter-spacing:0.1rem;
 			font-weight: 600;
 		}
@@ -78,13 +85,13 @@ body {
 		}
 		li.active{
 			@media screen and (min-width:62rem) {
-				border-bottom: 0.3125rem solid $purple;
+				border-bottom: 0.3125rem solid $pink;
 				a {
 					margin-bottom:-0.3125rem;
 				}
 			}
 			a {
-				color: $purple !important;
+				color: $graydarker !important;
 			}
 			&:hover {
 				a {
@@ -99,7 +106,7 @@ body {
 		}
 		li.nav-item:hover {
 			@media screen and (min-width:62rem) {
-				background-color:$hgreen;
+				background-color:$cyanlighter;
 			}
 			cursor:pointer;
 			a {
@@ -112,7 +119,7 @@ body {
 			font-weight:700;
 		}
 		h2 {
-			color: $purple; 
+			color: $graydarker; 
 			letter-spacing:0.1rem;
 			font-weight:600;
 		}
@@ -142,11 +149,9 @@ body {
 	footer {
 		width:100vw;
 		margin:0;
-		background-color:$cyan;	
-		background-image: url('../images/dots.png');
-		background-repeat: repeat;
-		background-size: 6rem;
-    	padding: 0.2rem;
+		background-color:$graydarkest;	
+    	padding: 0.2rem 0.5rem;
+    	color:$white;
 	}
 }
 
@@ -170,8 +175,10 @@ body {
 			@media screen and (min-width:62rem) {
 				width:90%;
 			}
+			box-shadow: 0 0 2.5rem $cyanlighter;
+			border-radius: 1.875rem;
 			div.opt-header {
-				border:0.1875rem solid $cyan;
+				border:0.1875rem solid $graylightest;
 				border-radius:1.875rem 1.875rem 0 0;
 				display:flex;
 				justify-content:center;
@@ -186,7 +193,7 @@ body {
 			}
 			div.opt.row {
 				div {
-					border-color:$green;
+					border-color: $graylightest;
 					border-style:solid;
 					display:flex;
 					align-content:center;
@@ -195,7 +202,7 @@ body {
 					p {
 						margin-bottom:0;
 						a {
-							color: $orange !important;
+							color: $pink !important;
 						}
 						@media screen and (max-width:23.375rem) {
 							font-size:0.875rem;

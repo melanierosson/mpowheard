@@ -1,7 +1,8 @@
 body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "sans serif";
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #333333; }
   body span.hotpink {
     color: #FF0093; }
   body br.title-br {
@@ -30,7 +31,7 @@ body {
         margin-top: -0.3125rem; } }
     @media screen and (max-width: 61.9375rem) {
       body nav.navbar ul.navbar-nav {
-        background-color: #A8FE38;
+        background-color: #D9FAFF;
         padding: 0.625rem 1.25rem; }
         body nav.navbar ul.navbar-nav li.nav-item {
           text-align: right; } }
@@ -42,18 +43,18 @@ body {
       width: 3.75rem; }
     body nav.navbar a:link, body nav.navbar a:visited {
       text-transform: uppercase;
-      color: #000000 !important;
+      color: #333333 !important;
       letter-spacing: 0.1rem;
       font-weight: 600; }
     body nav.navbar a:hover {
       color: #FF0093 !important; }
     @media screen and (min-width: 62rem) {
       body nav.navbar li.active {
-        border-bottom: 0.3125rem solid #B006FB; }
+        border-bottom: 0.3125rem solid #FF0093; }
         body nav.navbar li.active a {
           margin-bottom: -0.3125rem; } }
     body nav.navbar li.active a {
-      color: #B006FB !important; }
+      color: #555555 !important; }
     body nav.navbar li.active:hover a {
       color: #FF0093 !important; }
     @media screen and (min-width: 62rem) {
@@ -63,13 +64,13 @@ body {
       cursor: pointer; }
       @media screen and (min-width: 62rem) {
         body nav.navbar li.nav-item:hover {
-          background-color: #2FFF3755; } }
+          background-color: #D9FAFF; } }
       body nav.navbar li.nav-item:hover a {
         color: #FF0093 !important; }
   body section h1 {
     font-weight: 700; }
   body section h2 {
-    color: #B006FB;
+    color: #555555;
     letter-spacing: 0.1rem;
     font-weight: 600; }
   @media screen and (max-width: 61.9375rem) {
@@ -91,11 +92,9 @@ body {
   body footer {
     width: 100vw;
     margin: 0;
-    background-color: #00E2FF;
-    background-image: url("../images/dots.png");
-    background-repeat: repeat;
-    background-size: 6rem;
-    padding: 0.2rem; }
+    background-color: #333333;
+    padding: 0.2rem 0.5rem;
+    color: #FFFFFF; }
 
 #options div.col-lg-6:nth-of-type(2) {
   display: flex;
@@ -108,48 +107,51 @@ body {
   justify-content: center;
   align-content: flex-end;
   padding-top: 2.5rem; }
-  @media screen and (max-width: 61.9375rem) {
-    #options article.opts div.container {
-      width: 99%; } }
-  @media screen and (min-width: 62rem) {
-    #options article.opts div.container {
-      width: 90%; } }
-  #options article.opts div.container div.opt-header {
-    border: 0.1875rem solid #00E2FF;
-    border-radius: 1.875rem 1.875rem 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    padding: 1.25rem; }
-    #options article.opts div.container div.opt-header h3 {
-      margin-bottom: 0;
-      text-align: center; }
-  #options article.opts div.container div.opt.row div {
-    border-color: #2FFF37;
-    border-style: solid;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 0.3125rem 0.625rem; }
-    #options article.opts div.container div.opt.row div p {
-      margin-bottom: 0; }
-      #options article.opts div.container div.opt.row div p a {
-        color: #FF4500 !important; }
-      @media screen and (max-width: 23.375rem) {
-        #options article.opts div.container div.opt.row div p {
-          font-size: 0.875rem; } }
-  #options article.opts div.container div.opt.row div:first-of-type {
-    border-width: 0 0 0.1875rem 0.1875rem;
-    justify-content: flex-start; }
-  #options article.opts div.container div.opt.row div:nth-of-type(2) {
-    border-width: 0 0.1875rem 0.1875rem 0;
-    justify-content: flex-end; }
-  #options article.opts div.container div.opt.row:last-of-type div:first-of-type {
-    border-radius: 0 0 0 1.875rem; }
-  #options article.opts div.container div.opt.row:last-of-type div:nth-of-type(2) {
-    border-radius: 0 0 1.875rem 0; }
+  #options article.opts div.container {
+    box-shadow: 0 0 2.5rem #D9FAFF;
+    border-radius: 1.875rem; }
+    @media screen and (max-width: 61.9375rem) {
+      #options article.opts div.container {
+        width: 99%; } }
+    @media screen and (min-width: 62rem) {
+      #options article.opts div.container {
+        width: 90%; } }
+    #options article.opts div.container div.opt-header {
+      border: 0.1875rem solid #EFEFEF;
+      border-radius: 1.875rem 1.875rem 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      padding: 1.25rem; }
+      #options article.opts div.container div.opt-header h3 {
+        margin-bottom: 0;
+        text-align: center; }
+    #options article.opts div.container div.opt.row div {
+      border-color: #EFEFEF;
+      border-style: solid;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      padding: 0.3125rem 0.625rem; }
+      #options article.opts div.container div.opt.row div p {
+        margin-bottom: 0; }
+        #options article.opts div.container div.opt.row div p a {
+          color: #FF0093 !important; }
+        @media screen and (max-width: 23.375rem) {
+          #options article.opts div.container div.opt.row div p {
+            font-size: 0.875rem; } }
+    #options article.opts div.container div.opt.row div:first-of-type {
+      border-width: 0 0 0.1875rem 0.1875rem;
+      justify-content: flex-start; }
+    #options article.opts div.container div.opt.row div:nth-of-type(2) {
+      border-width: 0 0.1875rem 0.1875rem 0;
+      justify-content: flex-end; }
+    #options article.opts div.container div.opt.row:last-of-type div:first-of-type {
+      border-radius: 0 0 0 1.875rem; }
+    #options article.opts div.container div.opt.row:last-of-type div:nth-of-type(2) {
+      border-radius: 0 0 1.875rem 0; }
 @media screen and (max-width: 61.9375rem) {
   #options article#opt-misc {
     margin-bottom: 4.5rem; } }
