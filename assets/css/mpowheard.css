@@ -67,9 +67,27 @@ body {
   body section h1 {
     font-weight: 700; }
   body section h2 {
-    color: #B006FB; 
-  letter-spacing:0.1rem;
-font-weight:600;}
+    color: #B006FB;
+    letter-spacing: 0.1rem;
+    font-weight: 600; }
+  @media screen and (max-width: 991px) {
+    body section div.pow-anim {
+      display: flex;
+      justify-content: center;
+      align-content:center;
+      align-items:center; }
+      body section div.pow-anim img.pow-anim {
+        margin-top: 0;
+        padding-top: 0;
+        max-width: 95vw;
+        height: 50vh;
+        width: auto; } }
+  @media screen and (min-width: 992px) {
+    body section div.pow-anim img.pow-anim {
+      margin-top: 50px;
+      padding-top: 30px;
+      height: 80vh;
+      width: auto; } }
   body footer {
     width: 100vw;
     margin: 0;

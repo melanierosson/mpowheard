@@ -114,6 +114,28 @@ body {
 			letter-spacing:0.1rem;
 			font-weight:600;
 		}
+		div.pow-anim {
+			@media screen and (max-width:991px) {
+				display:flex;
+				justify-content:center;
+				img.pow-anim {
+					margin-top:0;
+					padding-top:0;
+					max-width:95vw;
+					height:50vh;
+					width:auto;
+				}
+			}
+			@media screen and (min-width:992px) {
+				img.pow-anim {
+					margin-top:50px;
+					padding-top:30px;
+					height:80vh;
+					width:auto;
+				}
+			}
+
+		}
 	}
 	footer {
 		width:100vw;
