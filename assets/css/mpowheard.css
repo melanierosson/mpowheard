@@ -113,7 +113,7 @@ body {
   align-content: flex-end;
   padding-top: 2.5rem; }
   #options article.opts div.container {
-    box-shadow: 0 0 2.5rem #D9FAFF;
+    box-shadow: 0 0 2.5rem #EFEFEF;
     border-radius: 1.875rem; }
     @media screen and (max-width: 61.9375rem) {
       #options article.opts div.container {
@@ -122,7 +122,7 @@ body {
       #options article.opts div.container {
         width: 90%; } }
     #options article.opts div.container div.opt-header {
-      border: 0.1875rem solid #D9FAFF;
+      border: 0.1875rem solid #EFEFEF;
       border-radius: 1.875rem 1.875rem 0 0;
       display: flex;
       justify-content: center;
@@ -134,7 +134,7 @@ body {
         margin-bottom: 0;
         text-align: center; }
     #options article.opts div.container div.opt.row div {
-      border-color: #D9FAFF;
+      border-color: #EFEFEF;
       border-style: solid;
       display: flex;
       align-content: center;
