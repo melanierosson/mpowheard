@@ -117,7 +117,6 @@ body {
       #options article.opts div.container {
         width: 90%; } }
     #options article.opts div.container div.opt-header {
-      border: 0.1875rem solid #EFEFEF;
       border-radius: 1.875rem 1.875rem 0 0;
       display: flex;
       justify-content: center;
@@ -131,6 +130,7 @@ body {
     #options article.opts div.container div.opt.row div {
       border-color: #EFEFEF;
       border-style: solid;
+      border-width: 0.1875rem 0 0 0;
       display: flex;
       align-content: center;
       align-items: center;
@@ -143,10 +143,8 @@ body {
           #options article.opts div.container div.opt.row div p {
             font-size: 0.875rem; } }
     #options article.opts div.container div.opt.row div:first-of-type {
-      border-width: 0 0 0.1875rem 0.1875rem;
       justify-content: flex-start; }
     #options article.opts div.container div.opt.row div:nth-of-type(2) {
-      border-width: 0 0.1875rem 0.1875rem 0;
       justify-content: flex-end; }
     #options article.opts div.container div.opt.row:last-of-type div:first-of-type {
       border-radius: 0 0 0 1.875rem; }
