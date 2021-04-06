@@ -5,6 +5,13 @@ body {
   color: #333333; }
   body span.hotpink {
     color: #FF0093; }
+  body span.lightpink {
+    color: #FFBEE3; }
+  body span.cyan {
+    color: #B4F6FF; }
+  body p.tagline {
+    font-weight: 500;
+    font-size: 1.125rem; }
   body br.title-br {
     display: block; }
     @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
@@ -15,6 +22,21 @@ body {
         display: none; } }
   body .center {
     text-align: center; }
+  body div.cta {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; }
+    body div.cta button#cta {
+      background-color: #FF0093;
+      border: 1px solid #FBFE3B;
+      font-weight: 600;
+      box-shadow: 0 0 2.5rem #FEFFC6;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      padding: 0.625rem 1.25rem;
+      border-radius: 5rem;
+      letter-spacing: 0.1rem;
+      background: radial-gradient(160px 90px at 20px top, #FF7CC7, #FF0093); }
   body nav.navbar {
     background-color: #FBFE3B;
     color: #000000;
@@ -130,11 +152,11 @@ body {
     #options article.opts div.container div.opt.row div {
       border-color: #EFEFEF;
       border-style: solid;
-      border-width: 0.1875rem 0 0 0;
+      border-width: 0.125rem 0 0 0;
       display: flex;
       align-content: center;
       align-items: center;
-      padding: 0.3125rem 0.625rem; }
+      padding: 0.4375rem 0.625rem; }
       #options article.opts div.container div.opt.row div p {
         margin-bottom: 0; }
         #options article.opts div.container div.opt.row div p a {

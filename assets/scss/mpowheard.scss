@@ -9,6 +9,7 @@ $green: #2FFF37;
 $hgreen: #2FFF3755;
 $lgreen: #A8FE38;
 $pink: #FF0093;
+$lpink: #FFBEE3;
 $orange: #FF4500;
 $purple: #B006FB;
 $black: #000000;
@@ -26,6 +27,16 @@ body {
 	span.hotpink {
 		color: $pink;
 	}
+	span.lightpink {
+		color: $lpink;
+	}
+	span.cyan {
+		color: $cyanlight;
+	}
+	p.tagline {
+		font-weight:500;
+		font-size:1.125rem;
+	}
 	br.title-br {
 		display:block;
 		@media screen and (min-width:48rem) and (max-width:61.9375rem) {
@@ -38,6 +49,24 @@ body {
 	.center {
 		text-align:center;
 	}
+	div.cta {
+		display:flex;
+		justify-content: flex-end;
+		width:100%;
+		button#cta {
+			background-color: $pink;
+			border: 1px solid $yellow;
+			font-weight: 600;
+			box-shadow: 0 0 2.5rem $lyellow;
+			color: $white;
+			text-transform: uppercase;
+			padding: 0.625rem 1.25rem;
+			border-radius:5rem;
+			letter-spacing:0.1rem;
+			background: radial-gradient(160px 90px at 20px top, #FF7CC7, $pink);
+		}
+	}
+	
 	nav.navbar {
 		background-color: $yellow;
 		color: $black;
@@ -200,12 +229,12 @@ body {
 			div.opt.row {
 				div {
 					border-color: $graylightest;
-					border-style:solid;
-					border-width: 0.1875rem 0 0 0;
+					border-style: solid;
+					border-width: 0.125rem 0 0 0;
 					display:flex;
 					align-content:center;
 					align-items:center;
-					padding:0.3125rem 0.625rem;
+					padding: 0.4375rem 0.625rem;
 					p {
 						margin-bottom:0;
 						a {
@@ -231,6 +260,14 @@ body {
 					border-radius:0 0 1.875rem 0;
 				}
 			}
+			// div.opt.row:hover {
+			// 	border: 1px solid $cyanlight;
+			// 	box-shadow: 0 0 2.5rem $cyanlighter;
+			// 	position:absolute;
+			// 	display:block;
+			// 	z-index:50;
+			// 	padding: 1.25rem 1.875rem;
+			// }
 		}
 	}
 	article#opt-misc {
