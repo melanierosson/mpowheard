@@ -206,3 +206,46 @@ body {
 @media screen and (max-width: 61.9375rem) {
   #options article#opt-misc {
     margin-bottom: 4.5rem; } }
+#options div#modal-overlay {
+  display: none; }
+#options div#modal-overlay.enabled {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #EFEFEF77;
+  top: 0;
+  left: 0;
+  z-index: 2000; }
+  #options div#modal-overlay.enabled section#opt-modal {
+    min-width: 18.75rem;
+    width: 60%;
+    min-height: 15.625rem;
+    background-color: #FFFFFF;
+    border: 1px solid #B4F6FF;
+    border-radius: 1.875rem;
+    box-shadow: 0 0 3.75rem #D9FAFF;
+    padding: 1rem; }
+    #options div#modal-overlay.enabled section#opt-modal div.close-btn {
+      width: 1.25rem;
+      height: 1.25rem;
+      border-radius: 60%;
+      background-color: #9A9A9A;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      padding: 0; }
+    #options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
+      cursor: pointer;
+      background-color: #FF0093;
+      color: #333333; }
+    #options div#modal-overlay.enabled section#opt-modal p.connect-cta {
+      float: bottom; }
+      #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
+        color: #FF0093; }
