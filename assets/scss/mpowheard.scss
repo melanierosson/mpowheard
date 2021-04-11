@@ -24,14 +24,50 @@ body {
 	font-family: "Montserrat", "sans serif";
 	overflow-x:hidden;
 	color:$graydarkest;
-	span.hotpink {
+	.hotpink {
 		color: $pink;
 	}
-	span.lightpink {
+	.lightpink {
 		color: $lpink;
 	}
-	span.cyan {
+	.cyan {
 		color: $cyanlight;
+	}
+	.extra-bottom {
+		padding-bottom: 4rem;
+    	margin-bottom: 2rem;
+	}
+	article.light-gray {
+		background-color:#F9F9F9;
+	}
+	article.light-yellow {
+		background-color:#FFFFE3;
+	}
+	article.section {
+		.section-header {
+			padding-top:1.25rem;
+			hr {
+				width:8.75rem;
+				border:0.0625rem solid $cyan;
+			}
+		}
+	}
+	p.anchor-nav {
+		text-align:right;
+		a {
+			color:$pink;
+			padding-top:1.25rem;
+			padding-bottom:1.25rem;
+			font-size:1.25rem;
+		}
+	}
+	@media screen and (min-width:62rem) {
+		.hide-on-desktop {
+			display:none;
+		}
+		p.anchor-nav a {
+			padding:1.25rem;
+		}
 	}
 	p.tagline {
 		font-weight:500;
@@ -49,6 +85,9 @@ body {
 	.center {
 		text-align:center;
 	}
+	.uppercase {
+		text-transform: uppercase;
+	}
 	div.cta {
 		display:flex;
 		justify-content: flex-end;
@@ -64,6 +103,12 @@ body {
 			border-radius:5rem;
 			letter-spacing:0.1rem;
 			background: radial-gradient(160px 90px at 20px top, #FF7CC7, $pink);
+		}
+		button#cta:hover {
+			background: radial-gradient(160px 90px at 20px top, $cyanlight, $cyan);
+			color: $graydarkest;
+			border: 1px solid $lpink;
+			box-shadow: 0 0 2.5rem $lpink;
 		}
 	}
 	

@@ -3,12 +3,36 @@ body {
   font-family: "Montserrat", "sans serif";
   overflow-x: hidden;
   color: #333333; }
-  body span.hotpink {
+  body .hotpink {
     color: #FF0093; }
-  body span.lightpink {
+  body .lightpink {
     color: #FFBEE3; }
-  body span.cyan {
+  body .cyan {
     color: #B4F6FF; }
+  body .extra-bottom {
+    padding-bottom: 4rem;
+    margin-bottom: 2rem; }
+  body article.light-gray {
+    background-color: #F9F9F9; }
+  body article.light-yellow {
+    background-color: #FFFFE3; }
+  body article.section .section-header {
+    padding-top: 1.25rem; }
+    body article.section .section-header hr {
+      width: 8.75rem;
+      border: 0.0625rem solid #00E2FF; }
+  body p.anchor-nav {
+    text-align: right; }
+    body p.anchor-nav a {
+      color: #FF0093;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      font-size: 1.25rem; }
+  @media screen and (min-width: 62rem) {
+    body .hide-on-desktop {
+      display: none; }
+    body p.anchor-nav a {
+      padding: 1.25rem; } }
   body p.tagline {
     font-weight: 500;
     font-size: 1.125rem; }
@@ -22,6 +46,8 @@ body {
         display: none; } }
   body .center {
     text-align: center; }
+  body .uppercase {
+    text-transform: uppercase; }
   body div.cta {
     display: flex;
     justify-content: flex-end;
@@ -37,6 +63,11 @@ body {
       border-radius: 5rem;
       letter-spacing: 0.1rem;
       background: radial-gradient(160px 90px at 20px top, #FF7CC7, #FF0093); }
+    body div.cta button#cta:hover {
+      background: radial-gradient(160px 90px at 20px top, #B4F6FF, #00E2FF);
+      color: #333333;
+      border: 1px solid #FFBEE3;
+      box-shadow: 0 0 2.5rem #FFBEE3; }
   body nav.navbar {
     background-color: #FBFE3B;
     color: #000000;
