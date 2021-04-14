@@ -217,6 +217,18 @@ body {
 @media screen and (max-width: 61.9375rem) {
   #options article#opt-misc {
     margin-bottom: 4.5rem; } }
+@media screen and (max-width: 61.9375rem) {
+  #options p.opt-lead.desktop {
+    display: none; } }
+@media screen and (min-width: 62rem) {
+  #options p.opt-lead.desktop {
+    display: inline; } }
+@media screen and (max-width: 61.9375rem) {
+  #options p.opt-lead.mobile {
+    display: inline; } }
+@media screen and (min-width: 62rem) {
+  #options p.opt-lead.mobile {
+    display: none; } }
 #options div#modal-overlay {
   display: none; }
 #options div#modal-overlay.enabled {
@@ -271,8 +283,9 @@ body {
 #connect h4 a.email:hover {
   color: #BF5693; }
 
-#why p.quote i {
-  font-size: 2rem; }
+#why p.quote {
+  padding:1rem 0;
+  margin:auto; }
 
 #why div.section-content, #connect div.section-content {
   max-width: 71.25rem;

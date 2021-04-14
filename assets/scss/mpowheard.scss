@@ -333,6 +333,22 @@ body {
 			margin-bottom:4.5rem;
 		}
 	}
+	p.opt-lead.desktop {
+		@media screen and (max-width:61.9375rem) {
+			display:none;
+		}
+		@media screen and (min-width:62rem) {
+			display:inline;
+		}
+	}
+	p.opt-lead.mobile {
+		@media screen and (max-width:61.9375rem) {
+			display:inline;
+		}
+		@media screen and (min-width:62rem) {
+			display:none;
+		}
+	}
 	div#modal-overlay {
 		display:none;
 	}
@@ -402,8 +418,9 @@ body {
 }
 
 #why {
-	p.quote i {
-		font-size: 2rem;
+	p.quote {
+		padding:1rem 0;
+  		margin:auto;
 	}
 }
 
