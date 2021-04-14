@@ -11,6 +11,7 @@ $hgreen: #2FFF3755;
 $lgreen: #A8FE38;
 $pink: #FF0093;
 $lpink: #FFBEE3;
+$gpink: #BF5693;
 $orange: #FF4500;
 $purple: #B006FB;
 $black: #000000;
@@ -372,7 +373,6 @@ body {
 			div.close-btn:hover {
 				cursor:pointer;
 				background-color:$pink;
-				color:$graydarkest;
 			}
 			p.connect-cta {
 				a {
@@ -380,6 +380,23 @@ body {
 				}
 			}
 		}
+	}
+}
+
+#connect {
+	h4.social a {
+		color: $pink;
+		text-decoration:none;
+		font-size: 2.5rem;
+		padding: 0.625rem;
+	}
+	h4 a.email {
+		color: $pink;
+		text-decoration:none;
+	}
+	h4.social a:hover,
+	h4 a.email:hover {
+		color:$gpink;
 	}
 }
 

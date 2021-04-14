@@ -254,7 +254,18 @@ body {
       padding: 0; }
     #options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
       cursor: pointer;
-      background-color: #FF0093;
-      color: #333333; }
+      background-color: #FF0093; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
       color: #FF0093; }
+
+#connect h4.social a {
+  color: #FF0093;
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding: 0.625rem; }
+#connect h4 a.email {
+  color: #FF0093;
+  text-decoration: none; }
+#connect h4.social a:hover,
+#connect h4 a.email:hover {
+  color: #BF5693; }
