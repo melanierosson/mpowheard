@@ -284,9 +284,11 @@ body {
   color: #BF5693; }
 
 #why p.quote {
-  padding:1rem 0;
-  margin:auto; }
+  padding: 1rem 0;
+  margin: auto; }
 
 #why div.section-content, #connect div.section-content {
   max-width: 71.25rem;
   margin: auto; }
+#why div.section-content.testimonial, #connect div.section-content.testimonial {
+  max-width: 53rem; }

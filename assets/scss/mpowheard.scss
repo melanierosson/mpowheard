@@ -425,9 +425,12 @@ body {
 }
 
 #why, #connect {
-	 div.section-content {
+	div.section-content {
 	 	max-width:71.25rem;
 	 	margin:auto;
-	 }
+	}
+	div.section-content.testimonial {
+		max-width: 53rem;
+	}
 }
 
