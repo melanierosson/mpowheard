@@ -1,7 +1,7 @@
 body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "sans serif";
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   color: #333333; }
   body .hotpink {
     color: #FF0093; }
@@ -265,7 +265,15 @@ body {
   padding: 0.625rem; }
 #connect h4 a.email {
   color: #FF0093;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 1.25rem; }
 #connect h4.social a:hover,
 #connect h4 a.email:hover {
   color: #BF5693; }
+
+#why p.quote i {
+  font-size: 2rem; }
+
+#why div.section-content, #connect div.section-content {
+  max-width: 71.25rem;
+  margin: auto; }
