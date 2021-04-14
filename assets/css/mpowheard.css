@@ -1,7 +1,7 @@
 body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "sans serif";
-  overflow-x: hidden !important;
+  overflow-x: hidden;
   color: #333333; }
   body .hotpink {
     color: #FF0093; }
@@ -212,6 +212,7 @@ body {
     #options article.opts div.container div.opt.row:last-of-type div:nth-of-type(2) {
       border-radius: 0 0 1.875rem 0; }
     #options article.opts div.container div.opt.row:hover {
+      background-color: #EBFCFF;
       cursor: pointer; }
 @media screen and (max-width: 61.9375rem) {
   #options article#opt-misc {
