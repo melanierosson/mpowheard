@@ -1,7 +1,7 @@
 body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "sans serif";
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   color: #333333; }
   body .hotpink {
     color: #FF0093; }
@@ -13,9 +13,17 @@ body {
     padding-bottom: 4rem;
     margin-bottom: 2rem; }
   body article.light-gray {
-    background-color: #F9F9F9; }
+    background-color: #F9F9F9;
+    width: 500%;
+    margin-left: -200%; }
+  body article.white {
+    background-color: #FFFFFF;
+    width: 500%;
+    margin-left: -200%; }
   body article.light-yellow {
-    background-color: #FFFFE3; }
+    background-color: #FFFFE3;
+    width: 500%;
+    margin-left: -200%; }
   body article.section .section-header {
     padding-top: 1.25rem; }
     body article.section .section-header hr {
@@ -203,6 +211,8 @@ body {
       border-radius: 0 0 0 1.875rem; }
     #options article.opts div.container div.opt.row:last-of-type div:nth-of-type(2) {
       border-radius: 0 0 1.875rem 0; }
+    #options article.opts div.container div.opt.row:hover {
+      cursor: pointer; }
 @media screen and (max-width: 61.9375rem) {
   #options article#opt-misc {
     margin-bottom: 4.5rem; } }
@@ -245,7 +255,5 @@ body {
       cursor: pointer;
       background-color: #FF0093;
       color: #333333; }
-    #options div#modal-overlay.enabled section#opt-modal p.connect-cta {
-      float: bottom; }
-      #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
-        color: #FF0093; }
+    #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
+      color: #FF0093; }
