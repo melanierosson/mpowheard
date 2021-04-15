@@ -390,6 +390,14 @@ body {
 				cursor:pointer;
 				background-color:$pink;
 			}
+			div.opts {
+				display:flex;
+				justify-content: space-around;
+				article.opt-modal {
+					background-color:#F9F9F9;
+				}
+			}
+			
 			p.connect-cta {
 				a {
 					color:$pink;
@@ -428,6 +436,16 @@ body {
 	div.section-content {
 	 	max-width:71.25rem;
 	 	margin:auto;
+	}
+	section.col-12.col-sm-6.section-content {
+		@media screen and (max-width:575px) {
+			width:100%;
+			max-width:71.25rem;
+		}
+		@media screen and (min-width:576px) {
+			width:50%;
+			max-width:35.625rem;
+		}
 	}
 	div.section-content.testimonial {
 		max-width: 53rem;

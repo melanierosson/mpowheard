@@ -267,6 +267,11 @@ body {
     #options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
       cursor: pointer;
       background-color: #FF0093; }
+    #options div#modal-overlay.enabled section#opt-modal div.opts {
+      display: flex;
+      justify-content: space-around; }
+      #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
+        background-color: #F9F9F9; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
       color: #FF0093; }
 
@@ -290,5 +295,13 @@ body {
 #why div.section-content, #connect div.section-content {
   max-width: 71.25rem;
   margin: auto; }
+@media screen and (max-width: 575px) {
+  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+    width: 100%;
+    max-width: 71.25rem; } }
+@media screen and (min-width: 576px) {
+  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+    width: 50%;
+    max-width: 35.625rem; } }
 #why div.section-content.testimonial, #connect div.section-content.testimonial {
   max-width: 53rem; }
