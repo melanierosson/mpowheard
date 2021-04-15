@@ -117,7 +117,7 @@ body {
 		width:100%;
 		button#cta {
 			background-color: $pink;
-			border: 1px solid $yellow;
+			border: 0.0625rem solid $yellow;
 			font-weight: 600;
 			box-shadow: 0 0 2.5rem $lyellow;
 			color: $white;
@@ -125,12 +125,12 @@ body {
 			padding: 0.625rem 1.25rem;
 			border-radius:5rem;
 			letter-spacing:0.1rem;
-			background: radial-gradient(160px 90px at 20px top, #FF7CC7, $pink);
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, $pink);
 		}
 		button#cta:hover {
-			background: radial-gradient(160px 90px at 20px top, $cyanlight, $cyan);
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
 			color: $graydarkest;
-			border: 1px solid $lpink;
+			border: 0.0625rem solid $lpink;
 			box-shadow: 0 0 2.5rem $lpink;
 		}
 	}
@@ -329,7 +329,7 @@ body {
 				}
 			}
 			div.opt.row:hover {
-				// border: 1px solid $cyanlight;
+				// border: 0.0625rem solid $cyanlight;
 				// box-shadow: 0 0 2.5rem $cyanlighter;
 				// position:absolute;
 				// display:block;
@@ -366,10 +366,10 @@ body {
 	}
 	div#modal-overlay.enabled {
 		display:flex;
-		@media screen and (max-width:575px) {
+		@media screen and (max-width:35.9375rem) {
 			align-items:flex-start;
 		}
-		@media screen and (min-width:576px) {
+		@media screen and (min-width:36rem) {
 			align-items:center;
 		}
 		justify-content:center;
@@ -383,21 +383,25 @@ body {
 		left:0;
 		z-index:2000;
 		section#opt-modal {
-			@media screen and (max-width:575px) {
-				min-width:18.75rem;
+			min-width:18.75rem;
+			@media screen and (max-width:35.9375rem) {
 				width:100%;
 			}
-			@media screen and (min-width:576px) and (max-width:991px) {
-				min-width:18.75rem;
+			@media screen and (min-width:36rem) and (max-width:61.9375rem) {
 				width:90%;
 			}
-			@media screen and (min-width:992px) {
-				min-width:18.75rem;
+			@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+				width:75%;
+			}
+			@media screen and (min-width:75rem) and (max-width:87.4375rem) {
 				width:60%;
+			}
+			@media screen and (min-width:87.5rem) {
+				width:50%;
 			}
 			min-height:15.625rem;
 			background-color:$white;
-			border: 1px solid $cyanlight;
+			border: 0.0625rem solid $cyanlight;
 			border-radius:1.875rem;
 			box-shadow: 0 0 3.75rem $cyanlighter;
 			padding:1rem;
@@ -419,11 +423,11 @@ body {
 			}
 			div.opts {
 				display:flex;
-				@media screen and (max-width:575px) {
+				@media screen and (max-width:35.9375rem) {
 					flex-wrap:wrap;
 					justify-content: center;
 				}
-				@media screen and (min-width:576px) {
+				@media screen and (min-width:36rem) {
 					justify-content: space-around;
 				}
 				article.opt-modal {
@@ -431,7 +435,7 @@ body {
 					padding:1.25rem;
 					margin:1.25rem;
 					border-radius:1.875rem;
-					@media screen and (min-width:576px) {
+					@media screen and (min-width:36rem) {
 						width:50%;
 					}
 					p.opt-sub.price-pkg {
@@ -480,11 +484,11 @@ body {
 	 	margin:auto;
 	}
 	section.col-12.col-sm-6.section-content {
-		@media screen and (max-width:575px) {
+		@media screen and (max-width:35.9375rem) {
 			width:100%;
 			max-width:71.25rem;
 		}
-		@media screen and (min-width:576px) {
+		@media screen and (min-width:36rem) {
 			width:50%;
 			max-width:35.625rem;
 		}
