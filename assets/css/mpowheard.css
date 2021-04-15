@@ -271,7 +271,11 @@ body {
       display: flex;
       justify-content: space-around; }
       #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-        background-color: #F9F9F9; }
+        background-color: #F9F9F9;
+        padding: 1.25rem;
+        margin: 1.25rem;
+        border-radius: 1.875rem; 
+        max-width:440px;}
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
       color: #FF0093; }
 

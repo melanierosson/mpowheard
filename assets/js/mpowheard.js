@@ -93,21 +93,21 @@ function optionsPage() {
 			multi: {
 				recordedDemo: {
 					onetime: false,
-					pricePkg: `$50 hrly. with a package`,
-					priceNoPkg: `$100 hrly. per diem`,
+					pricePkg: `<b>$50 hrly.</b> with a package`,
+					priceNoPkg: `<b>$100 hrly.</b> per diem`,
 					title: `Recorded Demos`,
-					descr: `Recorded demos are like personal webinars that demonstrate how to use, maintain, 
-					or update a specific feature or service. They can be purchased as a standalone educational 
-					item or accompanying a product package.`
+					descr: `Recorded demos are like personal webinars that demonstrate how to use, maintain, ` +
+					`or update a specific feature or service. They can be purchased as a standalone educational ` +
+					`item or accompanying a product package.`
 				},
 				customHowToDocs: {
 					onetime: false,
-					pricePkg: `$40 hrly. with a package`,
-					priceNoPkg: `$50 hrly. per diem`,
+					pricePkg: `<b>$40 hrly.</b> with a package`,
+					priceNoPkg: `<b>$50 hrly.</b> per diem`,
 					title: `Custom How-To Documentation`,
-					descr: `Custom How-To Documentation will usually involve a written tutorial or step-by-step 
-					guide published on Google Docs. It will always contain screen shots and very simple, clear 
-					instructions for how to use, maintain, or update a specific feature or service.`
+					descr: `Custom How-To Documentation will usually involve a written tutorial or step-by-step ` +
+					`guide published on Google Docs. It will always contain screen shots and very simple, clear ` +
+					`instructions for how to use, maintain, or update a specific feature or service.`
 				}
 			}
 		},
@@ -159,7 +159,7 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebSm.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebSm.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.staticWebSm.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.staticWebSm.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.staticWebSm.descr;
 			    break;
 			  case 'opt row opt-1':
@@ -167,7 +167,7 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.staticWebLg.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.staticWebLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.staticWebLg.descr;
 			    break;
 			  case 'opt row opt-2':
@@ -175,7 +175,7 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.wpSiteSm.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.wpSiteSm.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.wpSiteSm.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.wpSiteSm.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.wpSiteSm.descr;
 			    break;
 			  case 'opt row opt-3':
@@ -183,7 +183,7 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.wpSiteLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.wpSiteLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.wpSiteLg.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.wpSiteLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.wpSiteLg.descr;
 			    break;
 			  case 'opt row opt-4':
@@ -191,7 +191,7 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.ecommWebSm.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.ecommWebSm.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.ecommWebSm.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.ecommWebSm.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.ecommWebSm.descr;
 			    break;
 			  case 'opt row opt-5':
@@ -199,76 +199,76 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.ecommWebLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.ecommWebLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.ecommWebLg.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.ecommWebLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.ecommWebLg.descr;
 			    break;
 			  case 'opt row opt-6':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialEngage.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialEngage.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.socialEngage.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.socialEngage.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialEngage.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialEngage.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.socialEngage.descr;
 			    break;
 			  case 'opt row opt-7':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.copyWriting.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.copyWriting.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.copyWriting.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.copyWriting.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.copyWriting.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.copyWriting.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.copyWriting.descr;
 			    break;
 			  case 'opt row opt-8':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.webUpdates.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.webUpdates.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.webUpdates.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.webUpdates.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.webUpdates.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.webUpdates.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.webUpdates.descr;
 			    break;
 			  case 'opt row opt-9':
 			   	document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
-
+			   	
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.trainingHowTo.multi.recordedDemo.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.trainingHowTo.multi.recordedDemo.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.trainingHowTo.multi.recordedDemo.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.recordedDemo.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.trainingHowTo.multi.recordedDemo.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.trainingHowTo.multi.recordedDemo.descr;
-
+			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "inline";
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('h6.opt-sub.header').innerText = options.trainingHowTo.multi.customHowToDocs.title;
-			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-pkg').innerText = options.trainingHowTo.multi.customHowToDocs.pricePkg;
-			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-nopkg').innerText = options.trainingHowTo.multi.customHowToDocs.priceNoPkg;
+			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.customHowToDocs.pricePkg;
+			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-nopkg').innerHTML = options.trainingHowTo.multi.customHowToDocs.priceNoPkg;
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.descr').innerText = options.trainingHowTo.multi.customHowToDocs.descr;
 			    break;
 			  case 'opt row opt-10':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.specialWebFeatures.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.specialWebFeatures.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.specialWebFeatures.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.specialWebFeatures.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.specialWebFeatures.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.specialWebFeatures.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.specialWebFeatures.descr;
 			    break;
 			  case 'opt row opt-11':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.uxAudit.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.uxAudit.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.uxAudit.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.uxAudit.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.uxAudit.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.uxAudit.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.uxAudit.descr;
 			    break;
 			  case 'opt row opt-12':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialAuditPlan.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialAuditPlan.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.socialAuditPlan.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.socialAuditPlan.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialAuditPlan.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialAuditPlan.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.socialAuditPlan.descr;
 			    break;
 			  case 'opt row opt-13':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialTemplates.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialTemplates.title;
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerText = options.socialTemplates.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.socialTemplates.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialTemplates.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialTemplates.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.socialTemplates.descr;
 			    break;
 			  default:
@@ -276,7 +276,7 @@ function optionsPage() {
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerText = options.staticWebLg.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.staticWebLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.staticWebLg.descr;
 			}
 		});
