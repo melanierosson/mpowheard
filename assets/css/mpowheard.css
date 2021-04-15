@@ -36,6 +36,14 @@ body {
       padding-top: 1.25rem;
       padding-bottom: 1.25rem;
       font-size: 1.25rem; }
+  body .fw-400 {
+    font-weight: 400; }
+  body .fw-500 {
+    font-weight: 500; }
+  body .fw-600 {
+    font-weight: 600; }
+  body .fw-700 {
+    font-weight: 700; }
   @media screen and (min-width: 62rem) {
     body .hide-on-desktop {
       display: none; }
@@ -235,7 +243,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  align-items: center;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -244,15 +251,31 @@ body {
   top: 0;
   left: 0;
   z-index: 2000; }
+  @media screen and (max-width: 575px) {
+    #options div#modal-overlay.enabled {
+      align-items: flex-start; } }
+  @media screen and (min-width: 576px) {
+    #options div#modal-overlay.enabled {
+      align-items: center; } }
   #options div#modal-overlay.enabled section#opt-modal {
-    min-width: 18.75rem;
-    width: 60%;
     min-height: 15.625rem;
     background-color: #FFFFFF;
     border: 1px solid #B4F6FF;
     border-radius: 1.875rem;
     box-shadow: 0 0 3.75rem #D9FAFF;
     padding: 1rem; }
+    @media screen and (max-width: 575px) {
+      #options div#modal-overlay.enabled section#opt-modal {
+        min-width: 18.75rem;
+        width: 100%; } }
+    @media screen and (min-width: 576px) and (max-width: 991px) {
+      #options div#modal-overlay.enabled section#opt-modal {
+        min-width: 18.75rem;
+        width: 90%; } }
+    @media screen and (min-width: 992px) {
+      #options div#modal-overlay.enabled section#opt-modal {
+        min-width: 18.75rem;
+        width: 60%; } }
     #options div#modal-overlay.enabled section#opt-modal div.close-btn {
       width: 1.25rem;
       height: 1.25rem;
@@ -268,14 +291,24 @@ body {
       cursor: pointer;
       background-color: #FF0093; }
     #options div#modal-overlay.enabled section#opt-modal div.opts {
-      display: flex;
-      justify-content: space-around; }
+      display: flex; }
+      @media screen and (max-width: 575px) {
+        #options div#modal-overlay.enabled section#opt-modal div.opts {
+          flex-wrap: wrap;
+          justify-content: center; } }
+      @media screen and (min-width: 576px) {
+        #options div#modal-overlay.enabled section#opt-modal div.opts {
+          justify-content: space-around; } }
       #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
         background-color: #F9F9F9;
         padding: 1.25rem;
         margin: 1.25rem;
-        border-radius: 1.875rem; 
-        max-width:440px;}
+        border-radius: 1.875rem; }
+        @media screen and (min-width: 576px) {
+          #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
+            width: 50%; } }
+        #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
+          margin-bottom: 0; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
       color: #FF0093; }
 

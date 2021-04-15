@@ -93,8 +93,8 @@ function optionsPage() {
 			multi: {
 				recordedDemo: {
 					onetime: false,
-					pricePkg: `<b>$50 hrly.</b> with a package`,
-					priceNoPkg: `<b>$100 hrly.</b> per diem`,
+					pricePkg: `<span class="fw-600">$50 hrly.</span> with a package`,
+					priceNoPkg: `<span class="fw-600">$100 hrly.</span> per diem`,
 					title: `Recorded Demos`,
 					descr: `Recorded demos are like personal webinars that demonstrate how to use, maintain, ` +
 					`or update a specific feature or service. They can be purchased as a standalone educational ` +
@@ -102,8 +102,8 @@ function optionsPage() {
 				},
 				customHowToDocs: {
 					onetime: false,
-					pricePkg: `<b>$40 hrly.</b> with a package`,
-					priceNoPkg: `<b>$50 hrly.</b> per diem`,
+					pricePkg: `<span class="fw-600">$40 hrly.</span> with a package`,
+					priceNoPkg: `<span class="fw-600">$50 hrly.</span> per diem`,
 					title: `Custom How-To Documentation`,
 					descr: `Custom How-To Documentation will usually involve a written tutorial or step-by-step ` +
 					`guide published on Google Docs. It will always contain screen shots and very simple, clear ` +
@@ -228,11 +228,12 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-9':
 			   	document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
-			   	
+
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.trainingHowTo.multi.recordedDemo.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.recordedDemo.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.trainingHowTo.multi.recordedDemo.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerText = options.trainingHowTo.multi.recordedDemo.descr;
+
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "inline";
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('h6.opt-sub.header').innerText = options.trainingHowTo.multi.customHowToDocs.title;
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.customHowToDocs.pricePkg;
