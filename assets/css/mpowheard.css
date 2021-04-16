@@ -313,6 +313,9 @@ body {
             width: 50%; } }
         #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
           margin-bottom: 0; }
+      @media screen and (min-width: 36rem) {
+        #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal.single {
+          width: 70%; } }
     #options div#modal-overlay.enabled section#opt-modal h6 {
       font-weight: 600; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {

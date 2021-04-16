@@ -183,6 +183,9 @@ function optionsPage() {
 			switch(thisClasses) {
 			  case 'opt row opt-0':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebSm.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebSm.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
@@ -191,6 +194,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-1':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
@@ -199,6 +205,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-2':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.wpSiteSm.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.wpSiteSm.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
@@ -207,6 +216,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-3':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.wpSiteLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.wpSiteLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
@@ -215,6 +227,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-4':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.ecommWebSm.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.ecommWebSm.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
@@ -223,6 +238,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-5':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.ecommWebLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.ecommWebLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
@@ -231,6 +249,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-6':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialEngage.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialEngage.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialEngage.pricePkg;
@@ -239,6 +260,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-7':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.copyWriting.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.copyWriting.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.copyWriting.pricePkg;
@@ -247,6 +271,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-8':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.webUpdates.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.webUpdates.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.webUpdates.pricePkg;
@@ -255,6 +282,7 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-9':
 			   	document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
+			   	document.querySelector('article.opt-modal').classList.remove('single');
 
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.trainingHowTo.multi.recordedDemo.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.recordedDemo.pricePkg;
@@ -269,6 +297,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-10':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.specialWebFeatures.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.specialWebFeatures.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.specialWebFeatures.pricePkg;
@@ -277,6 +308,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-11':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.uxAudit.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.uxAudit.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.uxAudit.pricePkg;
@@ -285,6 +319,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-12':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialAuditPlan.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialAuditPlan.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialAuditPlan.pricePkg;
@@ -293,6 +330,9 @@ function optionsPage() {
 			    break;
 			  case 'opt row opt-13':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialTemplates.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialTemplates.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialTemplates.pricePkg;
@@ -301,6 +341,9 @@ function optionsPage() {
 			    break;
 			  default:
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebLg.title;
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";

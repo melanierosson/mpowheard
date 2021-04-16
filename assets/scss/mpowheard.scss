@@ -442,6 +442,11 @@ body {
 						margin-bottom:0;
 					}
 				}
+				article.opt-modal.single {
+					@media screen and (min-width:36rem) {
+						width:70%;
+					}
+				}
 			}
 			h6 {
 				font-weight:600;
