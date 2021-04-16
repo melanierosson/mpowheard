@@ -313,6 +313,8 @@ body {
             width: 50%; } }
         #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
           margin-bottom: 0; }
+    #options div#modal-overlay.enabled section#opt-modal h6 {
+      font-weight: 600; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
       color: #FF0093; }
 
@@ -333,7 +335,7 @@ body {
   padding: 1rem 0;
   margin: auto; }
 #why article.story ol li {
-  padding-left:0.625rem; }
+  padding-left: 0.625rem; }
 @media screen and (max-width: 35.9375rem) {
   #why article.story h4, #why article.story p, #why article.story li {
     text-align: center; } }
@@ -350,11 +352,27 @@ body {
     #why div.section-content, #connect div.section-content {
       display: inline;
       max-width: 98vw; } }
+  @media screen and (min-width: 36rem) and (max-width: 47.9375rem) {
+    #why div.section-content, #connect div.section-content {
+      display: inline;
+      max-width: 33.75rem; } }
+  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+    #why div.section-content, #connect div.section-content {
+      display: inline;
+      max-width: 45rem; } }
+  @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+    #why div.section-content, #connect div.section-content {
+      max-width: 60rem; } }
 @media screen and (max-width: 61.9375rem) {
   #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
     width: 100%;
     max-width: 98vw; } }
-@media screen and (min-width: 62rem) {
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    max-width: 60rem; } }
+@media screen and (min-width: 75rem) {
   #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
     width: 50%;
     max-width: 48vw; } }

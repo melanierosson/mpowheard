@@ -443,7 +443,9 @@ body {
 					}
 				}
 			}
-			
+			h6 {
+				font-weight:600;
+			}
 			p.connect-cta {
 				a {
 					color:$pink;
@@ -508,13 +510,29 @@ body {
 	 		display:inline;
 	 		max-width:98vw;
 	 	}
+	 	@media screen and (min-width:36rem) and (max-width:47.9375rem) {
+	 		display:inline;
+	 		max-width:33.75rem;
+	 	}
+	 	@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+	 		display:inline;
+	 		max-width:45rem;
+	 	}
+	 	@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+	 		max-width:60rem;
+	 	}
 	}
 	section.col-12.col-sm-6.section-content {
 		@media screen and (max-width:61.9375rem) {
 			width:100%;
 			max-width:98vw;
 		}
-		@media screen and (min-width:62rem) {
+		@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+			padding-right:0.9375rem;
+			padding-left:0.9375rem;
+	 		max-width:60rem;
+	 	}
+		@media screen and (min-width:75rem) {
 			width:50%;
 			max-width:48vw;
 		}
