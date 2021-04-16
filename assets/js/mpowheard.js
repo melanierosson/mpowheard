@@ -25,7 +25,7 @@ function optionsPage() {
 		staticWebLg: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$900-$2,000 varies</span> ($500 deposit)`,
+			priceNoPkg: `<span class="fw-500">$900 - $2,000 varies</span> ($500 deposit)`,
 			title: `Static Website (Large)`,
 			descr: `This is a 1-5 page responsive website design and development that can include light content ` +
 			`strategy, copywriting, SEO, optimized images, plus one additional feature<sup>1</sup>.<br/><small>*Pricing ` +
@@ -36,7 +36,7 @@ function optionsPage() {
 		wpSiteSm: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$500-$2,800 varies</span> ($500 deposit)`,
+			priceNoPkg: `<span class="fw-500">$500 - $2,800 varies</span> ($500 deposit)`,
 			title: `WordPress Site (Small)`,
 			descr: `This is a standard WordPress website built off of a paid or free existing theme with no more than 5 `
 			+ `standard features (blog, custom form, etc.). ` +
@@ -58,7 +58,7 @@ function optionsPage() {
 		ecommWebSm: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$1,000-$1,500 varies</span> ($500 deposit)`,
+			priceNoPkg: `<span class="fw-500">$1,000 - $1,500 varies</span> ($500 deposit)`,
 			title: `E-Commerce Site (Small)`,
 			descr: `This is a WooCommerce Online Store with 5-20 different products (other features will need to be added separately). ` +
 			`Package includes light content strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing ` +
@@ -156,9 +156,9 @@ function optionsPage() {
 			title: `Social Media Audit & Plan`,
 			descr: `This is a deep dive social media audit for all available platforms (discount provided for 3 or less platforms) with ` +
 			`paired strategy plan and resources for future content creation, scheduling, and a choice between:` +
-			`<ul><li> a small set of branded instagram templates</li>` +
-			`<li> non-copyrighted, optimized and sized images with long-form content (linkedin, blog, facebook)</li>` +
-			`<li> large batch of short-form verbiage content and external references (twitter)</li></ul>`,
+			`<ul><li> a small set of branded Instagram templates</li>` +
+			`<li> non-copyrighted, optimized and sized images with long-form content (LinkedIn, Blog, Facebook)</li>` +
+			`<li> large batch of short-form verbiage content and external references (Twitter)</li></ul>`,
 			multi: null
 		},
 		socialTemplates: {
@@ -166,8 +166,8 @@ function optionsPage() {
 			pricePkg: `<span class="fw-500">$1,000 with a package</span> ($500 deposit)`,
 			priceNoPkg: `<span class="fw-500">$1,500 per diem</span> ($500 deposit)`,
 			title: `Social Media Templates`,
-			descr: `This package includes 5 custom, branded Story templates and 10 Post templates, plus additional resources and assets for creating ` +
-			`Reels + Videos (templates can be made in either Canva or Adobe XD).`,
+			descr: `This package includes 5 custom, branded Instagram story templates and 10 post templates, plus additional resources and assets for creating ` +
+			`reels + videos. (Templates can be made in either Canva or Adobe XD.)`,
 			multi: null
 		}
 	};
@@ -187,7 +187,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebSm.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebSm.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.staticWebSm.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.staticWebSm.descr;
@@ -198,7 +198,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebLg.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebLg.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.staticWebLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.staticWebLg.descr;
@@ -209,7 +209,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.wpSiteSm.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.wpSiteSm.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.wpSiteSm.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.wpSiteSm.descr;
@@ -220,7 +220,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.wpSiteLg.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.wpSiteLg.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.wpSiteLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.wpSiteLg.descr;
@@ -231,7 +231,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.ecommWebSm.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.ecommWebSm.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.ecommWebSm.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.ecommWebSm.descr;
@@ -242,7 +242,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.ecommWebLg.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.ecommWebLg.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.ecommWebLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.ecommWebLg.descr;
@@ -253,7 +253,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialEngage.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialEngage.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialEngage.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialEngage.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialEngage.descr;
@@ -264,7 +264,8 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.copyWriting.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.copyWriting.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.copyWriting.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.copyWriting.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.copyWriting.descr;
@@ -275,7 +276,8 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.webUpdates.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.webUpdates.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.webUpdates.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.webUpdates.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.webUpdates.descr;
@@ -284,12 +286,16 @@ function optionsPage() {
 			   	document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
 			   	document.querySelector('article.opt-modal').classList.remove('single');
 
+			   	document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "inline";
 			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.trainingHowTo.multi.recordedDemo.title;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.recordedDemo.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.trainingHowTo.multi.recordedDemo.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.trainingHowTo.multi.recordedDemo.descr;
 
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "inline";
+
+			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('h6.opt-sub.header').style.display = "inline";
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('h6.opt-sub.header').innerText = options.trainingHowTo.multi.customHowToDocs.title;
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-pkg').innerHTML = options.trainingHowTo.multi.customHowToDocs.pricePkg;
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-nopkg').innerHTML = options.trainingHowTo.multi.customHowToDocs.priceNoPkg;
@@ -301,7 +307,8 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.specialWebFeatures.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.specialWebFeatures.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.specialWebFeatures.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.specialWebFeatures.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.specialWebFeatures.descr;
@@ -312,7 +319,8 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.uxAudit.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.uxAudit.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.uxAudit.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.uxAudit.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.uxAudit.descr;
@@ -323,7 +331,8 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialAuditPlan.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialAuditPlan.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialAuditPlan.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialAuditPlan.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialAuditPlan.descr;
@@ -334,7 +343,8 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.socialTemplates.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.socialTemplates.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialTemplates.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialTemplates.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialTemplates.descr;
@@ -345,7 +355,7 @@ function optionsPage() {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.staticWebLg.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').innerText = options.staticWebLg.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.staticWebLg.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.staticWebLg.descr;
