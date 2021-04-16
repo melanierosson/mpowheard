@@ -348,39 +348,41 @@ body {
   #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) h4, #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) p, #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) li {
     text-align: right; } }
 
-#why div.section-content, #connect div.section-content {
-  max-width: 71.25rem;
-  margin: auto; }
+#why, #connect {
+  overflow-x: hidden !important; }
+  #why div.section-content, #connect div.section-content {
+    max-width: 71.25rem;
+    margin: auto; }
+    @media screen and (max-width: 61.9375rem) {
+      #why div.section-content, #connect div.section-content {
+        display: inline;
+        max-width: 98vw; } }
+    @media screen and (min-width: 36rem) and (max-width: 47.9375rem) {
+      #why div.section-content, #connect div.section-content {
+        display: inline;
+        max-width: 33.75rem; } }
+    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+      #why div.section-content, #connect div.section-content {
+        display: inline;
+        max-width: 45rem; } }
+    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+      #why div.section-content, #connect div.section-content {
+        max-width: 60rem; } }
   @media screen and (max-width: 61.9375rem) {
-    #why div.section-content, #connect div.section-content {
-      display: inline;
+    #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+      width: 100%;
       max-width: 98vw; } }
-  @media screen and (min-width: 36rem) and (max-width: 47.9375rem) {
-    #why div.section-content, #connect div.section-content {
-      display: inline;
-      max-width: 33.75rem; } }
-  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-    #why div.section-content, #connect div.section-content {
-      display: inline;
-      max-width: 45rem; } }
   @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-    #why div.section-content, #connect div.section-content {
+    #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem;
       max-width: 60rem; } }
-@media screen and (max-width: 61.9375rem) {
-  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
-    width: 100%;
-    max-width: 98vw; } }
-@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
-    max-width: 60rem; } }
-@media screen and (min-width: 75rem) {
-  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
-    width: 50%;
-    max-width: 48vw; } }
-#why div.section-content.testimonial, #connect div.section-content.testimonial {
-  max-width: 53rem; }
-  @media screen and (max-width: 61.9375rem) {
-    #why div.section-content.testimonial, #connect div.section-content.testimonial {
-      max-width: 98vw; } }
+  @media screen and (min-width: 75rem) {
+    #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+      width: 50%;
+      max-width: 48vw; } }
+  #why div.section-content.testimonial, #connect div.section-content.testimonial {
+    max-width: 53rem; }
+    @media screen and (max-width: 61.9375rem) {
+      #why div.section-content.testimonial, #connect div.section-content.testimonial {
+        max-width: 98vw; } }

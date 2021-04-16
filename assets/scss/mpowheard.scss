@@ -508,6 +508,7 @@ body {
 }
 
 #why, #connect {
+	overflow-x: hidden !important;
 	div.section-content {
 	 	max-width:71.25rem;
 	 	margin:auto;
