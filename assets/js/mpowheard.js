@@ -81,7 +81,7 @@ function optionsPage() {
 			priceNoPkg: `<span class="fw-500">$200/mo.</span> per diem<br/> + $150 per additional account `,
 			title: `Social Media Engagement`,
 			descr: `This option includes ~20 minutes each day spent on each account with engagement activity targeting the ` +
-			`current platform's algorithm rating system.`,
+			`current platform's algorithm rating system. Consistent social media engagement activity increases the visibility of published content.`,
 			multi: null
 		},
 		copyWriting: {
