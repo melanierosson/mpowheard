@@ -320,6 +320,10 @@ body {
       font-weight: 600; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
       color: #FF0093; }
+    #options div#modal-overlay.enabled section#opt-modal p.connect-cta a:hover {
+      color: #BF5693; }
+    #options div#modal-overlay.enabled section#opt-modal p.connect-cta a.icon:hover {
+      text-decoration: none; }
 
 #connect h4.social a {
   color: #FF0093;

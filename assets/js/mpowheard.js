@@ -132,7 +132,7 @@ function optionsPage() {
 		specialWebFeatures: {
 			onetime: false,
 			pricePkg: null,
-			priceNoPkg: `Price done by quote only`,
+			priceNoPkg: `Price done by <span class="fw-500">quote only<span>`,
 			title: `Special Website Features`,
 			descr: `Additional website features includes custom animations, special functioning modal boxes, ` +
 			`accessibility features, unique dynamic content, risky subjects, add-on WP features like blog, ` +

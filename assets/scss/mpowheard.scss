@@ -455,6 +455,12 @@ body {
 				a {
 					color:$pink;
 				}
+				a:hover {
+					color:$gpink;
+				}
+				a.icon:hover {
+					text-decoration: none;
+				}
 			}
 		}
 	}
