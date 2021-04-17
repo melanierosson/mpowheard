@@ -24,7 +24,7 @@ $graylightest: #EFEFEF;
 body {
 	background-color:$white;
 	font-family: "Montserrat", "sans serif";
-	overflow-x:hidden !important;
+	overflow-x: hidden !important;
 	color:$graydarkest;
 	.hotpink {
 		color: $pink;
@@ -473,10 +473,12 @@ body {
 		font-size: 2.5rem;
 		padding: 0.625rem;
 	}
+	h4 {
+		font-size: 1.25rem;
+	}
 	h4 a.email {
 		color: $pink;
 		text-decoration:none;
-		font-size: 1.25rem;
 	}
 	h4.social a:hover,
 	h4 a.email:hover {

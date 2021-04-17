@@ -330,10 +330,11 @@ body {
   text-decoration: none;
   font-size: 2.5rem;
   padding: 0.625rem; }
+#connect h4 {
+  font-size: 1.25rem; }
 #connect h4 a.email {
   color: #FF0093;
-  text-decoration: none;
-  font-size: 1.25rem; }
+  text-decoration: none; }
 #connect h4.social a:hover,
 #connect h4 a.email:hover {
   color: #BF5693; }
