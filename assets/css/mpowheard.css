@@ -317,47 +317,47 @@ body {
 
 @keyframes touchAnim {
   0% {
-    background-position: 0x 0y; }
+    background-position: 0px 0px; }
   5% {
-    background-position: 5x 0y; }
+    background-position: 5px 0px; }
   10% {
-    background-position: 10x 0y; }
+    background-position: 10px 0px; }
   15% {
-    background-position: 15x 0y; }
+    background-position: 15px 0px; }
   20% {
-    background-position: 20x 0y; }
+    background-position: 20px 0px; }
   25% {
-    background-position: 25x 0y; }
+    background-position: 25px 0px; }
   30% {
-    background-position: 25x 5y; }
+    background-position: 25px 5px; }
   35% {
-    background-position: 25x 10y; }
+    background-position: 25px 10px; }
   40% {
-    background-position: 25x 15y; }
+    background-position: 25px 15px; }
   45% {
-    background-position: 25x 20y; }
+    background-position: 25px 20px; }
   50% {
-    background-position: 25x 25y; }
+    background-position: 25px 25px; }
   55% {
-    background-position: 20x 25y; }
+    background-position: 20px 25px; }
   60% {
-    background-position: 15x 25y; }
+    background-position: 15px 25px; }
   65% {
-    background-position: 10x 25y; }
+    background-position: 10px 25px; }
   70% {
-    background-position: 5x 25y; }
+    background-position: 5px 25px; }
   75% {
-    background-position: 0x 25y; }
+    background-position: 0px 25px; }
   80% {
-    background-position: 0x 20y; }
+    background-position: 0px 20px; }
   85% {
-    background-position: 0x 15y; }
+    background-position: 0px 15px; }
   90% {
-    background-position: 0x 10y; }
+    background-position: 0px 10px; }
   95% {
-    background-position: 0x 5y; }
+    background-position: 0px 5px; }
   100% {
-    background-position: 0x 0y; } }
+    background-position: 0px 0px; } }
 #options div.col-lg-6:nth-of-type(2) {
   display: flex;
   align-items: flex-end;
