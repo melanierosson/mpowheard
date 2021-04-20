@@ -32,6 +32,18 @@ if (is_touch_device()) {
 	document.addEventListener("mousemove", followMouse, false);
 }
 
+// Empowerment toggle text
+function toggleEmpTxt() {
+	const empTxt = document.getElementById('empowerText');
+	const arrow = document.getElementById('arrow');
+	if (empTxt.classList.contains('on')) {
+		empTxt.classList.remove('on');
+		arrow.classList.remove('open');
+	} else {
+		empTxt.classList.add('on');
+		arrow.classList.add('open');
+	}
+}
 
 
 

@@ -72,6 +72,84 @@ body {
 			font-size:1.25rem;
 		}
 	}
+	p.empower-lead {
+		@media screen and (max-width:47.9375rem) {
+			display:none;
+		}
+		@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+			display:inline-block;
+			width:200px;
+			text-align:right;
+			padding-top:3rem;
+			padding-right:1rem;
+		}
+		@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+			padding-top:4rem;
+			margin-left:-4rem;
+		}
+		@media screen and (min-width:75rem) and (max-width:87.4375rem) {
+			padding-top:6rem;
+			margin-left:-8rem;
+		}
+		@media screen and (min-width:87.5rem) {
+			padding-top:6rem;
+			margin-left:-8rem;
+		}
+	}
+	span#empowerText {
+		display:none;
+	}
+	span#empowerText.on {
+		display:inline;
+	}
+	span.hotpink#empowerToggle:hover {
+		cursor:pointer;
+	}
+	div#arrow {
+		@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+			width: 0; 
+		  	height: 0; 
+		  	border-left: 10px solid transparent;
+		  	border-right: 10px solid transparent;
+		  	border-top: 10px solid $pink;
+		  	margin-left:auto;
+		  	margin-top:-5px;
+		  	margin-right:50px;
+		}
+		@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+			width: 0; 
+		  	height: 0; 
+		  	border-left: 10px solid transparent;
+		  	border-right: 10px solid transparent;
+		  	border-top: 10px solid $pink;
+		  	margin-top:-33px;
+		  	margin-left:55px;
+		}
+		@media screen and (min-width:75rem) {
+			width: 0; 
+			height: 0; 
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-left: 10px solid $pink;
+			margin-top:-40px;
+			margin-left:-10px;
+		}
+	}
+	div#arrow.open {
+		transform: rotate(180deg);
+		@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+		  	margin-left:auto;
+		  	margin-right:50px;
+		  	margin-top:-5px;
+		}
+		@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+			margin-left: 15px;
+		  	margin-top:-33px;
+		}
+		@media screen and (min-width:75rem) {
+			margin-left:-50px;
+		}
+	}
 	.fw-400 {
 		font-weight:400;
 	}
@@ -142,11 +220,16 @@ body {
 			border: 0.0625rem solid $lpink;
 			box-shadow: 0 0 2.5rem $lpink;
 		}
-		@media screen and (max-width:35.9375rem) {
+		@media screen and (max-width:61.9375rem) {
 			button#cta {
 				margin-top:0.5rem;
 			}
 		}
+		// @media screen and (min-width:48rem) and (max-width:61.9375rem) {
+		// 	button#cta {
+		// 		margin-top:0.5rem;
+		// 	}
+		// }
 		@media screen and (min-width:75rem) {
 			button#cta {
 				// width:13.75rem;
@@ -268,11 +351,11 @@ body {
 			}
 			position:relative;
 			div.powAnims {
-				@media screen and (max-width:35.9375rem) {
+				@media screen and (max-width:47.9375) {
 					margin-left:-4.5rem;
 				}
-				@media screen and (min-width:36rem) and (max-width:61.9375rem) {
-					margin-left:-2rem;
+				@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+					left:-2rem !important;
 				}
 				@media screen and (min-width:62rem) and (max-width:74.9375rem) {
 					margin-left:-2rem;
@@ -311,6 +394,7 @@ body {
 				div#powAnim2 {
 					position:absolute;
 					top:0;
+					left:-4rem;
 					z-index:3;
 					margin-top:6rem;
 	      			margin-left:3.3rem;
@@ -323,6 +407,7 @@ body {
 				div#powAnimBorder2 {
 					position:absolute;
 					top:0;
+					left:-4rem;
 					z-index:1;
 					margin-top:5.1rem;
 	      			margin-left:2.4rem;
@@ -342,15 +427,6 @@ body {
 				div.powAnims2 {
 					display:none;
 				}
-			}
-			@media screen and (min-width:62rem) and (max-width:74.9375rem) {
-
-			}
-			@media screen and (min-width:75rem) and (max-width:87.4375rem) {
-
-			}
-			@media screen and (min-width:87.5rem) {
-
 			}
 		}
 		div#powAnim.touch-anim,

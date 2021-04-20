@@ -36,6 +36,76 @@ body {
       padding-top: 1.25rem;
       padding-bottom: 1.25rem;
       font-size: 1.25rem; }
+  @media screen and (max-width: 47.9375rem) {
+    body p.empower-lead {
+      display: none; } }
+  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+    body p.empower-lead {
+      display: inline-block;
+      width: 200px;
+      text-align: right;
+      padding-top: 3rem;
+      padding-right: 1rem; } }
+  @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+    body p.empower-lead {
+      padding-top: 4rem;
+      margin-left: -4rem; } }
+  @media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
+    body p.empower-lead {
+      padding-top: 6rem;
+      margin-left: -8rem; } }
+  @media screen and (min-width: 87.5rem) {
+    body p.empower-lead {
+      padding-top: 6rem;
+      margin-left: -8rem; } }
+  body span#empowerText {
+    display: none; }
+  body span#empowerText.on {
+    display: inline; }
+  body span.hotpink#empowerToggle:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+    body div#arrow {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #FF0093;
+      margin-left: auto;
+      margin-top: -5px;
+      margin-right: 50px; } }
+  @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+    body div#arrow {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #FF0093;
+      margin-top: -33px;
+      margin-left: 55px; } }
+  @media screen and (min-width: 75rem) {
+    body div#arrow {
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #FF0093;
+      margin-top: -40px;
+      margin-left: -10px; } }
+  body div#arrow.open {
+    transform: rotate(180deg); }
+    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+      body div#arrow.open {
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: -5px; } }
+    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+      body div#arrow.open {
+        margin-left: 15px;
+        margin-top: -33px; } }
+    @media screen and (min-width: 75rem) {
+      body div#arrow.open {
+        margin-left: -50px; } }
   body .fw-400 {
     font-weight: 400; }
   body .fw-500 {
@@ -90,7 +160,7 @@ body {
       color: #333333;
       border: 0.0625rem solid #FFBEE3;
       box-shadow: 0 0 2.5rem #FFBEE3; }
-    @media screen and (max-width: 35.9375rem) {
+    @media screen and (max-width: 61.9375rem) {
       body div.cta button#cta {
         margin-top: 0.5rem; } }
     @media screen and (min-width: 75rem) {
@@ -171,12 +241,12 @@ body {
     @media screen and (min-width: 87.5rem) {
       body section div.pow-anim {
         margin-top: 5rem; } }
-    @media screen and (max-width: 35.9375rem) {
+    @media screen and (max-width: 47.9375) {
       body section div.pow-anim div.powAnims {
         margin-left: -4.5rem; } }
-    @media screen and (min-width: 36rem) and (max-width: 61.9375rem) {
+    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
       body section div.pow-anim div.powAnims {
-        margin-left: -2rem; } }
+        left: -2rem !important; } }
     @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
       body section div.pow-anim div.powAnims {
         margin-left: -2rem; } }
@@ -205,6 +275,7 @@ body {
     body section div.pow-anim2 div#powAnim2 {
       position: absolute;
       top: 0;
+      left: -4rem;
       z-index: 3;
       margin-top: 6rem;
       margin-left: 3.3rem;
@@ -216,6 +287,7 @@ body {
     body section div.pow-anim2 div#powAnimBorder2 {
       position: absolute;
       top: 0;
+      left: -4rem;
       z-index: 1;
       margin-top: 5.1rem;
       margin-left: 2.4rem;
