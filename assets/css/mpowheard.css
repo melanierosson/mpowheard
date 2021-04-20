@@ -306,7 +306,7 @@ body {
   body section div#powAnim.touch-anim,
   body section div#powAnim2.touch-anim {
     animation-name: touchAnim;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite; }
   body footer {
     width: 100vw;
@@ -318,46 +318,72 @@ body {
 @keyframes touchAnim {
   0% {
     background-position: 0px 0px; }
-  5% {
+  3% {
     background-position: 5px 0px; }
-  10% {
+  6% {
     background-position: 10px 0px; }
-  15% {
+  9% {
     background-position: 15px 0px; }
-  20% {
+  12% {
     background-position: 20px 0px; }
-  25% {
+  15% {
     background-position: 25px 0px; }
-  30% {
+  18% {
     background-position: 30px 0px; }
-  35% {
+  21% {
     background-position: 35px 0px; }
-  40% {
+  24% {
     background-position: 40px 0px; }
-  45% {
+  27% {
     background-position: 45px 0px; }
-  50% {
+  30% {
     background-position: 50px 0px; }
-  55% {
+  33% {
     background-position: 50px 5px; }
-  60% {
+  36% {
     background-position: 50px 10px; }
-  65% {
+  39% {
     background-position: 50px 15px; }
-  70% {
+  42% {
     background-position: 50px 20px; }
-  75% {
+  45% {
     background-position: 50px 25px; }
-  80% {
+  48% {
     background-position: 50px 30px; }
-  85% {
+  51% {
     background-position: 50px 35px; }
-  90% {
+  54% {
     background-position: 50px 40px; }
-  95% {
+  57% {
     background-position: 50px 45px; }
-  100% {
-    background-position: 50px 50px; } }
+  60% {
+    background-position: 50px 50px; }
+  63% {
+    background-position: 45px 45px; }
+  66% {
+    background-position: 40px 40px; }
+  69% {
+    background-position: 35px 35px; }
+  72% {
+    background-position: 30px 30px; }
+  75% {
+    background-position: 25px 30px; }
+  78% {
+    background-position: 20px 30px; }
+  81% {
+    background-position: 15px 30px; }
+  84% {
+    background-position: 10px 30px; }
+  87% {
+    background-position: 5px 25px; }
+  90% {
+    background-position: 0px 20px; }
+  93% {
+    background-position: 0px 15px; }
+  96% {
+    background-position: 0px 5px; }
+  99% {
+    background-position: 0px 0px; } }
 #options div.col-lg-6:nth-of-type(2) {
   display: flex;
   align-items: flex-end;
