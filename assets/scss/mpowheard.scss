@@ -102,7 +102,8 @@ body {
 	span#empowerText.on {
 		display:inline;
 	}
-	span.hotpink#empowerToggle:hover {
+	span.hotpink#empowerToggle:hover,
+	div#arrow:hover {
 		cursor:pointer;
 	}
 	div#arrow {

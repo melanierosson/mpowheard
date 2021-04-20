@@ -62,7 +62,8 @@ body {
     display: none; }
   body span#empowerText.on {
     display: inline; }
-  body span.hotpink#empowerToggle:hover {
+  body span.hotpink#empowerToggle:hover,
+  body div#arrow:hover {
     cursor: pointer; }
   @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
     body div#arrow {
