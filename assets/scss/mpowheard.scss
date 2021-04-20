@@ -94,14 +94,18 @@ body {
 	}
 	p.tagline {
 		font-weight:500;
-		font-size:1.125rem;
+		// font-size:1.125rem;
+		// @media screen and (min-width:75rem) {
+			font-size:1.75rem;
+			line-height:2.2rem;
+		// }
 	}
 	br.title-br {
 		display:block;
 		@media screen and (min-width:48rem) and (max-width:61.9375rem) {
 			display:none;
 		}
-		@media screen and (min-width:75.0625rem) {
+		@media screen and (min-width:75rem) {
 			display:none;
 		}
 	}
@@ -126,12 +130,30 @@ body {
 			border-radius:5rem;
 			letter-spacing:0.1rem;
 			background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, $pink);
+			width:13.75rem;
+			height:3.75rem;
+			font-size:1.25rem;
+			margin-right:1.5rem;
+			margin-top:1.5rem;
 		}
 		button#cta:hover {
 			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
 			color: $graydarkest;
 			border: 0.0625rem solid $lpink;
 			box-shadow: 0 0 2.5rem $lpink;
+		}
+		@media screen and (max-width:35.9375rem) {
+			button#cta {
+				margin-top:0.5rem;
+			}
+		}
+		@media screen and (min-width:75rem) {
+			button#cta {
+				// width:13.75rem;
+				// height:3.75rem;
+				// font-size:1.25rem;
+				margin-right:7.5rem;
+			}
 		}
 	}
 	
@@ -227,27 +249,115 @@ body {
 			letter-spacing:0.1rem;
 			font-weight:600;
 		}
+		// first, main, large pow image
 		div.pow-anim {
-			@media screen and (max-width:61.9375rem) {
-				display:flex;
-				justify-content:center;
-				img.pow-anim {
-					margin-top:0;
-					padding-top:0;
-					max-width:95vw;
-					height:50vh;
-					width:auto;
+			@media screen and (max-width:35.9375rem) {
+				margin-top:-1rem;
+			}
+			@media screen and (min-width:36rem) and (max-width:61.9375rem) {
+				margin-top:0;
+			}
+			@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+				margin-top:5rem;
+			}
+			@media screen and (min-width:75rem) and (max-width:87.4375rem) {
+				margin-top:5rem;
+			}
+			@media screen and (min-width:87.5rem) {
+				margin-top:5rem;
+			}
+			position:relative;
+			div.powAnims {
+				@media screen and (max-width:35.9375rem) {
+					margin-left:-4.5rem;
+				}
+				@media screen and (min-width:36rem) and (max-width:61.9375rem) {
+					margin-left:-2rem;
+				}
+				@media screen and (min-width:62rem) and (max-width:74.9375rem) {
+					margin-left:-2rem;
+				}
+				@media screen and (min-width:75rem) and (max-width:87.4375rem) {
+				}
+				@media screen and (min-width:87.5rem) {
 				}
 			}
+			div#powAnim {
+				position:absolute;
+				top:0;
+				z-index:3;
+				margin-top:4.6rem;
+      			margin-left:3.6rem;
+				background: url('../images/dots.png') 0px 0px repeat;
+				height: 23.75rem;
+				width: 26.875rem;
+				clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+			}
+			div#powAnimBorder {
+				position:absolute;
+				top:0;
+				z-index:1;
+				margin-top:3.1rem;
+      			margin-left:2.4rem;
+				background-color: $pink;
+				height: 26.875rem;
+				width: 29.625rem;
+				transform: rotate(-1deg);
+				clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+			}
+		}
+		div.pow-anim2 {
 			@media screen and (min-width:62rem) {
-				img.pow-anim {
-					margin-top:3.125rem;
-					padding-top:1.875rem;
-					height:80vh;
-					width:auto;
+				div#powAnim2 {
+					position:absolute;
+					top:0;
+					z-index:3;
+					margin-top:6rem;
+	      			margin-left:3.3rem;
+					background: url('../images/dots.png') 0px 0px repeat;
+					height: 11.875rem;
+					width: 13.4375rem;
+					transform: rotate(-190deg);
+					clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+				}
+				div#powAnimBorder2 {
+					position:absolute;
+					top:0;
+					z-index:1;
+					margin-top:5.1rem;
+	      			margin-left:2.4rem;
+					background-color: $pink;
+					height: 13.75rem;
+					width: 15rem;
+					transform: rotate(-191deg);
+					clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
 				}
 			}
+			@media screen and (max-width:47.9375) {
+				div.powAnims2 {
+					display:none;
+				}
+			}
+			@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+				div.powAnims2 {
+					display:none;
+				}
+			}
+			@media screen and (min-width:62rem) and (max-width:74.9375rem) {
 
+			}
+			@media screen and (min-width:75rem) and (max-width:87.4375rem) {
+
+			}
+			@media screen and (min-width:87.5rem) {
+
+			}
+		}
+		div#powAnim.touch-anim,
+		div#powAnim2.touch-anim {
+			animation-name: touchAnim;
+  			animation-duration: 5s;
+  			animation-iteration-count: infinite;
 		}
 	}
 	footer {
@@ -257,6 +367,31 @@ body {
     	padding: 0.2rem 0.5rem;
     	color:$white;
 	}
+}
+
+// ANIMATION
+@keyframes touchAnim {
+  0%  {background-position: 0x 0y;}
+  5%  {background-position: 5x 0y;}
+  10% {background-position: 10x 0y;}
+  15% {background-position: 15x 0y;}
+  20% {background-position: 20x 0y;}
+  25% {background-position: 25x 0y;}
+  30% {background-position: 25x 5y;}
+  35% {background-position: 25x 10y;}
+  40% {background-position: 25x 15y;}
+  45% {background-position: 25x 20y;}
+  50% {background-position: 25x 25y;}
+  55% {background-position: 20x 25y;}
+  60% {background-position: 15x 25y;}
+  65% {background-position: 10x 25y;}
+  70% {background-position: 5x 25y;}
+  75% {background-position: 0x 25y;}
+  80% {background-position: 0x 20y;}
+  85% {background-position: 0x 15y;}
+  90% {background-position: 0x 10y;}
+  95% {background-position: 0x 5y;}
+  100% {background-position: 0x 0y;}
 }
 
 #options {
@@ -368,6 +503,7 @@ body {
 		display:flex;
 		@media screen and (max-width:35.9375rem) {
 			align-items:flex-start;
+			overflow-y:visible;
 		}
 		@media screen and (min-width:36rem) {
 			align-items:center;

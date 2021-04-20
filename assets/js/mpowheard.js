@@ -2,6 +2,38 @@
 var year = new Date().getFullYear();
 document.getElementById('currentYear').innerText = year;
 
+// ------- FRONT PAGE ANIMATIONS ------- //
+function is_touch_device() {  
+  try {  
+    document.createEvent("TouchEvent");  
+    return true;  
+  } catch (e) {  
+    return false;  
+  }  
+}
+
+const largePow = document.getElementById('powAnim');
+const largePow2 = document.getElementById('powAnim2');
+
+function followMouse(e) {
+	x = e.clientX;
+    y = e.clientY;
+    largePow.style.backgroundPosition = `${x/10}px ${y/10}px`;
+    if (largePow2) {
+    	largePow2.style.backgroundPosition = `${x/10}px ${y/10}px`;
+    }
+}
+if (is_touch_device()) {
+	// add class here that will have the background animate on its own
+	document.querySelector('body#main').style.overflowY = "hidden";
+	largePow.classList.add('touch-anim');
+	largePow2.classList.add('touch-anim');
+} else {
+	document.addEventListener("mousemove", followMouse, false);
+}
+
+
+
 
 // ------- OPTIONS PAGE ------- //
 function optionsPage() {
@@ -90,7 +122,7 @@ function optionsPage() {
 			priceNoPkg: `<span class="fw-500">$150 per post</span> per diem`,
 			title: `Copywriting`,
 			descr: `This can be purchased one-time or on an ongoing basis. It is a fully researched and SEO optimized blog `+
-			`post or article of 1500-2500 words in length.`,
+			`post or article of 1000-2000 words in length.`,
 			multi: null
 		},
 		webUpdates: {
@@ -136,7 +168,7 @@ function optionsPage() {
 			title: `Special Website Features`,
 			descr: `Additional website features includes custom animations, special functioning modal boxes, ` +
 			`accessibility features, unique dynamic content, risky subjects, add-on WP features like blog, ` +
-			`live social feed integration, UX phase such as wireframes or data gathering such as through user testing, etc.`,
+			`live social feed integration, UX phases such as wireframes, data gathering, user testing, etc.`,
 			multi: null
 		},
 		uxAudit: {
