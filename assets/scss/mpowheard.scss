@@ -373,6 +373,7 @@ body {
 				margin-top:4.6rem;
       			margin-left:3.6rem;
 				background: url('../images/dots.png') 0px 0px repeat;
+				background-size:170px 170px;
 				height: 23.75rem;
 				width: 26.875rem;
 				clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
@@ -400,6 +401,7 @@ body {
 					margin-top:6rem;
 	      			margin-left:3.3rem;
 					background: url('../images/dots.png') 0px 0px repeat;
+					background-size:170px 170px;
 					height: 11.875rem;
 					width: 13.4375rem;
 					transform: rotate(-190deg);
@@ -433,7 +435,7 @@ body {
 		div#powAnim.touch-anim,
 		div#powAnim2.touch-anim {
 			animation-name: touchAnim;
-  			animation-duration: 4s;
+  			animation-duration: 2s;
   			animation-iteration-count: infinite;
 		}
 	}
@@ -459,29 +461,29 @@ body {
   24% {background-position: 40px 0px;}
   27% {background-position: 45px 0px;}
   30% {background-position: 50px 0px;}
-  33% {background-position: 50px 5px;}
-  36% {background-position: 50px 10px;}
-  39% {background-position: 50px 15px;}
-  42% {background-position: 50px 20px;}
-  45% {background-position: 50px 25px;}
-  48% {background-position: 50px 30px;}
-  51% {background-position: 50px 35px;}
-  54% {background-position: 50px 40px;}
-  57% {background-position: 50px 45px;}
-  60% {background-position: 50px 50px;}
-  63% {background-position: 45px 45px;}
-  66% {background-position: 40px 40px;}
-  69% {background-position: 35px 35px;}
-  72% {background-position: 30px 30px;}
-  75% {background-position: 25px 30px;}
-  78% {background-position: 20px 30px;}
-  81% {background-position: 15px 30px;}
-  84% {background-position: 10px 30px;}
-  87% {background-position: 5px 25px;}
-  90% {background-position: 0px 20px;}
-  93% {background-position: 0px 15px;}
-  96% {background-position: 0px 5px;}
-  99% {background-position: 0px 0px;}
+  33% {background-position: 55px 0px;}
+  36% {background-position: 60px 0px;}
+  39% {background-position: 65px 0px;}
+  42% {background-position: 70px 0px;}
+  45% {background-position: 75px 0px;}
+  48% {background-position: 80px 0px;}
+  51% {background-position: 85px 0px;}
+  54% {background-position: 80px 0px;}
+  57% {background-position: 75px 0px;}
+  60% {background-position: 70px 0px;}
+  63% {background-position: 65px 0px;}
+  66% {background-position: 60px 0px;}
+  69% {background-position: 55px 0px;}
+  72% {background-position: 50px 0px;}
+  75% {background-position: 45px 0px;}
+  78% {background-position: 40px 0px;}
+  81% {background-position: 35px 0px;}
+  84% {background-position: 30px 0px;}
+  87% {background-position: 25px 0px;}
+  90% {background-position: 20px 0px;}
+  93% {background-position: 15px 0px;}
+  96% {background-position: 10px 0px;}
+  99% {background-position: 5px 0px;}
 }
 
 #options {
