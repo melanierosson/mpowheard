@@ -308,7 +308,7 @@ body {
   body section div#powAnim.touch-anim,
   body section div#powAnim2.touch-anim {
     animation-name: touchAnim;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinite; }
   body footer {
     width: 100vw;
