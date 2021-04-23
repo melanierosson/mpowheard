@@ -558,6 +558,9 @@ body {
         @media screen and (min-width: 36rem) {
           #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
             width: 50%; } }
+        @media screen and (max-width: 47.9375rem) {
+          #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
+            margin: 0.625rem 0.625rem 1rem 0.625rem; } }
         #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
           margin-bottom: 0; }
       @media screen and (min-width: 36rem) {
