@@ -746,7 +746,11 @@ body {
 		}
 	}
 }
-
+#main {
+	overflow: hidden !important;
+	max-width:100vw;
+	max-width:100vh;
+}
 #why, #connect {
 	overflow-x: hidden !important;
 	max-width:100vw;
