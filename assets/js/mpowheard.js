@@ -121,11 +121,13 @@ function optionsPage() {
 		},
 		socialEngage: {
 			onetime: false,
-			pricePkg: `<span class="fw-500">$180/mo.</span> with a package`,
-			priceNoPkg: `<span class="fw-500">$200/mo.</span> per diem<br/> + $150 per additional account `,
+			pricePkg: `<span class="fw-500">$180-$360/mo.</span> with a package`,
+			priceNoPkg: `<span class="fw-500">$200-$400/mo.</span> per diem<br/> + $150-$300 per additional account `,
 			title: `Social Media Engagement`,
-			descr: `This option includes ~20 minutes each day spent on each account with engagement activity targeting the ` +
-			`current platform's algorithm rating system. Consistent social media engagement activity increases the visibility of published content.`,
+			descr: `This option includes 20-45 minutes each day (exact time spent can be specified) engaging on a ` +
+			`social media platform's algorithmic rating system as well as accounts that match your business's target audience. ` +
+			`Consistent social media engagement activity increases the visibility of that account's published content.` +
+			` We regularly collect analytics to ensure our work is producing the expected results.`,
 			multi: null
 		},
 		copyWriting: {
