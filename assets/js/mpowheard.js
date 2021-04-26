@@ -26,8 +26,10 @@ function followMouse(e) {
 if (is_touch_device()) {
 	// add class here that will have the background animate on its own
 	document.querySelector('body#main').style.overflowY = "hidden";
-	largePow.classList.add('touch-anim');
-	largePow2.classList.add('touch-anim');
+	setTimeout(function(){ 
+		largePow.classList.add('touch-anim');
+		largePow2.classList.add('touch-anim');
+	}, 450);
 } else {
 	document.addEventListener("mousemove", followMouse, false);
 }
@@ -142,10 +144,10 @@ function optionsPage() {
 		webUpdates: {
 			onetime: false,
 			pricePkg: `<span class="fw-500">$50 hrly.</span> with a package`,
-			priceNoPkg: `<span class="fw-500">$55 hrly.</span> per diem`,
+			priceNoPkg: `<span class="fw-500">$60 hrly.</span> per diem`,
 			title: `Website Updates`,
 			descr: `Web updates can be done on your website with content verbiage, file changes, or media content, ` +
-			`Wordpress, WP Plugins, HTML, SCSS/CSS, JavaScript, JQuery, PHP, React, or other format as needed.`,
+			`Wordpress, WP Plugins, HTML, SCSS/CSS, JavaScript, JQuery, PHP, React, or other formats as needed.`,
 			multi: null
 		},
 		trainingHowTo: {

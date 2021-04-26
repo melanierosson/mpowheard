@@ -254,15 +254,19 @@ body {
     @media screen and (min-width: 87.5rem) {
       body section div.pow-anim {
         margin-top: 5rem; } }
-    @media screen and (max-width: 47.9375rem) {
-      body section div.pow-anim div.powAnims {
-        margin-left: -4.5rem; } }
-    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-      body section div.pow-anim div.powAnims {
-        left: -2rem !important; } }
-    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-      body section div.pow-anim div.powAnims {
-        margin-left: -2rem; } }
+    body section div.pow-anim div.powAnims {
+      animation-name: zoomInPow;
+      animation-duration: 400ms;
+      animation-delay: 0s; }
+      @media screen and (max-width: 47.9375rem) {
+        body section div.pow-anim div.powAnims {
+          margin-left: -4.5rem; } }
+      @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+        body section div.pow-anim div.powAnims {
+          left: -2rem !important; } }
+      @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+        body section div.pow-anim div.powAnims {
+          margin-left: -2rem; } }
     body section div.pow-anim div#powAnim {
       position: absolute;
       top: 0;
@@ -329,6 +333,10 @@ body {
   @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
     body section div.pow-anim2 div.powAnims2 {
       display: none; } }
+  body section div.pow-anim2 div.powAnims2 {
+    animation-name: zoomInPow2;
+    animation-duration: 400ms;
+    animation-delay: 0s; }
   body section div#powAnim.touch-anim,
   body section div#powAnim2.touch-anim {
     animation-name: touchAnim;
@@ -410,6 +418,52 @@ body {
     background-position: 160px 160px; }
   99% {
     background-position: 165px 165px; } }
+@keyframes zoomInPow {
+  0% {
+    transform: scale(0, 0); }
+  10% {
+    transform: scale(0.1, 0.1); }
+  20% {
+    transform: scale(0.2, 0.2); }
+  30% {
+    transform: scale(0.3, 0.3); }
+  40% {
+    transform: scale(0.4, 0.4); }
+  50% {
+    transform: scale(0.5, 0.5); }
+  60% {
+    transform: scale(0.6, 0.6); }
+  70% {
+    transform: scale(0.7, 0.7); }
+  80% {
+    transform: scale(0.8, 0.8); }
+  90% {
+    transform: scale(0.9, 0.9); }
+  100% {
+    transform: scale(1, 1); } }
+@keyframes zoomInPow2 {
+  0% {
+    transform: scale(0, 0) rotate(-191deg); }
+  10% {
+    transform: scale(0.1, 0.1) rotate(-191deg); }
+  20% {
+    transform: scale(0.2, 0.2) rotate(-191deg); }
+  30% {
+    transform: scale(0.3, 0.3) rotate(-191deg); }
+  40% {
+    transform: scale(0.4, 0.4) rotate(-191deg); }
+  50% {
+    transform: scale(0.5, 0.5) rotate(-191deg); }
+  60% {
+    transform: scale(0.6, 0.6) rotate(-191deg); }
+  70% {
+    transform: scale(0.7, 0.7) rotate(-191deg); }
+  80% {
+    transform: scale(0.8, 0.8) rotate(-191deg); }
+  90% {
+    transform: scale(0.9, 0.9) rotate(-191deg); }
+  100% {
+    transform: scale(1, 1) rotate(-191deg); } }
 #options div.col-lg-6:nth-of-type(2) {
   display: flex;
   align-items: flex-end;
