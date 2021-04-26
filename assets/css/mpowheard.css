@@ -534,7 +534,8 @@ body {
     display: inline; } }
 @media screen and (max-width: 61.9375rem) {
   #options p.opt-lead.mobile {
-    display: inline; } }
+    display: inline;
+    font-size: 0.825rem; } }
 @media screen and (min-width: 62rem) {
   #options p.opt-lead.mobile {
     display: none; } }
@@ -579,10 +580,12 @@ body {
         width: 75%; } }
     @media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
       #options div#modal-overlay.enabled section#opt-modal {
-        width: 60%; } }
+        width: 60%;
+        max-width: 40.625rem; } }
     @media screen and (min-width: 87.5rem) {
       #options div#modal-overlay.enabled section#opt-modal {
-        width: 50%; } }
+        width: 50%;
+        max-width: 40.625rem; } }
     #options div#modal-overlay.enabled section#opt-modal div.close-btn {
       width: 1.25rem;
       height: 1.25rem;
