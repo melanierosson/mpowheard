@@ -672,6 +672,7 @@ body {
 		z-index:2000;
 		section#opt-modal {
 			min-width:18.75rem;
+			max-width: 40.625rem;
 			@media screen and (max-width:35.9375rem) {
 				width:98%;
 				margin-top:0.25rem;
@@ -684,11 +685,9 @@ body {
 			}
 			@media screen and (min-width:75rem) and (max-width:87.4375rem) {
 				width:60%;
-				max-width: 40.625rem;
 			}
 			@media screen and (min-width:87.5rem) {
 				width:50%;
-				max-width:40.625rem;
 			}
 			min-height:15.625rem;
 			background-color:$white;
