@@ -257,7 +257,8 @@ body {
     body section div.pow-anim div.powAnims {
       animation-name: zoomInPow;
       animation-duration: 400ms;
-      animation-delay: 0s; }
+      animation-delay: 0s;
+      animation-timing-function: ease-out; }
       @media screen and (max-width: 47.9375rem) {
         body section div.pow-anim div.powAnims {
           margin-left: -4.5rem; } }
@@ -336,7 +337,8 @@ body {
   body section div.pow-anim2 div.powAnims2 {
     animation-name: zoomInPow2;
     animation-duration: 400ms;
-    animation-delay: 0s; }
+    animation-delay: 0s;
+    animation-timing-function: ease-out; }
   body section div#powAnim.touch-anim,
   body section div#powAnim2.touch-anim {
     animation-name: touchAnim;

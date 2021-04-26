@@ -366,6 +366,7 @@ body {
 				animation-name: zoomInPow;
 				animation-duration: 400ms;
 				animation-delay: 0s;
+				animation-timing-function: ease-out;
 				@media screen and (max-width:47.9375rem) {
 					margin-left:-4.5rem;
 				}
@@ -461,6 +462,7 @@ body {
 				animation-name: zoomInPow2;
 				animation-duration: 400ms;
 				animation-delay: 0s;
+				animation-timing-function: ease-out;
 			}
 		}
 		div#powAnim.touch-anim,
