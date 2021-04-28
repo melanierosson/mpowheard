@@ -25,7 +25,8 @@ body {
     width: 500%;
     margin-left: -200%; }
   body article.section .section-header {
-    padding-top: 1.25rem; }
+    padding-top: 1.25rem;
+    opacity: 0; }
     body article.section .section-header hr {
       width: 8.75rem;
       border: 0.0625rem solid #00E2FF; }
@@ -128,7 +129,8 @@ body {
       padding: 1.25rem; } }
   body p.tagline {
     font-weight: 500;
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    opacity: 0; }
     @media screen and (min-width: 75rem) {
       body p.tagline {
         font-size: 1.5rem;
@@ -232,11 +234,13 @@ body {
       body nav.navbar li.nav-item:hover a {
         color: #FF0093 !important; }
   body section h1 {
-    font-weight: 700; }
+    font-weight: 700;
+    opacity: 0; }
   body section h2 {
     color: #555555;
     letter-spacing: 0.1rem;
-    font-weight: 600; }
+    font-weight: 600;
+    opacity: 0; }
   body section div.pow-anim {
     position: relative; }
     @media screen and (max-width: 35.9375rem) {
@@ -254,20 +258,15 @@ body {
     @media screen and (min-width: 87.5rem) {
       body section div.pow-anim {
         margin-top: 5rem; } }
-    body section div.pow-anim div.powAnims {
-      animation-name: zoomInPow;
-      animation-duration: 400ms;
-      animation-delay: 0s;
-      animation-timing-function: ease-out; }
-      @media screen and (max-width: 47.9375rem) {
-        body section div.pow-anim div.powAnims {
-          margin-left: -4.5rem; } }
-      @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-        body section div.pow-anim div.powAnims {
-          left: -2rem !important; } }
-      @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-        body section div.pow-anim div.powAnims {
-          margin-left: -2rem; } }
+    @media screen and (max-width: 47.9375rem) {
+      body section div.pow-anim div.powAnims {
+        margin-left: -4.5rem; } }
+    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+      body section div.pow-anim div.powAnims {
+        left: -2rem !important; } }
+    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+      body section div.pow-anim div.powAnims {
+        margin-left: -2rem; } }
     body section div.pow-anim div#powAnim {
       position: absolute;
       top: 0;
@@ -334,16 +333,6 @@ body {
   @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
     body section div.pow-anim2 div.powAnims2 {
       display: none; } }
-  body section div.pow-anim2 div.powAnims2 {
-    animation-name: zoomInPow2;
-    animation-duration: 400ms;
-    animation-delay: 0s;
-    animation-timing-function: ease-out; }
-  body section div#powAnim.touch-anim,
-  body section div#powAnim2.touch-anim {
-    animation-name: touchAnim;
-    animation-duration: 4s;
-    animation-iteration-count: infinite; }
   body footer {
     width: 100vw;
     margin: 0;
@@ -351,121 +340,6 @@ body {
     padding: 0.2rem 0.5rem;
     color: #FFFFFF; }
 
-@keyframes touchAnim {
-  0% {
-    background-position: 0px 0px; }
-  3% {
-    background-position: 5px 5px; }
-  6% {
-    background-position: 10px 10px; }
-  9% {
-    background-position: 15px 15px; }
-  12% {
-    background-position: 20px 20px; }
-  15% {
-    background-position: 25px 25px; }
-  18% {
-    background-position: 30px 30px; }
-  21% {
-    background-position: 35px 35px; }
-  24% {
-    background-position: 40px 40px; }
-  27% {
-    background-position: 45px 45px; }
-  30% {
-    background-position: 50px 50px; }
-  33% {
-    background-position: 55px 55px; }
-  36% {
-    background-position: 60px 60px; }
-  39% {
-    background-position: 65px 65px; }
-  42% {
-    background-position: 70px 70px; }
-  45% {
-    background-position: 75px 75px; }
-  48% {
-    background-position: 80px 80px; }
-  51% {
-    background-position: 85px 85px; }
-  54% {
-    background-position: 90px 90px; }
-  57% {
-    background-position: 95px 95px; }
-  60% {
-    background-position: 100px 100px; }
-  63% {
-    background-position: 105px 105px; }
-  66% {
-    background-position: 110px 110px; }
-  69% {
-    background-position: 115px 115px; }
-  72% {
-    background-position: 120px 120px; }
-  75% {
-    background-position: 125px 125px; }
-  78% {
-    background-position: 130px 130px; }
-  81% {
-    background-position: 135px 135px; }
-  84% {
-    background-position: 140px 140px; }
-  87% {
-    background-position: 145px 145px; }
-  90% {
-    background-position: 150px 150px; }
-  93% {
-    background-position: 155px 155px; }
-  96% {
-    background-position: 160px 160px; }
-  99% {
-    background-position: 165px 165px; } }
-@keyframes zoomInPow {
-  0% {
-    transform: scale(0, 0); }
-  10% {
-    transform: scale(0.1, 0.1); }
-  20% {
-    transform: scale(0.2, 0.2); }
-  30% {
-    transform: scale(0.3, 0.3); }
-  40% {
-    transform: scale(0.4, 0.4); }
-  50% {
-    transform: scale(0.5, 0.5); }
-  60% {
-    transform: scale(0.6, 0.6); }
-  70% {
-    transform: scale(0.7, 0.7); }
-  80% {
-    transform: scale(0.8, 0.8); }
-  90% {
-    transform: scale(0.9, 0.9); }
-  100% {
-    transform: scale(1, 1); } }
-@keyframes zoomInPow2 {
-  0% {
-    transform: scale(0, 0) rotate(-191deg); }
-  10% {
-    transform: scale(0.1, 0.1) rotate(-191deg); }
-  20% {
-    transform: scale(0.2, 0.2) rotate(-191deg); }
-  30% {
-    transform: scale(0.3, 0.3) rotate(-191deg); }
-  40% {
-    transform: scale(0.4, 0.4) rotate(-191deg); }
-  50% {
-    transform: scale(0.5, 0.5) rotate(-191deg); }
-  60% {
-    transform: scale(0.6, 0.6) rotate(-191deg); }
-  70% {
-    transform: scale(0.7, 0.7) rotate(-191deg); }
-  80% {
-    transform: scale(0.8, 0.8) rotate(-191deg); }
-  90% {
-    transform: scale(0.9, 0.9) rotate(-191deg); }
-  100% {
-    transform: scale(1, 1) rotate(-191deg); } }
 #options div.col-lg-6:nth-of-type(2) {
   display: flex;
   align-items: flex-end;
@@ -632,6 +506,8 @@ body {
       color: #BF5693; }
     #options div#modal-overlay.enabled section#opt-modal p.connect-cta a.icon:hover {
       text-decoration: none; }
+#options section.left-side, #options section.right-side, #options p.opt-lead {
+  opacity: 0; }
 
 #connect h4.social a {
   color: #FF0093;
