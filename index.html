@@ -113,6 +113,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 
   <script>
+    gsap.fromTo(".navbar", {y:-200}, {duration: 1, y: 0});
+    gsap.fromTo(".footer", {y:200}, {duration: 1, y: 0});
     gsap.fromTo(".powAnims2", {scale:0}, {duration: 1, scale: 1});
     gsap.fromTo(".powAnims", {scale:0}, {duration: 1, scale: 1});
     gsap.fromTo(".slide-left", {opacity:0, x: -500}, {duration: 1, opacity:1, x: 0});
