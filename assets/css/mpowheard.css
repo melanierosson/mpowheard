@@ -258,15 +258,17 @@ body {
     @media screen and (min-width: 87.5rem) {
       body section div.pow-anim {
         margin-top: 5rem; } }
-    @media screen and (max-width: 47.9375rem) {
-      body section div.pow-anim div.powAnims {
-        margin-left: -4.5rem; } }
-    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-      body section div.pow-anim div.powAnims {
-        left: -2rem !important; } }
-    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-      body section div.pow-anim div.powAnims {
-        margin-left: -2rem; } }
+    body section div.pow-anim div.powAnims {
+      opacity: 0; }
+      @media screen and (max-width: 47.9375rem) {
+        body section div.pow-anim div.powAnims {
+          margin-left: -4.5rem; } }
+      @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+        body section div.pow-anim div.powAnims {
+          left: -2rem !important; } }
+      @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+        body section div.pow-anim div.powAnims {
+          margin-left: -2rem; } }
     body section div.pow-anim div#powAnim {
       position: absolute;
       top: 0;
@@ -327,6 +329,8 @@ body {
       width: 15rem;
       transform: rotate(-191deg);
       clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%); } }
+  body section div.pow-anim2 div.powAnims2 {
+    opacity: 0; }
   @media screen and (max-width: 47.9375) {
     body section div.pow-anim2 div.powAnims2 {
       display: none; } }
