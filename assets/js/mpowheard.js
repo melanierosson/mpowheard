@@ -63,7 +63,7 @@ function optionsPage() {
 			pricePkg: null,
 			priceNoPkg: `<span class="fw-500">$600 one-time</span> ($250 deposit)`,
 			title: `Static Website (Small)`,
-			descr: `This is a 1 page responsive website design and development that can include light content ` +
+			descr: `This is a 1-page responsive website design and development package that can include light content ` +
 			`strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing does not include domain and ` +
 			`hosting costs, nor animations, how-to documentation, or additional features.</small>`,
 			multi: null
@@ -73,7 +73,7 @@ function optionsPage() {
 			pricePkg: null,
 			priceNoPkg: `<span class="fw-500">$900 - $2,000 varies</span> ($500 deposit)`,
 			title: `Static Website (Large)`,
-			descr: `This is a 1-5 page responsive website design and development that can include light content ` +
+			descr: `This is a 1-5 page responsive website design and development package that can include light content ` +
 			`strategy, copywriting, SEO, optimized images, plus one additional feature<sup>1</sup>.<br/><small>*Pricing ` +
 			`does not include domain and hosting costs.</small><br/><small><sup>1</sup> Additional features include how-to ` +
 			`documentation, demos, animations, and more advanced integrations.</small>`,
@@ -146,8 +146,8 @@ function optionsPage() {
 			pricePkg: `<span class="fw-500">$50 hrly.</span> with a package`,
 			priceNoPkg: `<span class="fw-500">$60 hrly.</span> per diem`,
 			title: `Website Updates`,
-			descr: `Web updates can be done on your website with content verbiage, file changes, or media content, ` +
-			`Wordpress, WP Plugins, HTML, SCSS/CSS, JavaScript, JQuery, PHP, React, or other formats as needed.`,
+			descr: `Updates can be done on your website with content verbiage, file changes, or media content, ` +
+			`Wordpress, WP Plugins, HTML, SCSS/CSS, JavaScript, JQuery, PHP, React JS, or other formats as needed.`,
 			multi: null
 		},
 		trainingHowTo: {
@@ -193,7 +193,7 @@ function optionsPage() {
 			priceNoPkg: `<span class="fw-500">$50 hrly.</span> per diem`,
 			title: `UX Audit`,
 			descr: `Our UX Audit is a complete user experience audit around the website or software as ` +
-			`requested with results provided in a spreadsheet with items categorized by urgency and type. Communications ` +
+			`requested. Results are recorded in a spreadsheet with items categorized by urgency and type. Communications ` +
 			`with other staff or developers can optionally be included.`,
 			multi: null
 		},
