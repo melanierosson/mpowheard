@@ -38,13 +38,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li id="nav-why" class="nav-item 1" onclick="window.location.assign('why.html')">
+          <li id="nav-why"  style="opacity:0;" class="nav-item 1" onclick="window.location.assign('why.html')">
             <a class="nav-link 1" href="./why.html">Why</a>
           </li>
-          <li id="nav-opt" class="nav-item 2" onclick="window.location.assign('options.html')">
+          <li id="nav-opt"  style="opacity:0;" class="nav-item 2" onclick="window.location.assign('options.html')">
             <a class="nav-link 2" href="./options.html">Options</a>
           </li>
-          <li id="nav-connect" class="nav-item 3" onclick="window.location.assign('connect.html')">
+          <li id="nav-connect"  style="opacity:0;" class="nav-item 3" onclick="window.location.assign('connect.html')">
             <a class="nav-link 3" href="./connect.html">Connect</a>
           </li>
         </ul>
@@ -57,7 +57,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="mt-5 pt-5 slide-left"><span class="hotpink">MPowheard</span><br class="title-br"/> Agency LLC</h1>
+          <h1 class="mt-5 pt-5 slide-left" style="opacity:0;"><span class="hotpink">MPowheard</span><br class="title-br"/> Agency LLC</h1>
           <!-- <p>We empower both individuals and small businesses to increase their audience reach through educational content and digital products + services.</p> -->
           <p class="tagline">
             Go past <span class="hotpink">what is</span><br/>
@@ -65,7 +65,7 @@
             <span class="hotpink">could be</span>.
           </p>
           <div class="cta">
-            <button id="cta" class="offers uppercase" onclick="window.location.assign('options.html')">
+            <button id="cta" class="offers uppercase" onclick="window.location.assign('options.html')"  style="opacity:0;">
               Our Offers
             </button>
           </div>
@@ -82,7 +82,7 @@
         </div>
          <div class="col-lg-5 col-md-8 col-sm-8 order-lg-12">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-4 order-lg-1 lead-container">
+        <div class="col-lg-3 col-md-4 col-sm-4 order-lg-1 lead-container" style="opacity:0">
           <p class="empower-lead">
             We <span class="hotpink" id="empowerToggle" onclick="toggleEmpTxt()">empower</span>
             <br class="leadBr"style="display:none"/>
@@ -117,7 +117,7 @@
     gsap.fromTo(".footer", {y:200}, {duration: 1, y: 0});
     gsap.fromTo(".slide-left", {opacity:0, x: -500}, {duration: 1, opacity:1, x: 0});
     gsap.fromTo("p.tagline", {opacity:0, x: -500}, {delay: 0.5, duration: 1, opacity:1, x: 0});   
-    gsap.fromTo("#cta", {scale: 0}, {delay: 1, duration: 1, scale: 1});   
+    gsap.fromTo("#cta", {opacity:0, scale: 0}, {delay: 1, duration: 1, opacity:1, scale: 1});   
     gsap.fromTo(".lead-container", {opacity: 0}, {delay: 1, duration: 1, opacity: 1});
     gsap.fromTo(".powAnims2", {scale:0}, {delay: 1.1, duration: 0.5, scale: 1, opacity: 1});
     gsap.fromTo(".powAnims", {scale:0}, {delay: 1.1, duration: 0.5, scale: 1, opacity: 1});

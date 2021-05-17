@@ -627,9 +627,9 @@ body {
 #why, #connect {
   overflow-x: hidden !important;
   max-width: 100vw; }
-  @media screen and (max-width: 35.9375rem) {
+  @media screen and (max-width: 61.9375rem) {
     #why div.container, #connect div.container {
-      overflow-x: hidden; } }
+      overflow-x: hidden !important; } }
   #why div.section-content, #connect div.section-content {
     max-width: 71.25rem;
     margin: auto; }
