@@ -15,24 +15,23 @@ body {
   body article.light-gray {
     background-color: #F9F9F9;
     width: 500%;
-    margin-left: -200%;
-    overflow-x: hidden; }
+    margin-left: -200%; }
   body article.white {
     background-color: #FFFFFF;
     width: 500%;
-    margin-left: -200%;
-    overflow-x: hidden; }
+    margin-left: -200%; }
   body article.light-yellow {
     background-color: #FFFFE3;
     width: 500%;
-    margin-left: -200%;
-    overflow-x: hidden; }
+    margin-left: -200%; }
   body article.section .section-header {
     padding-top: 1.25rem;
     opacity: 0; }
     body article.section .section-header hr {
       width: 8.75rem;
       border: 0.0625rem solid #00E2FF; }
+  body article.row section.section-content {
+    overflow-x: hidden !important; }
   body p.anchor-nav {
     text-align: right; }
     body p.anchor-nav a {

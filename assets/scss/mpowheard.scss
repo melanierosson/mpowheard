@@ -43,19 +43,16 @@ body {
 		background-color:#F9F9F9;
 		width: 500%;
     	margin-left: -200%;
-    	overflow-x: hidden;
 	}
 	article.white {
 		background-color:$white;
 		width: 500%;
     	margin-left: -200%;
-    	overflow-x: hidden;
 	}
 	article.light-yellow {
 		background-color:#FFFFE3;
 		width: 500%;
     	margin-left: -200%;
-    	overflow-x: hidden;
 	}
 	article.section {
 		.section-header {
@@ -65,6 +62,11 @@ body {
 				width:8.75rem;
 				border:0.0625rem solid $cyan;
 			}
+		}
+	}
+	article.row {
+		section.section-content {
+			overflow-x: hidden !important;
 		}
 	}
 	p.anchor-nav {
