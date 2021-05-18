@@ -2,9 +2,6 @@
 var year = new Date().getFullYear();
 document.getElementById('currentYear').innerText = year;
 
-// remove horizontal scroll
-document.documentElement.style.overflowX = 'hidden'; 
-
 // ------- OPTIONS PAGE ------- //
 function optionsPage() {
 	const optModal = document.getElementById('modal-overlay');
