@@ -43,16 +43,19 @@ body {
 		background-color:#F9F9F9;
 		width: 500%;
     	margin-left: -200%;
+    	overflow-x: hidden;
 	}
 	article.white {
 		background-color:$white;
 		width: 500%;
     	margin-left: -200%;
+    	overflow-x: hidden;
 	}
 	article.light-yellow {
 		background-color:#FFFFE3;
 		width: 500%;
     	margin-left: -200%;
+    	overflow-x: hidden;
 	}
 	article.section {
 		.section-header {
@@ -796,7 +799,7 @@ body {
 	overflow-x: hidden !important;
 	max-width:100vw;
 	div.container {
-		@media screen and (max-width:61.9375rem) {
+		@media screen and (max-width:35.9375rem) {
 			overflow-x: hidden !important;
 		}
 	}
