@@ -13,7 +13,7 @@ function optionsPage() {
 		staticWebSm: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$600 one-time</span> ($250 deposit)`,
+			priceNoPkg: null,
 			title: `Static Website (Small)`,
 			descr: `This is a 1-page responsive website design and development package that can include light content ` +
 			`strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing does not include domain and ` +
@@ -23,7 +23,7 @@ function optionsPage() {
 		staticWebLg: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$900 - $2,000 varies</span> ($500 deposit)`,
+			priceNoPkg: null,
 			title: `Static Website (Large)`,
 			descr: `This is a 1-5 page responsive website design and development package that can include light content ` +
 			`strategy, copywriting, SEO, optimized images, plus one additional feature<sup>1</sup>.<br/><small>*Pricing ` +
@@ -34,7 +34,7 @@ function optionsPage() {
 		wpSiteSm: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$500 - $2,800 varies</span> ($500 deposit)`,
+			priceNoPkg: null,
 			title: `WordPress Site (Small)`,
 			descr: `This is a standard WordPress website built off of a paid or free existing theme with no more than 5 `
 			+ `standard features (blog, custom form, etc.). ` +
@@ -45,7 +45,7 @@ function optionsPage() {
 		wpSiteLg: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$3,000+ varies</span> (deposit varies)`,
+			priceNoPkg: null,
 			title: `WordPress Site (Large)`,
 			descr: `This is a 10+ section WordPress website manually developed off of provided mocks and/or contains 6 or more main ` +
 			`features (scheduler, contact us form, blog, API integrations such as through a social media feed or live webcam ` +
@@ -56,7 +56,7 @@ function optionsPage() {
 		ecommWebSm: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$1,000 - $1,500 varies</span> ($500 deposit)`,
+			priceNoPkg: null,
 			title: `E-Commerce Site (Small)`,
 			descr: `This is a WooCommerce Online Store with 5-20 different products (other features will need to be added separately). ` +
 			`Package includes light content strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing ` +
@@ -66,7 +66,7 @@ function optionsPage() {
 		ecommWebLg: {
 			onetime: true,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$2,000+ varies</span> (deposit varies)`,
+			priceNoPkg: null,
 			title: `E-Commerce Site (Large)`,
 			descr: `This is a WooCommerce Online Store with 20-50+ different products (other features will need to be added separately). ` +
 			`Package includes light content strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing ` +
@@ -75,8 +75,8 @@ function optionsPage() {
 		},
 		socialEngage: {
 			onetime: false,
-			pricePkg: `<span class="fw-500">$180-$360/mo.</span> with a package`,
-			priceNoPkg: `<span class="fw-500">$200-$400/mo.</span> per diem<br/> <span class="fw-500">+ $150-$300/mo.</span> per additional account`,
+			pricePkg: null,
+			priceNoPkg: null,
 			title: `Social Media Engagement`,
 			descr: `This option includes 20-45 minutes each day (exact time spent can be specified) engaging on a ` +
 			`social media platform's algorithmic rating system as well as accounts that match your business's target audience. ` +
@@ -86,8 +86,8 @@ function optionsPage() {
 		},
 		copyWriting: {
 			onetime: false,
-			pricePkg: `<span class="fw-500">$125 per post</span> with a package`,
-			priceNoPkg: `<span class="fw-500">$150 per post</span> per diem`,
+			pricePkg: null,
+			priceNoPkg: null,
 			title: `Copywriting`,
 			descr: `This can be purchased one-time or on an ongoing basis. It is a fully researched and SEO optimized blog `+
 			`post or article of 1000-2000 words in length.`,
@@ -95,8 +95,8 @@ function optionsPage() {
 		},
 		webUpdates: {
 			onetime: false,
-			pricePkg: `<span class="fw-500">$50 hrly.</span> with a package`,
-			priceNoPkg: `<span class="fw-500">$60 hrly.</span> per diem`,
+			pricePkg: null,
+			priceNoPkg: null,
 			title: `Website Updates`,
 			descr: `Updates can be done on your website with content verbiage, file changes, or media content, ` +
 			`Wordpress, WP Plugins, HTML, SCSS/CSS, JavaScript, JQuery, PHP, React JS, or other formats as needed.`,
@@ -111,8 +111,8 @@ function optionsPage() {
 			multi: {
 				recordedDemo: {
 					onetime: false,
-					pricePkg: `<span class="fw-500">$60 hrly.</span> with a package`,
-					priceNoPkg: `<span class="fw-500">$100 hrly.</span> per diem`,
+					pricePkg: null,
+					priceNoPkg: null,
 					title: `Recorded Demos`,
 					descr: `Recorded demos are like personal webinars that demonstrate how to use, maintain, ` +
 					`or update a specific feature or service. They can be purchased as a standalone educational ` +
@@ -120,8 +120,8 @@ function optionsPage() {
 				},
 				customHowToDocs: {
 					onetime: false,
-					pricePkg: `<span class="fw-500">$40 hrly.</span> with a package`,
-					priceNoPkg: `<span class="fw-500">$50 hrly.</span> per diem`,
+					pricePkg: null,
+					priceNoPkg: null,
 					title: `Custom How-To Documentation`,
 					descr: `Custom How-To Documentation will usually involve a written tutorial or step-by-step ` +
 					`guide published on Google Docs. It will always contain screen shots and very simple, clear ` +
@@ -132,7 +132,7 @@ function optionsPage() {
 		specialWebFeatures: {
 			onetime: false,
 			pricePkg: null,
-			priceNoPkg: `Price done by <span class="fw-500">quote only<span>`,
+			priceNoPkg: null,
 			title: `Special Website Features`,
 			descr: `Additional website features includes custom animations, special functioning modal boxes, ` +
 			`accessibility features, unique dynamic content, risky subjects, add-on WP features like blog, ` +
@@ -142,7 +142,7 @@ function optionsPage() {
 		uxAudit: {
 			onetime: false,
 			pricePkg: null,
-			priceNoPkg: `<span class="fw-500">$50 hrly.</span> per diem`,
+			priceNoPkg: null,
 			title: `UX Audit`,
 			descr: `Our UX Audit is a complete user experience audit around the website or software as ` +
 			`requested. Results are recorded in a spreadsheet with items categorized by urgency and type. Communications ` +
@@ -151,8 +151,8 @@ function optionsPage() {
 		},
 		socialAuditPlan: {
 			onetime: false,
-			pricePkg: `<span class="fw-500">$1,500 with a package</span> ($500 deposit)`,
-			priceNoPkg: `<span class="fw-500">$2,000 per diem</span> ($500 deposit)`,
+			pricePkg: null,
+			priceNoPkg: null,
 			title: `Social Media Audit & Plan`,
 			descr: `This is a deep dive social media audit for all available platforms (discount provided for 3 or less platforms) with ` +
 			`paired strategy plan and resources for future content creation, scheduling, and a choice between:` +
@@ -163,8 +163,8 @@ function optionsPage() {
 		},
 		socialTemplates: {
 			onetime: false,
-			pricePkg: `<span class="fw-500">$1,000 with a package</span> ($500 deposit)`,
-			priceNoPkg: `<span class="fw-500">$1,500 per diem</span> ($500 deposit)`,
+			pricePkg: null,
+			priceNoPkg: null,
 			title: `Social Media Templates`,
 			descr: `This package includes 5 custom, branded Instagram story templates and 10 post templates, plus additional resources and assets for creating ` +
 			`reels + videos. (Templates can be made in either Canva or Adobe XD.)`,

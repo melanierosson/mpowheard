@@ -2,501 +2,688 @@ body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "sans serif";
   overflow-x: hidden !important;
-  color: #333333; }
-  body .hotpink {
-    color: #FF0093; }
-  body .lightpink {
-    color: #FFBEE3; }
-  body .cyan {
-    color: #B4F6FF; }
-  body .extra-bottom {
-    padding-bottom: 4rem;
-    margin-bottom: 2rem; }
-  body article.light-gray {
-    background-color: #F9F9F9;
-    width: 500%;
-    margin-left: -200%; }
-  body article.white {
-    background-color: #FFFFFF;
-    width: 500%;
-    margin-left: -200%; }
-  body article.light-yellow {
-    background-color: #FFFFE3;
-    width: 500%;
-    margin-left: -200%; }
-  body article.section .section-header {
-    padding-top: 1.25rem;
-    opacity: 0; }
-    body article.section .section-header hr {
-      width: 8.75rem;
-      border: 0.0625rem solid #00E2FF; }
-  body article.row section.section-content {
-    overflow-x: hidden !important; }
-  body p.anchor-nav {
-    text-align: right; }
-    body p.anchor-nav a {
-      color: #FF0093;
-      padding-top: 1.25rem;
-      padding-bottom: 1.25rem;
-      font-size: 1.25rem; }
-  @media screen and (max-width: 47.9375rem) {
-    body p.empower-lead {
-      display: none; } }
-  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-    body p.empower-lead {
-      display: inline-block;
-      width: 200px;
-      text-align: right;
-      padding-top: 3rem;
-      padding-right: 3rem; } }
-  @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-    body p.empower-lead {
-      padding-top: 4rem;
-      margin-left: -4rem; } }
-  @media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
-    body p.empower-lead {
-      padding-top: 6rem;
-      margin-left: -8rem; } }
-  @media screen and (min-width: 87.5rem) {
-    body p.empower-lead {
-      padding-top: 6rem;
-      margin-left: -8rem; } }
-  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-    body br.leadBr {
-      display: inline !important; } }
-  @media screen and (min-width: 62rem) {
-    body br.leadBr {
-      display: none; } }
-  body span#empowerText {
-    display: none; }
-  body span#empowerText.on {
-    display: inline; }
-  body span.hotpink#empowerToggle:hover,
-  body div#arrow:hover {
-    cursor: pointer; }
-  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-    body div#arrow {
-      width: 0;
-      height: 0;
-      border-left: 0.625rem solid transparent;
-      border-right: 0.625rem solid transparent;
-      border-top: 0.625rem solid #FF0093;
-      margin-left: auto;
-      margin-top: -0.3125rem;
-      margin-right: 6.125rem; } }
-  @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-    body div#arrow {
-      width: 0;
-      height: 0;
-      border-left: 0.625rem solid transparent;
-      border-right: 0.625rem solid transparent;
-      border-top: 0.625rem solid #FF0093;
-      margin-top: -33px;
-      margin-left: 55px; } }
-  @media screen and (min-width: 75rem) {
-    body div#arrow {
-      width: 0;
-      height: 0;
-      border-top: 0.625rem solid transparent;
-      border-bottom: 0.625rem solid transparent;
-      border-left: 0.625rem solid #FF0093;
-      margin-top: -40px;
-      margin-left: -0.625rem; } }
+  color: #333333;
+}
+body .hotpink {
+  color: #FF0093;
+}
+body .lightpink {
+  color: #FFBEE3;
+}
+body .cyan {
+  color: #B4F6FF;
+}
+body .extra-bottom {
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+body article.light-gray {
+  background-color: #F9F9F9;
+  width: 500%;
+  margin-left: -200%;
+}
+body article.white {
+  background-color: #FFFFFF;
+  width: 500%;
+  margin-left: -200%;
+}
+body article.light-yellow {
+  background-color: #FFFFE3;
+  width: 500%;
+  margin-left: -200%;
+}
+body article.section .section-header {
+  padding-top: 1.25rem;
+  opacity: 0;
+}
+body article.section .section-header hr {
+  width: 8.75rem;
+  border: 0.0625rem solid #00E2FF;
+}
+body article.row section.section-content {
+  overflow-x: hidden !important;
+}
+body p.anchor-nav {
+  text-align: right;
+}
+body p.anchor-nav a {
+  color: #FF0093;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 1.25rem;
+}
+@media screen and (max-width: 47.9375rem) {
+  body p.empower-lead {
+    display: none;
+  }
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  body p.empower-lead {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    padding-top: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  body p.empower-lead {
+    padding-top: 4rem;
+    margin-left: -4rem;
+  }
+}
+@media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
+  body p.empower-lead {
+    padding-top: 6rem;
+    margin-left: -8rem;
+  }
+}
+@media screen and (min-width: 87.5rem) {
+  body p.empower-lead {
+    padding-top: 6rem;
+    margin-left: -8rem;
+  }
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  body br.leadBr {
+    display: inline !important;
+  }
+}
+@media screen and (min-width: 62rem) {
+  body br.leadBr {
+    display: none;
+  }
+}
+body span#empowerText {
+  display: none;
+}
+body span#empowerText.on {
+  display: inline;
+}
+body span.hotpink#empowerToggle:hover, body div#arrow:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  body div#arrow {
+    width: 0;
+    height: 0;
+    border-left: 0.625rem solid transparent;
+    border-right: 0.625rem solid transparent;
+    border-top: 0.625rem solid #FF0093;
+    margin-left: auto;
+    margin-top: -0.3125rem;
+    margin-right: 6.125rem;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  body div#arrow {
+    width: 0;
+    height: 0;
+    border-left: 0.625rem solid transparent;
+    border-right: 0.625rem solid transparent;
+    border-top: 0.625rem solid #FF0093;
+    margin-top: -33px;
+    margin-left: 55px;
+  }
+}
+@media screen and (min-width: 75rem) {
+  body div#arrow {
+    width: 0;
+    height: 0;
+    border-top: 0.625rem solid transparent;
+    border-bottom: 0.625rem solid transparent;
+    border-left: 0.625rem solid #FF0093;
+    margin-top: -40px;
+    margin-left: -0.625rem;
+  }
+}
+body div#arrow.open {
+  transform: rotate(180deg);
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
   body div#arrow.open {
-    transform: rotate(180deg); }
-    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-      body div#arrow.open {
-        margin-left: auto;
-        margin-right: 5.25rem;
-        margin-top: -0.3125rem; } }
-    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-      body div#arrow.open {
-        margin-left: 15px;
-        margin-top: -33px; } }
-    @media screen and (min-width: 75rem) {
-      body div#arrow.open {
-        margin-left: -50px; } }
-  body .fw-400 {
-    font-weight: 400; }
-  body .fw-500 {
-    font-weight: 500; }
-  body .fw-600 {
-    font-weight: 600; }
-  body .fw-700 {
-    font-weight: 700; }
-  @media screen and (min-width: 62rem) {
-    body .hide-on-desktop {
-      display: none; }
-    body p.anchor-nav a {
-      padding: 1.25rem; } }
+    margin-left: auto;
+    margin-right: 5.25rem;
+    margin-top: -0.3125rem;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  body div#arrow.open {
+    margin-left: 15px;
+    margin-top: -33px;
+  }
+}
+@media screen and (min-width: 75rem) {
+  body div#arrow.open {
+    margin-left: -50px;
+  }
+}
+body .fw-400 {
+  font-weight: 400;
+}
+body .fw-500 {
+  font-weight: 500;
+}
+body .fw-600 {
+  font-weight: 600;
+}
+body .fw-700 {
+  font-weight: 700;
+}
+@media screen and (min-width: 62rem) {
+  body .hide-on-desktop {
+    display: none;
+  }
+  body p.anchor-nav a {
+    padding: 1.25rem;
+  }
+}
+body p.tagline {
+  font-weight: 500;
+  font-size: 1.25rem;
+  opacity: 0;
+}
+@media screen and (min-width: 75rem) {
   body p.tagline {
-    font-weight: 500;
-    font-size: 1.25rem;
-    opacity: 0; }
-    @media screen and (min-width: 75rem) {
-      body p.tagline {
-        font-size: 1.5rem;
-        line-height: 2rem; } }
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+body br.title-br {
+  display: block;
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
   body br.title-br {
-    display: block; }
-    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-      body br.title-br {
-        display: none; } }
-    @media screen and (min-width: 75rem) {
-      body br.title-br {
-        display: none; } }
-  body .center {
-    text-align: center; }
-  body .uppercase {
-    text-transform: uppercase; }
-  body div.cta {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%; }
-    body div.cta button#cta {
-      background-color: #FF0093;
-      border: 0.0625rem solid #FBFE3B;
-      font-weight: 600;
-      box-shadow: 0 0 2.5rem #FEFFC6;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      padding: 0.625rem 1.25rem;
-      border-radius: 5rem;
-      letter-spacing: 0.1rem;
-      background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, #FF0093);
-      width: 13.75rem;
-      height: 3.75rem;
-      font-size: 1.25rem;
-      margin-right: 1.5rem;
-      margin-top: 1.5rem; }
-    body div.cta button#cta:hover {
-      background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
-      color: #333333;
-      border: 0.0625rem solid #FFBEE3;
-      box-shadow: 0 0 2.5rem #FFBEE3; }
-    @media screen and (max-width: 61.9375rem) {
-      body div.cta button#cta {
-        margin-top: -1.5rem;
-        font-size: 1.125rem;
-        width: 12rem;
-        height: 3.25rem; } }
-    @media screen and (min-width: 75rem) {
-      body div.cta button#cta {
-        margin-right: 7.5rem; } }
-  body nav.navbar {
-    background-color: #FBFE3B;
-    color: #000000;
-    height: 3.75rem;
+    display: none;
+  }
+}
+@media screen and (min-width: 75rem) {
+  body br.title-br {
+    display: none;
+  }
+}
+body .center {
+  text-align: center;
+}
+body .uppercase {
+  text-transform: uppercase;
+}
+body div.cta {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+body div.cta button#cta {
+  background-color: #FF0093;
+  border: 0.0625rem solid #FBFE3B;
+  font-weight: 600;
+  box-shadow: 0 0 2.5rem #FEFFC6;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 0.625rem 1.25rem;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, #FF0093);
+  width: 13.75rem;
+  height: 3.75rem;
+  font-size: 1.25rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+}
+body div.cta button#cta:hover {
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
+  color: #333333;
+  border: 0.0625rem solid #FFBEE3;
+  box-shadow: 0 0 2.5rem #FFBEE3;
+}
+@media screen and (max-width: 61.9375rem) {
+  body div.cta button#cta {
+    margin-top: -1.5rem;
+    font-size: 1.125rem;
+    width: 12rem;
+    height: 3.25rem;
+  }
+}
+@media screen and (min-width: 75rem) {
+  body div.cta button#cta {
+    margin-right: 7.5rem;
+  }
+}
+body nav.navbar {
+  background-color: #FBFE3B;
+  color: #000000;
+  height: 3.75rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body nav.navbar span.navbar-toggler-icon img {
+  display: none;
+}
+@media screen and (max-width: 61.9375rem) {
+  body nav.navbar span.navbar-toggler-icon img {
+    display: block;
+  }
+}
+@media screen and (max-width: 61.9375rem) {
+  body nav.navbar div.navbar-collapse {
+    margin-top: -0.3125rem;
+  }
+}
+@media screen and (max-width: 61.9375rem) {
+  body nav.navbar ul.navbar-nav {
+    background-color: #FEFFC6;
+    padding: 0.625rem 1.25rem;
+  }
+  body nav.navbar ul.navbar-nav li.nav-item {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 61.9375rem) {
+  body nav.navbar a.navbar-brand {
     padding-top: 0;
-    padding-bottom: 0; }
-    body nav.navbar span.navbar-toggler-icon img {
-      display: none; }
-      @media screen and (max-width: 61.9375rem) {
-        body nav.navbar span.navbar-toggler-icon img {
-          display: block; } }
-    @media screen and (max-width: 61.9375rem) {
-      body nav.navbar div.navbar-collapse {
-        margin-top: -0.3125rem; } }
-    @media screen and (max-width: 61.9375rem) {
-      body nav.navbar ul.navbar-nav {
-        background-color: #FEFFC6;
-        padding: 0.625rem 1.25rem; }
-        body nav.navbar ul.navbar-nav li.nav-item {
-          text-align: right; } }
-    @media screen and (max-width: 61.9375rem) {
-      body nav.navbar a.navbar-brand {
-        padding-top: 0; } }
-    body nav.navbar a.navbar-brand img {
-      height: 3.75rem;
-      width: 3.75rem; }
-    body nav.navbar a:link, body nav.navbar a:visited {
-      text-transform: uppercase;
-      color: #333333 !important;
-      letter-spacing: 0.1rem;
-      font-weight: 600; }
-    body nav.navbar a:hover {
-      color: #FF0093 !important; }
-    @media screen and (min-width: 62rem) {
-      body nav.navbar li.active {
-        border-bottom: 0.3125rem solid #FF0093; }
-        body nav.navbar li.active a {
-          margin-bottom: -0.3125rem; } }
-    body nav.navbar li.active a {
-      color: #555555 !important; }
-    body nav.navbar li.active:hover a {
-      color: #FF0093 !important; }
-    @media screen and (min-width: 62rem) {
-      body nav.navbar li.nav-item {
-        padding: 0.625rem 1.25rem; } }
-    body nav.navbar li.nav-item:hover {
-      cursor: pointer; }
-      @media screen and (min-width: 62rem) {
-        body nav.navbar li.nav-item:hover {
-          background-color: #FEFFC6; } }
-      body nav.navbar li.nav-item:hover a {
-        color: #FF0093 !important; }
-  body section h1 {
-    font-weight: 700;
-    opacity: 0; }
-  body section h2 {
-    color: #555555;
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    opacity: 0; }
+  }
+}
+body nav.navbar a.navbar-brand img {
+  height: 3.75rem;
+  width: 3.75rem;
+}
+body nav.navbar a:link, body nav.navbar a:visited {
+  text-transform: uppercase;
+  color: #333333 !important;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+body nav.navbar a:hover {
+  color: #FF0093 !important;
+}
+@media screen and (min-width: 62rem) {
+  body nav.navbar li.active {
+    border-bottom: 0.3125rem solid #FF0093;
+  }
+  body nav.navbar li.active a {
+    margin-bottom: -0.3125rem;
+  }
+}
+body nav.navbar li.active a {
+  color: #555555 !important;
+}
+body nav.navbar li.active:hover a {
+  color: #FF0093 !important;
+}
+@media screen and (min-width: 62rem) {
+  body nav.navbar li.nav-item {
+    padding: 0.625rem 1.25rem;
+  }
+}
+body nav.navbar li.nav-item:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 62rem) {
+  body nav.navbar li.nav-item:hover {
+    background-color: #FEFFC6;
+  }
+}
+body nav.navbar li.nav-item:hover a {
+  color: #FF0093 !important;
+}
+body section h1 {
+  font-weight: 700;
+  opacity: 0;
+}
+body section h2 {
+  color: #555555;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  opacity: 0;
+}
+body section div.pow-anim {
+  position: relative;
+}
+@media screen and (max-width: 35.9375rem) {
   body section div.pow-anim {
-    position: relative; }
-    @media screen and (max-width: 35.9375rem) {
-      body section div.pow-anim {
-        margin-top: -1rem; } }
-    @media screen and (min-width: 36rem) and (max-width: 61.9375rem) {
-      body section div.pow-anim {
-        margin-top: 0; } }
-    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-      body section div.pow-anim {
-        margin-top: 5rem; } }
-    @media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
-      body section div.pow-anim {
-        margin-top: 5rem; } }
-    @media screen and (min-width: 87.5rem) {
-      body section div.pow-anim {
-        margin-top: 5rem; } }
-    body section div.pow-anim div.powAnims {
-      opacity: 0; }
-      @media screen and (max-width: 47.9375rem) {
-        body section div.pow-anim div.powAnims {
-          margin-left: -4.5rem; } }
-      @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-        body section div.pow-anim div.powAnims {
-          left: -2rem !important; } }
-      @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-        body section div.pow-anim div.powAnims {
-          margin-left: -2rem; } }
-    body section div.pow-anim div#powAnim {
-      position: absolute;
-      top: 0;
-      z-index: 3;
-      margin-top: 4.5rem;
-      margin-left: 3.6rem;
-      background: url("../images/dots.png") 0px 0px repeat;
-      background-size: 10.625rem 10.625rem;
-      height: 23.75rem;
-      width: 26.875rem;
-      clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%); }
-      @media screen and (max-width: 47.9375rem) {
-        body section div.pow-anim div#powAnim {
-          margin-left: 1.5rem; } }
-      @media screen and (min-width: 75rem) {
-        body section div.pow-anim div#powAnim {
-          margin-left: 6.6rem; } }
-    body section div.pow-anim div#powAnimBorder {
-      position: absolute;
-      top: 0;
-      z-index: 1;
-      margin-top: 3.3rem;
-      margin-left: 2.6rem;
-      background-color: #FF0093;
-      height: 26rem;
-      width: 29rem;
-      transform: rotate(-1deg);
-      clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%); }
-      @media screen and (max-width: 47.9375rem) {
-        body section div.pow-anim div#powAnimBorder {
-          margin-left: 0.5rem; } }
-      @media screen and (min-width: 75rem) {
-        body section div.pow-anim div#powAnimBorder {
-          margin-left: 5.6rem; } }
-  @media screen and (min-width: 62rem) {
-    body section div.pow-anim2 div#powAnim2 {
-      position: absolute;
-      top: 0;
-      left: -4rem;
-      z-index: 3;
-      margin-top: 6rem;
-      margin-left: 3.3rem;
-      background: url("../images/dots.png") 0px 0px repeat;
-      background-size: 10.625rem 10.625rem;
-      height: 11.875rem;
-      width: 13.4375rem;
-      transform: rotate(-190deg);
-      clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%); }
-    body section div.pow-anim2 div#powAnimBorder2 {
-      position: absolute;
-      top: 0;
-      left: -4rem;
-      z-index: 1;
-      margin-top: 5.1rem;
-      margin-left: 2.4rem;
-      background-color: #FF0093;
-      height: 13.75rem;
-      width: 15rem;
-      transform: rotate(-191deg);
-      clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%); } }
+    margin-top: -1rem;
+  }
+}
+@media screen and (min-width: 36rem) and (max-width: 61.9375rem) {
+  body section div.pow-anim {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  body section div.pow-anim {
+    margin-top: 5rem;
+  }
+}
+@media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
+  body section div.pow-anim {
+    margin-top: 5rem;
+  }
+}
+@media screen and (min-width: 87.5rem) {
+  body section div.pow-anim {
+    margin-top: 5rem;
+  }
+}
+body section div.pow-anim div.powAnims {
+  opacity: 0;
+}
+@media screen and (max-width: 47.9375rem) {
+  body section div.pow-anim div.powAnims {
+    margin-left: -4.5rem;
+  }
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  body section div.pow-anim div.powAnims {
+    left: -2rem !important;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  body section div.pow-anim div.powAnims {
+    margin-left: -2rem;
+  }
+}
+body section div.pow-anim div#powAnim {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  margin-top: 4.5rem;
+  margin-left: 3.6rem;
+  background: url('../images/dots.png') 0px 0px repeat;
+  background-size: 10.625rem 10.625rem;
+  height: 23.75rem;
+  width: 26.875rem;
+  clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+}
+@media screen and (max-width: 47.9375rem) {
+  body section div.pow-anim div#powAnim {
+    margin-left: 1.5rem;
+  }
+}
+@media screen and (min-width: 75rem) {
+  body section div.pow-anim div#powAnim {
+    margin-left: 6.6rem;
+  }
+}
+body section div.pow-anim div#powAnimBorder {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  margin-top: 3.3rem;
+  margin-left: 2.6rem;
+  background-color: #FF0093;
+  height: 26rem;
+  width: 29rem;
+  transform: rotate(-1deg);
+  clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+}
+@media screen and (max-width: 47.9375rem) {
+  body section div.pow-anim div#powAnimBorder {
+    margin-left: 0.5rem;
+  }
+}
+@media screen and (min-width: 75rem) {
+  body section div.pow-anim div#powAnimBorder {
+    margin-left: 5.6rem;
+  }
+}
+@media screen and (min-width: 62rem) {
+  body section div.pow-anim2 div#powAnim2 {
+    position: absolute;
+    top: 0;
+    left: -4rem;
+    z-index: 3;
+    margin-top: 6rem;
+    margin-left: 3.3rem;
+    background: url('../images/dots.png') 0px 0px repeat;
+    background-size: 10.625rem 10.625rem;
+    height: 11.875rem;
+    width: 13.4375rem;
+    transform: rotate(-190deg);
+    clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+  }
+  body section div.pow-anim2 div#powAnimBorder2 {
+    position: absolute;
+    top: 0;
+    left: -4rem;
+    z-index: 1;
+    margin-top: 5.1rem;
+    margin-left: 2.4rem;
+    background-color: #FF0093;
+    height: 13.75rem;
+    width: 15rem;
+    transform: rotate(-191deg);
+    clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+  }
+}
+body section div.pow-anim2 div.powAnims2 {
+  opacity: 0;
+}
+@media screen and (max-width: 47.9375) {
   body section div.pow-anim2 div.powAnims2 {
-    opacity: 0; }
-  @media screen and (max-width: 47.9375) {
-    body section div.pow-anim2 div.powAnims2 {
-      display: none; } }
-  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-    body section div.pow-anim2 div.powAnims2 {
-      display: none; } }
-  body section div#powAnim.touch-anim,
-  body section div#powAnim2.touch-anim {
-    animation-name: touchAnim;
-    animation-duration: 4s;
-    animation-iteration-count: infinite; }
-  body footer {
-    width: 100vw;
-    margin: 0;
-    background-color: #333333;
-    padding: 0.2rem 0.5rem;
-    color: #FFFFFF; }
-
+    display: none;
+  }
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  body section div.pow-anim2 div.powAnims2 {
+    display: none;
+  }
+}
+body section div#powAnim.touch-anim, body section div#powAnim2.touch-anim {
+  animation-name: touchAnim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+body footer {
+  width: 100vw;
+  margin: 0;
+  background-color: #333333;
+  padding: 0.2rem 0.5rem;
+  color: #FFFFFF;
+}
 @keyframes touchAnim {
   0% {
-    background-position: 0px 0px; }
+    background-position: 0px 0px;
+  }
   3% {
-    background-position: 5px 5px; }
+    background-position: 5px 5px;
+  }
   6% {
-    background-position: 10px 10px; }
+    background-position: 10px 10px;
+  }
   9% {
-    background-position: 15px 15px; }
+    background-position: 15px 15px;
+  }
   12% {
-    background-position: 20px 20px; }
+    background-position: 20px 20px;
+  }
   15% {
-    background-position: 25px 25px; }
+    background-position: 25px 25px;
+  }
   18% {
-    background-position: 30px 30px; }
+    background-position: 30px 30px;
+  }
   21% {
-    background-position: 35px 35px; }
+    background-position: 35px 35px;
+  }
   24% {
-    background-position: 40px 40px; }
+    background-position: 40px 40px;
+  }
   27% {
-    background-position: 45px 45px; }
+    background-position: 45px 45px;
+  }
   30% {
-    background-position: 50px 50px; }
+    background-position: 50px 50px;
+  }
   33% {
-    background-position: 55px 55px; }
+    background-position: 55px 55px;
+  }
   36% {
-    background-position: 60px 60px; }
+    background-position: 60px 60px;
+  }
   39% {
-    background-position: 65px 65px; }
+    background-position: 65px 65px;
+  }
   42% {
-    background-position: 70px 70px; }
+    background-position: 70px 70px;
+  }
   45% {
-    background-position: 75px 75px; }
+    background-position: 75px 75px;
+  }
   48% {
-    background-position: 80px 80px; }
+    background-position: 80px 80px;
+  }
   51% {
-    background-position: 85px 85px; }
+    background-position: 85px 85px;
+  }
   54% {
-    background-position: 90px 90px; }
+    background-position: 90px 90px;
+  }
   57% {
-    background-position: 95px 95px; }
+    background-position: 95px 95px;
+  }
   60% {
-    background-position: 100px 100px; }
+    background-position: 100px 100px;
+  }
   63% {
-    background-position: 105px 105px; }
+    background-position: 105px 105px;
+  }
   66% {
-    background-position: 110px 110px; }
+    background-position: 110px 110px;
+  }
   69% {
-    background-position: 115px 115px; }
+    background-position: 115px 115px;
+  }
   72% {
-    background-position: 120px 120px; }
+    background-position: 120px 120px;
+  }
   75% {
-    background-position: 125px 125px; }
+    background-position: 125px 125px;
+  }
   78% {
-    background-position: 130px 130px; }
+    background-position: 130px 130px;
+  }
   81% {
-    background-position: 135px 135px; }
+    background-position: 135px 135px;
+  }
   84% {
-    background-position: 140px 140px; }
+    background-position: 140px 140px;
+  }
   87% {
-    background-position: 145px 145px; }
+    background-position: 145px 145px;
+  }
   90% {
-    background-position: 150px 150px; }
+    background-position: 150px 150px;
+  }
   93% {
-    background-position: 155px 155px; }
+    background-position: 155px 155px;
+  }
   96% {
-    background-position: 160px 160px; }
+    background-position: 160px 160px;
+  }
   98% {
-    background-position: 165px 165px; }
+    background-position: 165px 165px;
+  }
   100% {
-    background-position: 170px 170px; } }
+    background-position: 170px 170px;
+  }
+}
 #options div.col-lg-6:nth-of-type(2) {
   display: flex;
   align-items: flex-end;
-  align-content: flex-end; }
+  align-content: flex-end;
+}
 #options article.opts {
   width: 100%;
   max-width: 42.5rem;
   display: flex;
   justify-content: center;
   align-content: flex-end;
-  padding-top: 2.5rem; }
+  padding-top: 2.5rem;
+}
+#options article.opts div.container {
+  box-shadow: 0 0 2.5rem #EFEFEF;
+}
+@media screen and (max-width: 61.9375rem) {
   #options article.opts div.container {
-    box-shadow: 0 0 2.5rem #EFEFEF;
-    border-radius: 1.875rem; }
-    @media screen and (max-width: 61.9375rem) {
-      #options article.opts div.container {
-        width: 99%; } }
-    @media screen and (min-width: 62rem) {
-      #options article.opts div.container {
-        width: 90%; } }
-    #options article.opts div.container div.opt-header {
-      border-radius: 1.875rem 1.875rem 0 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-      text-align: center;
-      padding: 1.25rem; }
-      #options article.opts div.container div.opt-header h3 {
-        margin-bottom: 0;
-        text-align: center; }
-    #options article.opts div.container div.opt.row div {
-      border-color: #EFEFEF;
-      border-style: solid;
-      border-width: 0.125rem 0 0 0;
-      display: flex;
-      align-content: center;
-      align-items: center;
-      padding: 0.4375rem 0.625rem; }
-      #options article.opts div.container div.opt.row div p {
-        margin-bottom: 0; }
-        #options article.opts div.container div.opt.row div p a {
-          color: #FF0093 !important; }
-        @media screen and (max-width: 23.375rem) {
-          #options article.opts div.container div.opt.row div p {
-            font-size: 0.875rem; } }
-    #options article.opts div.container div.opt.row div:first-of-type {
-      justify-content: flex-start; }
-    #options article.opts div.container div.opt.row div:nth-of-type(2) {
-      justify-content: flex-end; }
-    #options article.opts div.container div.opt.row:last-of-type div:first-of-type {
-      border-radius: 0 0 0 1.875rem; }
-    #options article.opts div.container div.opt.row:last-of-type div:nth-of-type(2) {
-      border-radius: 0 0 1.875rem 0; }
-    #options article.opts div.container div.opt.row:hover {
-      background-color: #EBFCFF;
-      cursor: pointer; }
+    width: 99%;
+  }
+}
+@media screen and (min-width: 62rem) {
+  #options article.opts div.container {
+    width: 90%;
+  }
+}
+#options article.opts div.container div.opt-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 1.25rem;
+}
+#options article.opts div.container div.opt-header h3 {
+  margin-bottom: 0;
+  text-align: center;
+}
+#options article.opts div.container div.opt.row div {
+  border-color: #EFEFEF;
+  border-style: solid;
+  border-width: 0.125rem 0 0 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 0.4375rem 0.625rem;
+}
+#options article.opts div.container div.opt.row div p {
+  margin-bottom: 0;
+}
+#options article.opts div.container div.opt.row div p a {
+  color: #FF0093 !important;
+}
+@media screen and (max-width: 23.375rem) {
+  #options article.opts div.container div.opt.row div p {
+    font-size: 0.875rem;
+  }
+}
+#options article.opts div.container div.opt.row div:first-of-type {
+  justify-content: flex-start;
+}
+#options article.opts div.container div.opt.row div:nth-of-type(2) {
+  justify-content: flex-end;
+}
+#options article.opts div.container div.opt.row:hover {
+  background-color: #EBFCFF;
+  cursor: pointer;
+}
 @media screen and (max-width: 61.9375rem) {
   #options article#opt-misc {
-    margin-bottom: 4.5rem; } }
+    margin-bottom: 4.5rem;
+  }
+}
 @media screen and (max-width: 61.9375rem) {
   #options p.opt-lead.desktop {
-    display: none; } }
+    display: none;
+  }
+}
 @media screen and (min-width: 62rem) {
   #options p.opt-lead.desktop {
-    display: inline; } }
+    display: inline;
+  }
+}
 @media screen and (max-width: 61.9375rem) {
   #options p.opt-lead.mobile {
     display: inline;
-    font-size: 0.825rem; } }
+    font-size: 0.825rem;
+  }
+}
 @media screen and (min-width: 62rem) {
   #options p.opt-lead.mobile {
-    display: none; } }
+    display: none;
+  }
+}
 #options div#modal-overlay {
-  display: none; }
+  display: none;
+}
 #options div#modal-overlay.enabled {
   display: flex;
   justify-content: center;
@@ -508,163 +695,228 @@ body {
   background-color: #EFEFEF77;
   top: 0;
   left: 0;
-  z-index: 2000; }
-  @media screen and (max-width: 35.9375rem) {
-    #options div#modal-overlay.enabled {
-      align-items: flex-start;
-      overflow-y: visible; } }
-  @media screen and (min-width: 36rem) {
-    #options div#modal-overlay.enabled {
-      align-items: center; } }
+  z-index: 2000;
+}
+@media screen and (max-width: 35.9375rem) {
+  #options div#modal-overlay.enabled {
+    align-items: flex-start;
+    overflow-y: visible;
+  }
+}
+@media screen and (min-width: 36rem) {
+  #options div#modal-overlay.enabled {
+    align-items: center;
+  }
+}
+#options div#modal-overlay.enabled section#opt-modal {
+  min-width: 18.75rem;
+  max-width: 40.625rem;
+  min-height: 15.625rem;
+  background-color: #FFFFFF;
+  border: 0.0625rem solid #B4F6FF;
+  box-shadow: 0 0 3.75rem #D9FAFF;
+  padding: 1rem;
+}
+@media screen and (max-width: 35.9375rem) {
   #options div#modal-overlay.enabled section#opt-modal {
-    min-width: 18.75rem;
-    max-width: 40.625rem;
-    min-height: 15.625rem;
-    background-color: #FFFFFF;
-    border: 0.0625rem solid #B4F6FF;
-    border-radius: 1.875rem;
-    box-shadow: 0 0 3.75rem #D9FAFF;
-    padding: 1rem; }
-    @media screen and (max-width: 35.9375rem) {
-      #options div#modal-overlay.enabled section#opt-modal {
-        width: 98%;
-        margin-top: 0.25rem; } }
-    @media screen and (min-width: 36rem) and (max-width: 61.9375rem) {
-      #options div#modal-overlay.enabled section#opt-modal {
-        width: 90%; } }
-    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-      #options div#modal-overlay.enabled section#opt-modal {
-        width: 75%; } }
-    @media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
-      #options div#modal-overlay.enabled section#opt-modal {
-        width: 60%; } }
-    @media screen and (min-width: 87.5rem) {
-      #options div#modal-overlay.enabled section#opt-modal {
-        width: 50%; } }
-    #options div#modal-overlay.enabled section#opt-modal div.close-btn {
-      width: 1.25rem;
-      height: 1.25rem;
-      border-radius: 60%;
-      background-color: #9A9A9A;
-      color: #FFFFFF;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-      padding: 0; }
-    #options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
-      cursor: pointer;
-      background-color: #FF0093; }
-    #options div#modal-overlay.enabled section#opt-modal div.opts {
-      display: flex; }
-      @media screen and (max-width: 35.9375rem) {
-        #options div#modal-overlay.enabled section#opt-modal div.opts {
-          flex-wrap: wrap;
-          justify-content: center; } }
-      @media screen and (min-width: 36rem) {
-        #options div#modal-overlay.enabled section#opt-modal div.opts {
-          justify-content: space-around; } }
-      #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-        background-color: #F9F9F9;
-        padding: 1.25rem;
-        margin: 1.25rem;
-        border-radius: 1.875rem; }
-        @media screen and (min-width: 36rem) {
-          #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-            width: 50%; } }
-        @media screen and (max-width: 47.9375rem) {
-          #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-            margin: 0.625rem 0.625rem 1rem 0.625rem; } }
-        #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
-          margin-bottom: 0; }
-      @media screen and (min-width: 36rem) {
-        #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal.single {
-          width: 70%; } }
-    #options div#modal-overlay.enabled section#opt-modal h6 {
-      font-weight: 600; }
-    #options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
-      color: #FF0093; }
-    #options div#modal-overlay.enabled section#opt-modal p.connect-cta a:hover {
-      color: #BF5693; }
-    #options div#modal-overlay.enabled section#opt-modal p.connect-cta a.icon:hover {
-      text-decoration: none; }
+    width: 98%;
+    margin-top: 0.25rem;
+  }
+}
+@media screen and (min-width: 36rem) and (max-width: 61.9375rem) {
+  #options div#modal-overlay.enabled section#opt-modal {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  #options div#modal-overlay.enabled section#opt-modal {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
+  #options div#modal-overlay.enabled section#opt-modal {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 87.5rem) {
+  #options div#modal-overlay.enabled section#opt-modal {
+    width: 50%;
+  }
+}
+#options div#modal-overlay.enabled section#opt-modal div.close-btn {
+  width: 1rem;
+  height: 1rem;
+  background-color: #dfdfdf;
+  color: #777;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: -0.5rem 0 0 -0.5rem;
+}
+#options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
+  cursor: pointer;
+  background-color: #FF0093;
+  color: #FFFFFF;
+}
+#options div#modal-overlay.enabled section#opt-modal div.opts {
+  display: flex;
+}
+@media screen and (max-width: 35.9375rem) {
+  #options div#modal-overlay.enabled section#opt-modal div.opts {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 36rem) {
+  #options div#modal-overlay.enabled section#opt-modal div.opts {
+    justify-content: space-around;
+  }
+}
+#options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
+  background-color: #F9F9F9;
+  padding: 1rem 1.25rem;
+  margin: 1rem 1.25rem;
+}
+@media screen and (min-width: 36rem) {
+  #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 47.9375rem) {
+  #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
+    margin: 0.625rem 0.625rem 1rem 0.625rem;
+  }
+}
+#options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 36rem) {
+  #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal.single {
+    width: 70%;
+  }
+}
+#options div#modal-overlay.enabled section#opt-modal h6 {
+  font-weight: 600;
+}
+#options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
+  color: #FF0093;
+}
+#options div#modal-overlay.enabled section#opt-modal p.connect-cta a:hover {
+  color: #BF5693;
+}
+#options div#modal-overlay.enabled section#opt-modal p.connect-cta a.icon:hover {
+  text-decoration: none;
+}
 #options section.left-side, #options section.right-side, #options p.opt-lead {
-  opacity: 0; }
-
+  opacity: 0;
+}
 #connect h4.social a {
   color: #FF0093;
   text-decoration: none;
   font-size: 2.5rem;
-  padding: 0.625rem; }
+  padding: 0.625rem;
+}
 #connect h4 {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+}
 #connect h4 a.email {
   color: #FF0093;
-  text-decoration: none; }
-#connect h4.social a:hover,
-#connect h4 a.email:hover {
-  color: #BF5693; }
-
+  text-decoration: none;
+}
+#connect h4.social a:hover, #connect h4 a.email:hover {
+  color: #BF5693;
+}
 #why p.quote {
   padding: 1rem 0;
-  margin: auto; }
+  margin: auto;
+}
 #why article.story ol li {
-  padding-left: 0.625rem; }
+  padding-left: 0.625rem;
+}
 #why article.story h4 {
-  padding-top: 1.25rem; }
+  padding-top: 1.25rem;
+}
 @media screen and (max-width: 35.9375rem) {
   #why article.story h4, #why article.story p, #why article.story li {
-    text-align: center; } }
+    text-align: center;
+  }
+}
 @media screen and (min-width: 36rem) {
   #why article.story section.col-12.col-sm-6.section-content:first-of-type h4, #why article.story section.col-12.col-sm-6.section-content:first-of-type p, #why article.story section.col-12.col-sm-6.section-content:first-of-type li {
-    text-align: left; }
+    text-align: left;
+  }
   #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) h4, #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) p, #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) li {
-    text-align: right; } }
-
+    text-align: right;
+  }
+}
 #main {
   overflow: hidden !important;
   max-width: 100vw;
-  max-height: 100vh; }
-
+  max-height: 100vh;
+}
 #why, #connect {
   overflow-x: hidden !important;
-  max-width: 100vw; }
-  @media screen and (max-width: 35.9375rem) {
-    #why div.container, #connect div.container {
-      overflow-x: hidden !important; } }
+  max-width: 100vw;
+}
+@media screen and (max-width: 35.9375rem) {
+  #why div.container, #connect div.container {
+    overflow-x: hidden !important;
+  }
+}
+#why div.section-content, #connect div.section-content {
+  max-width: 71.25rem;
+  margin: auto;
+}
+@media screen and (max-width: 61.9375rem) {
   #why div.section-content, #connect div.section-content {
-    max-width: 71.25rem;
-    margin: auto; }
-    @media screen and (max-width: 61.9375rem) {
-      #why div.section-content, #connect div.section-content {
-        display: inline;
-        max-width: 98vw; } }
-    @media screen and (min-width: 36rem) and (max-width: 47.9375rem) {
-      #why div.section-content, #connect div.section-content {
-        display: inline;
-        max-width: 33.75rem; } }
-    @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
-      #why div.section-content, #connect div.section-content {
-        display: inline;
-        max-width: 45rem; } }
-    @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-      #why div.section-content, #connect div.section-content {
-        max-width: 60rem; } }
-  @media screen and (max-width: 61.9375rem) {
-    #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
-      width: 100%;
-      max-width: 98vw; } }
-  @media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-    #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
-      padding-right: 0.9375rem;
-      padding-left: 0.9375rem;
-      max-width: 60rem; } }
-  @media screen and (min-width: 75rem) {
-    #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
-      width: 50%;
-      max-width: 48vw; } }
+    display: inline;
+    max-width: 98vw;
+  }
+}
+@media screen and (min-width: 36rem) and (max-width: 47.9375rem) {
+  #why div.section-content, #connect div.section-content {
+    display: inline;
+    max-width: 33.75rem;
+  }
+}
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  #why div.section-content, #connect div.section-content {
+    display: inline;
+    max-width: 45rem;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  #why div.section-content, #connect div.section-content {
+    max-width: 60rem;
+  }
+}
+@media screen and (max-width: 61.9375rem) {
+  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+    width: 100%;
+    max-width: 98vw;
+  }
+}
+@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    max-width: 60rem;
+  }
+}
+@media screen and (min-width: 75rem) {
+  #why section.col-12.col-sm-6.section-content, #connect section.col-12.col-sm-6.section-content {
+    width: 50%;
+    max-width: 48vw;
+  }
+}
+#why div.section-content.testimonial, #connect div.section-content.testimonial {
+  max-width: 53rem;
+}
+@media screen and (max-width: 61.9375rem) {
   #why div.section-content.testimonial, #connect div.section-content.testimonial {
-    max-width: 53rem; }
-    @media screen and (max-width: 61.9375rem) {
-      #why div.section-content.testimonial, #connect div.section-content.testimonial {
-        max-width: 98vw; } }
+    max-width: 98vw;
+  }
+}
