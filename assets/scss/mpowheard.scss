@@ -393,6 +393,7 @@ body {
 				z-index:3;
 				margin-top:4.5rem;
       			margin-left:3.6rem;
+      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 60px inset;
       			@media screen and (max-width:47.9375rem) {
 					margin-left:1.5rem;
 				}
@@ -433,6 +434,7 @@ body {
 					z-index:3;
 					margin-top:6rem;
 	      			margin-left:3.3rem;
+	      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
 					background: url('../images/dots.png') 0px 0px repeat;
 					background-size:10.625rem 10.625rem;
 					height: 11.875rem;
@@ -804,6 +806,14 @@ body {
 				}
 			}
 		}
+		@media screen and (min-width:62rem) {
+			section.col-12.col-sm-6.section-content:first-of-type {
+				padding-right:1.5rem;
+			}
+			section.col-12.col-sm-6.section-content:nth-of-type(2) {
+				padding-left:5.5rem;
+			}
+		}
 	}
 	article {
 		a.ourwork-link:hover {
@@ -826,15 +836,15 @@ body {
 			}
 			&.ecommerce {
 				background-image: url("../images/detailedbypanem.jpg");
-				margin-top:2.25rem;
+				margin-top:2.5rem;
 			}
 			&.education {
 				background-image: url("../images/shewhitepapers.jpg");
-				margin-top:2.25rem;
+				margin-top:2.5rem;
 			}
 			&.branding {
 				background-image: url("../images/cramcryptos.jpg");
-				margin-top:2.25rem;
+				margin-top:2.5rem;
 			}
 			.bg-overlay {
 				width: 100%;
