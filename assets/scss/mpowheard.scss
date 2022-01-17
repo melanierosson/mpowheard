@@ -804,6 +804,60 @@ body {
 			}
 		}
 	}
+	article {
+		a.ourwork-link:hover {
+			text-decoration:none !important;
+		}
+		section.our-work {
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			border: 3px solid $pink;
+			&.small-business {
+				background-image: url("../images/milsdiner.jpg");
+			}
+			&.ecommerce {
+				background-image: url("../images/detailedbypanem.jpg");
+				margin-top:2.25rem;
+			}
+			&.education {
+				background-image: url("../images/shewhitepapers.jpg");
+				margin-top:2.25rem;
+			}
+			.bg-overlay {
+				width: 100%;
+			    height: 100%;
+			    background-repeat:no-repeat;
+			    background-size: cover;
+			    display:flex;
+			    flex-wrap: wrap;
+				justify-content: center;
+				align-items:center;
+				align-content:center;
+				background: rgba(255 255 255 / 80%);
+				color: $black;
+				&:hover {
+					background: rgba(0 0 0 / 75%);
+					color: $white;
+					cursor: pointer;
+				}
+				h4 {
+					font-size:2rem;
+					flex-basis: 100%;
+				}
+				p {
+					text-align:center;
+					padding:2rem;
+					flex-basis: 100%;
+				}
+			}
+		}
+	}
 }
 #main {
 	overflow: hidden !important;
