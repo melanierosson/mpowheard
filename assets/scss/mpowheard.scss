@@ -685,13 +685,14 @@ body {
 			box-shadow: 0 0 3.75rem $cyanlighter;
 			padding:1rem;
 			div.close-btn {
-				width:1rem;
-				height:1rem;
+				width:1.5rem;
+				height:1.5rem;
 				// border-radius:60%;
-				background-color:#dfdfdf;
+				background-color:#efefef;
 				color:#777;
 				display:flex;
 				font-weight:600;
+				font-size:120%;
 				justify-content:center;
 				align-items:center;
 				align-content:center;
@@ -700,8 +701,8 @@ body {
 			}
 			div.close-btn:hover {
 				cursor:pointer;
-				background-color:$pink;
-				color:$white;
+				background-color:rgba(255, 190, 227, 0.5);
+				color:$pink;
 			}
 			div.opts {
 				display:flex;
@@ -817,7 +818,9 @@ body {
 			align-items:center;
 			margin-top: 2rem;
 			margin-bottom: 2rem;
-			border: 3px solid $pink;
+			border: 5px solid $pink;
+			height:400px;
+			opacity:0;
 			&.small-business {
 				background-image: url("../images/milsdiner.jpg");
 			}
@@ -839,11 +842,11 @@ body {
 				justify-content: center;
 				align-items:center;
 				align-content:center;
-				background: rgba(255 255 255 / 80%);
-				color: $black;
+				background: rgba(0 0 0 / 70%);
+				color: $white;
 				&:hover {
-					background: rgba(0 0 0 / 75%);
-					color: $white;
+					background: rgba(235 252 255 / 94%);
+					color: $black;
 					cursor: pointer;
 				}
 				h4 {
@@ -854,6 +857,8 @@ body {
 					text-align:center;
 					padding:2rem;
 					flex-basis: 100%;
+					margin-bottom:0;
+
 				}
 			}
 		}

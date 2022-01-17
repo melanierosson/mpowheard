@@ -754,12 +754,13 @@ body footer {
   }
 }
 #options div#modal-overlay.enabled section#opt-modal div.close-btn {
-  width: 1rem;
-  height: 1rem;
-  background-color: #dfdfdf;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #efefef;
   color: #777;
   display: flex;
   font-weight: 600;
+  font-size: 120%;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -768,8 +769,8 @@ body footer {
 }
 #options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
   cursor: pointer;
-  background-color: #FF0093;
-  color: #FFFFFF;
+  background-color: rgba(255, 190, 227, 0.5);
+  color: #FF0093;
 }
 #options div#modal-overlay.enabled section#opt-modal div.opts {
   display: flex;
@@ -874,7 +875,9 @@ body footer {
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border: 3px solid #FF0093;
+  border: 5px solid #FF0093;
+  height: 400px;
+  opacity: 0;
 }
 #why article section.our-work.small-business {
   background-image: url("../images/milsdiner.jpg");
@@ -897,12 +900,12 @@ body footer {
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: rgba(255, 255, 255, 0.8);
-  color: #000000;
+  background: rgba(0, 0, 0, 0.7);
+  color: #FFFFFF;
 }
 #why article section.our-work .bg-overlay:hover {
-  background: rgba(0, 0, 0, 0.75);
-  color: #FFFFFF;
+  background: rgba(235, 252, 255, 0.94);
+  color: #000000;
   cursor: pointer;
 }
 #why article section.our-work .bg-overlay h4 {
@@ -913,6 +916,7 @@ body footer {
   text-align: center;
   padding: 2rem;
   flex-basis: 100%;
+  margin-bottom: 0;
 }
 #main {
   overflow: hidden !important;
