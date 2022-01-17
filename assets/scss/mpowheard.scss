@@ -538,6 +538,16 @@ body {
 		align-content:flex-end;
 		padding-top:2.5rem;
 		div.container {
+			&.opt-onetime {
+				@media screen and (min-width:62rem) {
+					margin-left:0;
+				}
+			}
+			&.opt-misc {
+				@media screen and (min-width:62rem) {
+					margin-right:0;
+				}
+			}
 			@media screen and (max-width:61.9375rem) {
 				width:99%;
 			}

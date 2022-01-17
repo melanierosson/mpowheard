@@ -603,6 +603,16 @@ body footer {
 #options article.opts div.container {
   box-shadow: 0 0 2.5rem #EFEFEF;
 }
+@media screen and (min-width: 62rem) {
+  #options article.opts div.container.opt-onetime {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 62rem) {
+  #options article.opts div.container.opt-misc {
+    margin-right: 0;
+  }
+}
 @media screen and (max-width: 61.9375rem) {
   #options article.opts div.container {
     width: 99%;

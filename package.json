@@ -3,7 +3,10 @@
     "name": "startbootstrap-the-big-picture",
     "version": "4.2.3",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "test": "npm run scss-compile",
+        "scss-compile": "node-sass -rw assets/scss -o assets/css",
+        "watch": "npm run scss-compile"
     },
     "description": "A full page image background with fixed bottom navigation HTML template built with Bootstrap",
     "keywords": [
