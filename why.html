@@ -55,8 +55,15 @@
 <body id="why">
 
   <!-- LOADER -->
-  <div id="socket-wrapper">
-    <div class="socket"></div>
+  <div id="bubblingG-wrapper">
+    <div class="bubblingG">
+      <span id="bubblingG_1">
+      </span>
+      <span id="bubblingG_2">
+      </span>
+      <span id="bubblingG_3">
+      </span>
+    </div>
   </div>
   <!-- -->
 
@@ -152,6 +159,7 @@
               <div class="bg-overlay">
                 <h4 class="uppercase center">Small Business</h4>
                 <p><b>Mil's Diner:</b> Small, Greek-American family-owned restaurant located in the Bay Area, California.</p>
+                <p class="mt-n5"><b>Service:</b> Static Website (Small)</p>
               </div>
             </section>
           </a>
@@ -161,6 +169,7 @@
               <div class="bg-overlay">
                 <h4 class="uppercase center">E-Commerce</h4>
                 <p><b>Detailed by Panem:</b> Custom carbon fiber auto parts and accessories.</p>
+                <p class="mt-n5"><b>Service:</b> WordPress E-Commerce Website (Small)</p>
               </div>
             </section>
           </a>
@@ -170,6 +179,17 @@
               <div class="bg-overlay">
                 <h4 class="uppercase center">Education</h4>
                 <p><b>She White Papers:</b> Cryptocurrency audio white papers to increase accessibility for doing your own research (DYOR).</p>
+                <p class="mt-n5"><b>Service:</b> Not-For-Profit Digital Services Education</p>
+              </div>
+            </section>
+          </a>
+
+          <a class="ourwork-link" href="https://www.instagram.com/cramcryptos/" target="_blank">
+            <section class="our-work branding" id="ourwork-link-4">
+              <div class="bg-overlay">
+                <h4 class="uppercase center">Branding</h4>
+                <p><b>Cram Cryptos:</b> Instagram account for blockchain & cryptocurrency education.</p>
+                <p class="mt-n5"><b>Service:</b> Instagram Content Templates</p>
               </div>
             </section>
           </a>
@@ -236,13 +256,14 @@
     gsap.fromTo("#ourwork-link-1", {opacity: 0}, {delay: 2.6, duration: 1, opacity: 1});
     gsap.fromTo("#ourwork-link-2", {opacity: 0}, {delay: 2.6, duration: 1, opacity: 1});
     gsap.fromTo("#ourwork-link-3", {opacity: 0}, {delay: 2.6, duration: 1, opacity: 1});
+    gsap.fromTo("#ourwork-link-4", {opacity: 0}, {delay: 2.6, duration: 1, opacity: 1});
     gsap.fromTo("#test-title-container", {opacity: 0}, {delay: 2.8, duration: 1, opacity: 1});
     gsap.fromTo("#review-container", {opacity: 0}, {delay: 3, duration: 1, opacity: 1});
   </script>
 
   <script>
     $(window).on("load",function(){
-      $("#socket-wrapper").fadeOut()
+      $("#bubblingG-wrapper").fadeOut()
     });
   </script>
 
