@@ -93,25 +93,35 @@
         </div>
          <div class="col-6">
           <p class="anchor-nav">
-            <a class="anchor-link hotpink" id="subnav-blog" href="#blog">
-              Blog<br class="hide-on-desktop"/>
+            <a class="anchor-link hotpink pr-0" id="subnav-contact" href="#contact">
+              Contact<br class="hide-on-desktop"/>&nbsp; &nbsp;&nbsp;
             </a>
             <a class="anchor-link hotpink" id="subnav-social" href="#social">
               Social<br class="hide-on-desktop"/>
             </a>
-            <a class="anchor-link hotpink pr-0" id="subnav-contact" href="#contact">
-              Contact<br class="hide-on-desktop"/>
+            <a class="anchor-link hotpink" id="subnav-blog" href="#blog">
+              Blog<br class="hide-on-desktop"/>
             </a>
           </p>
         </div>
       </div>
       <article class="row section white py-5">
-        <div class="col-12 section-header" id="blog-title-container">
-          <h3 id="blog" class="uppercase center">BLOG</h3>
+        <div class="col-12 section-header" id="contact-title-container">
+          <h3 id="contact" class="uppercase center">CONTACT</h3>
           <hr/>
-          <p class="uppercase center">
-            <h4 class="center">COMING SOON!</h4>
-          </p>
+          <h4 class="center pt-3">
+            <a href="tel:17028305288" class="hotpink email">
+              <i class="fa fa-phone" aria-label="MPowheard Phone Number"></i> &nbsp; +1 (702) 830-5288
+            </a>
+          </h4>
+          <h4 class="center pt-3">
+            <a href="mailto:ourteam@mpowheard.com" class="hotpink email">
+              <i class="fa fa-envelope" aria-label="MPowheard Email"></i> &nbsp; ourteam@mpowheard.com
+            </a>
+          </h4>
+          <h4 class="center pt-3">
+            <i class="fa fa-map-marker hotpink" aria-label="MPowheard Location"></i> &nbsp; Las Vegas, NV, USA
+          </h4>
         </div>
       </article>
       <article class="row section light-gray py-5">
@@ -135,22 +145,12 @@
         </div>
       </article>
       <article class="row section light-yellow pt-5 extra-bottom">
-        <div class="col-12 section-header" id="contact-title-container">
-          <h3 id="contact" class="uppercase center">CONTACT</h3>
+        <div class="col-12 section-header" id="blog-title-container">
+          <h3 id="blog" class="uppercase center">BLOG</h3>
           <hr/>
-          <h4 class="center pt-3">
-            <a href="tel:17028305288" class="hotpink email">
-              <i class="fa fa-phone" aria-label="MPowheard Phone Number"></i> &nbsp; +1 (702) 830-5288
-            </a>
-          </h4>
-          <h4 class="center pt-3">
-            <a href="mailto:ourteam@mpowheard.com" class="hotpink email">
-              <i class="fa fa-envelope" aria-label="MPowheard Email"></i> &nbsp; ourteam@mpowheard.com
-            </a>
-          </h4>
-          <h4 class="center pt-3">
-            <i class="fa fa-map-marker hotpink" aria-label="MPowheard Location"></i> &nbsp; Las Vegas, NV, USA
-          </h4>
+          <p class="uppercase center">
+            <h4 class="center">COMING SOON!</h4>
+          </p>
         </div>
       </article>
     </div>
@@ -179,16 +179,16 @@
     gsap.fromTo(".navbar", {y:-200}, {duration: 1, y: 0});
     gsap.fromTo(".footer", {y:200}, {duration: 1, y: 0});
     gsap.fromTo(".slide-left", {opacity:0, x: -500}, {duration: 1, opacity:1, x: 0}); 
-    gsap.fromTo("#subnav-blog", {opacity: 0, x: 500}, {delay: 1.2, duration: 1, opacity: 1, x: 0});
+    gsap.fromTo("#subnav-contact", {opacity: 0, x: 500}, {delay: 1.2, duration: 1, opacity: 1, x: 0});
     gsap.fromTo("#subnav-social", {opacity: 0, x: 500}, {delay: 1.4, duration: 1, opacity: 1, x: 0});
-    gsap.fromTo("#subnav-contact", {opacity: 0, x: 500}, {delay: 1.6, duration: 1, opacity: 1, x: 0}); 
+    gsap.fromTo("#subnav-blog", {opacity: 0, x: 500}, {delay: 1.6, duration: 1, opacity: 1, x: 0}); 
     gsap.fromTo("#nav-why", {opacity: 0, x: 500}, {delay: 1.2, duration: 1, opacity: 1, x: 0});
     gsap.fromTo("#nav-opt", {opacity: 0, x: 500}, {delay: 1.4, duration: 1, opacity: 1, x: 0});
     gsap.fromTo("#nav-connect", {opacity: 0, x: 500}, {delay: 1.6, duration: 1, opacity: 1, x: 0});
-    gsap.fromTo("#blog-title-container", {opacity: 0}, {delay: 2, duration: 1, opacity: 1});
     // Fix these scroll-based animations later
-    gsap.fromTo("#social-title-container", {opacity: 0}, {delay: 2.2, duration: 1, opacity: 1});
-    gsap.fromTo("#contact-title-container", {opacity: 0}, {delay: 2.4, duration: 1, opacity: 1});
+    gsap.fromTo("#social-title-container", {opacity: 0}, {delay: 2, duration: 1, opacity: 1});
+    gsap.fromTo("#contact-title-container", {opacity: 0}, {delay: 2.2, duration: 1, opacity: 1});
+    gsap.fromTo("#blog-title-container", {opacity: 0}, {delay: 2.4, duration: 1, opacity: 1});
   </script>
 
   <script>

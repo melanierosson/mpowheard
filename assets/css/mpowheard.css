@@ -851,7 +851,7 @@ body footer {
   padding-top: 1.25rem;
 }
 @media screen and (max-width: 35.9375rem) {
-  #why article.story h4, #why article.story p, #why article.story li {
+  #why article.story h4, #why article.story p {
     text-align: center;
   }
 }
