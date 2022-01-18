@@ -84,13 +84,15 @@ function optionsPage() {
 			` We regularly collect analytics to ensure our work is producing desired results.`,
 			multi: null
 		},
-		copyWriting: {
+		ghostKitchen: {
 			onetime: false,
 			pricePkg: null,
 			priceNoPkg: null,
-			title: `Copywriting`,
-			descr: `This can be purchased one-time or on an ongoing basis. It is a fully researched and SEO optimized blog `+
-			`post or article of 1000-2000 words in length.`,
+			title: `Ghost Kitchen Menus`,
+			descr: `We curate "ghost kitchen" menus and branding for existing restaurants that want to increase their volume of to-go orders. <br/>` +
+			`<br/><small><sup>*</sup>Ghost kitchens are those that serve a certain menu as delivery only. If it's prepared in an already existing ` +
+			`dine-in restaurant, the ghost menu will be promoted under a different name and theme. The menu item ingredients are not much ` +
+			`different (if at all) from what is already available in the restaurant's kitchen.</small>`,
 			multi: null
 		},
 		webUpdates: {
@@ -263,12 +265,12 @@ function optionsPage() {
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
-			    document.querySelector('section#opt-modal header h5').innerText = options.copyWriting.title;
+			    document.querySelector('section#opt-modal header h5').innerText = options.ghostKitchen.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.copyWriting.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.copyWriting.priceNoPkg;
-			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.copyWriting.descr;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.ghostKitchen.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.ghostKitchen.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.ghostKitchen.descr;
 			    break;
 			  case 'opt row opt-8':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";

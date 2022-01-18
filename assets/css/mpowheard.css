@@ -763,20 +763,19 @@ body footer {
 #options div#modal-overlay.enabled section#opt-modal div.close-btn {
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #efefef;
   color: #777;
   display: flex;
-  font-weight: 600;
   font-size: 120%;
   justify-content: center;
   align-items: center;
   align-content: center;
   padding: 0;
   margin: -0.5rem 0 0 -0.5rem;
+  text-transform: uppercase;
 }
 #options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
   cursor: pointer;
-  background-color: rgba(255, 190, 227, 0.5);
+  background-color: rgba(255, 190, 227, 0.3);
   color: #FF0093;
 }
 #options div#modal-overlay.enabled section#opt-modal div.opts {
