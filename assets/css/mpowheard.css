@@ -17,6 +17,9 @@ body .extra-bottom {
   padding-bottom: 4rem;
   margin-bottom: 2rem;
 }
+body .letter-spacing {
+  letter-spacing: 0.05rem;
+}
 body article.light-gray {
   background-color: #F9F9F9;
   width: 500%;
