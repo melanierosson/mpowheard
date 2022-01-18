@@ -265,6 +265,7 @@ body {
 		height:3.75rem;
 		padding-top:0;
 		padding-bottom:0;
+		box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
 		// start ---- mobile nav
 		span.navbar-toggler-icon img {
 			display:none;
@@ -346,6 +347,7 @@ body {
 		h1 {
 			font-weight:700;
 			opacity:0;
+			padding-top:4rem;
 		}
 		h2 {
 			color: $graydarker; 
@@ -882,6 +884,7 @@ body {
 	overflow: hidden !important;
 	max-width:100vw;
 	max-height:100vh;
+	// background-image: linear-gradient(90deg, #FEFFC6CC 0%, $white 8%, $white 92%, #FEFFC6CC 100%);
 }
 #why, #connect {
 	overflow-x: hidden !important;
