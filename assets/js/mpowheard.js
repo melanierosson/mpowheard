@@ -73,17 +73,6 @@ function optionsPage() {
 			`does not include domain and hosting costs.</small>`,
 			multi: null
 		},
-		socialEngage: {
-			onetime: false,
-			pricePkg: null,
-			priceNoPkg: null,
-			title: `Social Media Engagement`,
-			descr: `This option includes 20-45 minutes each day (exact time spent can be specified) engaging on a ` +
-			`social media platform's algorithmic rating system as well as accounts that match your business's target audience. ` +
-			`Consistent social media engagement activity increases the visibility of that account's published content.` +
-			` We regularly collect analytics to ensure our work is producing desired results.`,
-			multi: null
-		},
 		ghostKitchen: {
 			onetime: false,
 			pricePkg: null,
@@ -171,6 +160,17 @@ function optionsPage() {
 			descr: `This package includes 5 custom, branded Instagram story templates and 10 post templates, plus additional resources and assets for creating ` +
 			`reels + videos. (Templates can be made in either Canva or Adobe XD.)`,
 			multi: null
+		},
+		socialEngage: {
+			onetime: false,
+			pricePkg: null,
+			priceNoPkg: null,
+			title: `Social Media Engagement`,
+			descr: `This option includes 20-45 minutes each day (exact time spent can be specified) engaging on a ` +
+			`social media platform's algorithmic rating system as well as accounts that match your business's target audience. ` +
+			`Consistent social media engagement activity increases the visibility of that account's published content.` +
+			` We regularly collect analytics to ensure our work is producing desired results.`,
+			multi: null
 		}
 	};
 
@@ -254,17 +254,6 @@ function optionsPage() {
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
-			    document.querySelector('section#opt-modal header h5').innerText = options.socialEngage.title;
-			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialEngage.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialEngage.priceNoPkg;
-			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialEngage.descr;
-			    break;
-			  case 'opt row opt-7':
-			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
-			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
-			    	document.querySelector('article.opt-modal').classList.add('single')
-			    }
 			    document.querySelector('section#opt-modal header h5').innerText = options.ghostKitchen.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
@@ -272,7 +261,7 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.ghostKitchen.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.ghostKitchen.descr;
 			    break;
-			  case 'opt row opt-8':
+			  case 'opt row opt-7':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
@@ -284,8 +273,8 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.webUpdates.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.webUpdates.descr;
 			    break;
-			  case 'opt row opt-9':
-			   	document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
+			  case 'opt row opt-8':
+			    document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
 			   	document.querySelector('article.opt-modal').classList.remove('single');
 
 			   	document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "inline";
@@ -303,8 +292,8 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.price-nopkg').innerHTML = options.trainingHowTo.multi.customHowToDocs.priceNoPkg;
 			    document.querySelector('article.opt-modal').nextElementSibling.querySelector('p.opt-sub.descr').innerHTML = options.trainingHowTo.multi.customHowToDocs.descr;
 			    break;
-			  case 'opt row opt-10':
-			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			  case 'opt row opt-9':
+			   	document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
@@ -315,7 +304,7 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.specialWebFeatures.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.specialWebFeatures.descr;
 			    break;
-			  case 'opt row opt-11':
+			  case 'opt row opt-10':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
@@ -327,7 +316,7 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.uxAudit.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.uxAudit.descr;
 			    break;
-			  case 'opt row opt-12':
+			  case 'opt row opt-11':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
@@ -339,7 +328,7 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialAuditPlan.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialAuditPlan.descr;
 			    break;
-			  case 'opt row opt-13':
+			  case 'opt row opt-12':
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
@@ -350,6 +339,17 @@ function optionsPage() {
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialTemplates.pricePkg;
 			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialTemplates.priceNoPkg;
 			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialTemplates.descr;
+			    break;
+			  case 'opt row opt-13':
+			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";
+			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
+			    	document.querySelector('article.opt-modal').classList.add('single')
+			    }
+			    document.querySelector('section#opt-modal header h5').innerText = options.socialEngage.title;
+			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.socialEngage.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.socialEngage.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.socialEngage.descr;
 			    break;
 			  default:
 			    document.querySelector('article.opt-modal').nextElementSibling.style.display = "none";

@@ -48,12 +48,20 @@ body article.row section.section-content {
 }
 body p.anchor-nav {
   text-align: right;
+  line-height: 2rem;
 }
 body p.anchor-nav a {
   color: #FF0093;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+}
+body p.anchor-nav a:hover {
+  text-decoration: none;
+  color: #BF5693;
 }
 @media screen and (max-width: 47.9375rem) {
   body p.empower-lead {
@@ -823,6 +831,7 @@ body footer {
 }
 #options div#modal-overlay.enabled section#opt-modal p.connect-cta a:hover {
   color: #BF5693;
+  text-decoration: none;
 }
 #options div#modal-overlay.enabled section#opt-modal p.connect-cta a.icon:hover {
   text-decoration: none;
@@ -923,6 +932,7 @@ body footer {
 }
 #why article section.our-work .bg-overlay:hover {
   background: rgba(235, 252, 255, 0.94);
+  background-image: linear-gradient(to bottom right, rgba(254, 255, 198, 0.8), rgba(235, 252, 255, 0.88), rgba(235, 252, 255, 0.94));
   color: #000000;
   cursor: pointer;
 }

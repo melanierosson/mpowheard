@@ -74,11 +74,19 @@ body {
 	}
 	p.anchor-nav {
 		text-align:right;
+		line-height:2rem;
 		a {
 			color:$pink;
 			padding-top:1.25rem;
 			padding-bottom:1.25rem;
-			font-size:1.25rem;
+			font-size:1rem;
+			text-transform:uppercase;
+			letter-spacing:0.05rem;
+			font-weight:600;
+		}
+		a:hover {
+			text-decoration:none;
+			color:$gpink;
 		}
 	}
 	p.empower-lead {
@@ -749,6 +757,7 @@ body {
 				}
 				a:hover {
 					color:$gpink;
+					text-decoration: none;
 				}
 				a.icon:hover {
 					text-decoration: none;
@@ -863,7 +872,8 @@ body {
 				background: rgba(0 0 0 / 70%);
 				color: $white;
 				&:hover {
-					background: rgba(235 252 255 / 94%);
+					background:rgba(235 252 255 / 94%);
+					background-image: linear-gradient(to bottom right, rgba(254 255 198 / 80%), rgba(235 252 255 / 88%), rgba(235 252 255 / 94%));
 					color: $black;
 					cursor: pointer;
 				}
