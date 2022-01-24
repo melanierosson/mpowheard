@@ -84,13 +84,13 @@ function optionsPage() {
 			`different (if at all) from what is already available in the restaurant's kitchen.</small>`,
 			multi: null
 		},
-		webUpdates: {
+		seoOptimize: {
 			onetime: false,
 			pricePkg: null,
 			priceNoPkg: null,
-			title: `Website Updates`,
-			descr: `Updates can be done on your website with content verbiage, file changes, or media content, ` +
-			`Wordpress, WP Plugins, HTML, SCSS/CSS, JavaScript, JQuery, PHP, React JS, or other formats as needed.`,
+			title: `SEO Optimization`,
+			descr: `We can improve your site's current search engine ranking by adding structured data to your pages via schema.org code syntax. ` +
+			`<br/><br/>Structured data tells search engines the purpose of each of your website's pages, as well as any additionally provided information about the page's content.`,
 			multi: null
 		},
 		trainingHowTo: {
@@ -266,12 +266,12 @@ function optionsPage() {
 			    if (document.querySelector('article.opt-modal').classList.contains('single')) {} else {
 			    	document.querySelector('article.opt-modal').classList.add('single')
 			    }
-			    document.querySelector('section#opt-modal header h5').innerText = options.webUpdates.title;
+			    document.querySelector('section#opt-modal header h5').innerText = options.seoOptimize.title;
 			    document.querySelector('article.opt-modal h6.opt-sub.header').style.display = "none";
 			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').style.display = "block";
-			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.webUpdates.pricePkg;
-			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.webUpdates.priceNoPkg;
-			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.webUpdates.descr;
+			    document.querySelector('article.opt-modal p.opt-sub.price-pkg').innerHTML = options.seoOptimize.pricePkg;
+			    document.querySelector('article.opt-modal p.opt-sub.price-nopkg').innerHTML = options.seoOptimize.priceNoPkg;
+			    document.querySelector('article.opt-modal p.opt-sub.descr').innerHTML = options.seoOptimize.descr;
 			    break;
 			  case 'opt row opt-8':
 			    document.querySelector('section#opt-modal header h5').innerText = options.trainingHowTo.title;
