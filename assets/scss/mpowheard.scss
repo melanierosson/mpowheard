@@ -807,7 +807,12 @@ body {
 		display:inline;
 	}
 	.left-arrow.carousel-control, .right-arrow.carousel-control {
-		i.fa {font-size:2rem;}
+		i.fa {
+			font-size:2rem;
+		}
+		i.fa:hover {
+			cursor:pointer;
+		}
 	}
 	.mobile-review-slide-buttons {
 		@media screen and (max-width:35.9375rem) {

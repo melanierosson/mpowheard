@@ -873,6 +873,9 @@ body footer {
 #why .left-arrow.carousel-control i.fa, #why .right-arrow.carousel-control i.fa {
   font-size: 2rem;
 }
+#why .left-arrow.carousel-control i.fa:hover, #why .right-arrow.carousel-control i.fa:hover {
+  cursor: pointer;
+}
 @media screen and (max-width: 35.9375rem) {
   #why .mobile-review-slide-buttons {
     display: flex;
