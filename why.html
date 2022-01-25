@@ -13,6 +13,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -201,20 +202,50 @@
           <h3 id="testimonials" class="uppercase center">TESTIMONIALS</h3>
           <hr/>
         </div>
+        
         <div class="col-12 section-content testimonial" id="review-container">
-          <section class="col-12 section-content">
-          <p class="center quote">
-            <img src="assets/images/quote.png" id="quote-img" width="50px"/>
-          </p>
-          <p class="center" id="mils-review">
-            When shelter–in-place happened, the accessibility of my family's restaurant website was instrumental for viewing the menu hands-free. Melanie involved me in every detail of the design including colors, verbiage, and photographs for a clean website. She has been available for any requested updates, and stayed calm through my edits and re-edits. She also met with me and made a step-by-step written guide for me to edit items myself. For all the reasons stated and more, Melanie is very devoted to her work, personable, and a strong candidate for your website needs.
-          </p>
-          <p class="text-right">
-            - Effie P. of Mil's Diner<br/>
-            <a href="https://milsdiner.com" target="_blank" class="hotpink">milsdiner.com</a>
-          </p>
-        </section>
+          <div class="col-6 col-sm-1 arrow left-arrow desktop-review-slide-buttons carousel-control px-0 mx-0">
+            <i class="fa fa-angle-left fw-700 hotpink" aria-label="Previous review"></i>
+          </div>
+          <section class="col-12 col-sm-10 section-content carousel slide" data-ride="carousel" id="quote-carousel" style="min-height:380px;">
+            <p class="center quote">
+              <img src="assets/images/quote.png" id="quote-img" width="50px"/>
+            </p>
+
+            <div class="review-text item active" id="review-01">
+              <p class="center" id="mils-review">
+                When shelter–in-place happened, the accessibility of my family's restaurant website was instrumental for viewing the menu hands-free. Melanie involved me in every detail of the design including colors, verbiage, and photographs for a clean website. She has been available for any requested updates, and stayed calm through my edits and re-edits. She also met with me and made a step-by-step written guide for me to edit items myself. For all the reasons stated and more, Melanie is very devoted to her work, personable, and a strong candidate for your website needs.
+              </p>
+              <p class="text-right">
+                - Effie P. of Mil's Diner<br/>
+                <a href="https://milsdiner.com" target="_blank" class="hotpink">milsdiner.com</a>
+              </p>
+            </div>
+
+            <div class="review-text item" id="review-02">
+              <p class="center" id="eds-review">
+                I needed someone to audit my B2B site and help guide my outsourced developer in maintenance updates. Melanie did an amazing job from start to finish! After, she made design improvements and integrated a scheduling tool on my personal consulting site. It looks great and functions flawlessly.
+              </p>
+              <p class="text-right">
+                - Ed R. of Ahhh Massage<br/>
+                <a href="https://neurobodywork.com" target="_blank" class="hotpink">neurobodywork.com</a>
+              </p>
+            </div>
+
+          </section>
+          <div class="mobile-review-slide-buttons">
+            <div class="col-6 col-sm-1 arrow left-arrow mobile-reviews carousel-control px-0 mx-0" href="#quote-carousel" data-slide-to="prev">
+              <i class="fa fa-angle-left fw-700 hotpink" aria-label="Previous review"></i>
+            </div>
+            <div class="col-6 col-sm-1 arrow right-arrow mobile-reviews carousel-control px-0 mx-0" href="#quote-carousel" data-slide-to="next">
+              <i class="fa fa-angle-right fw-700 hotpink" aria-label="Next review"></i>
+            </div>
+          </div>
+          <div class="col-6 col-sm-1 arrow right-arrow desktop-review-slide-buttons carousel-control px-0 mx-0" href="#quote-carousel" data-slide-to="next">
+            <i class="fa fa-angle-right fw-700 hotpink" aria-label="Next review"></i>
+          </div>
         </div>
+        
       </article>
     </div>
   </section>
@@ -230,6 +261,7 @@
 
   <!-- Custom JS -->
   <script src="assets/js/mpowheard.js"></script>
+  <script src="assets/js/reviews.js"></script>
   <script type="text/javascript">
     // remove horizontal scroll
     document.documentElement.style.overflowX = 'hidden'; 

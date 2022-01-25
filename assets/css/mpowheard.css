@@ -183,10 +183,15 @@ body .fw-700 {
 }
 @media screen and (min-width: 62rem) {
   body .hide-on-desktop {
-    display: none;
+    display: none !important;
   }
   body p.anchor-nav a {
     padding: 1.25rem;
+  }
+}
+@media screen and (max-width: 61.9375rem) {
+  body .hide-on-mobile {
+    display: none !important;
   }
 }
 body p.tagline {
@@ -859,6 +864,57 @@ body footer {
   padding: 1rem 0;
   margin: auto;
 }
+#why .review-text.item {
+  display: none;
+}
+#why .review-text.item.active {
+  display: inline;
+}
+#why .left-arrow.carousel-control i.fa, #why .right-arrow.carousel-control i.fa {
+  font-size: 2rem;
+}
+@media screen and (max-width: 35.9375rem) {
+  #why .mobile-review-slide-buttons {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+  }
+  #why .mobile-review-slide-buttons .carousel-control {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  #why .mobile-review-slide-buttons .left-arrow.carousel-control {
+    justify-content: flex-end;
+  }
+  #why .mobile-review-slide-buttons .left-arrow.carousel-control i.fa {
+    padding-right: 1rem;
+  }
+  #why .mobile-review-slide-buttons .right-arrow.carousel-control {
+    justify-content: flex-start;
+  }
+  #why .mobile-review-slide-buttons .right-arrow.carousel-control i.fa {
+    padding-left: 1rem;
+  }
+}
+@media screen and (min-width: 35.94rem) {
+  #why .mobile-review-slide-buttons {
+    display: none;
+  }
+}
+@media screen and (max-width: 35.9375rem) {
+  #why .desktop-review-slide-buttons {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 35.94rem) {
+  #why .desktop-review-slide-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
 #why article.story ol li {
   padding-left: 0.625rem;
 }
@@ -945,6 +1001,12 @@ body footer {
   padding: 2rem;
   flex-basis: 100%;
   margin-bottom: 0;
+}
+@media screen and (min-width: 36rem) {
+  #why article #review-container {
+    display: flex;
+    flex-direction: row;
+  }
 }
 #main {
   overflow: hidden !important;
