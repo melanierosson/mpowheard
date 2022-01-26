@@ -10,6 +10,7 @@ function is_touch_device() {
 
 const largePow = document.getElementById('powAnim');
 const largePow2 = document.getElementById('powAnim2');
+const largePow3 = document.getElementById('powAnim3');
 
 function followMouse(e) {
 	x = e.clientX;
@@ -18,6 +19,9 @@ function followMouse(e) {
     if (largePow2) {
     	largePow2.style.backgroundPosition = `${x/10}px ${y/10}px`;
     }
+    if (largePow3) {
+    	largePow3.style.backgroundPosition = `${x/10}px ${y/10}px`;
+    }
 }
 if (is_touch_device()) {
 	// add class here that will have the background animate on its own
@@ -25,6 +29,7 @@ if (is_touch_device()) {
 	setTimeout(function(){ 
 		largePow.classList.add('touch-anim');
 		largePow2.classList.add('touch-anim');
+		largePow3.classList.add('touch-anim');
 	}, 450);
 } else {
 	document.addEventListener("mousemove", followMouse, false);

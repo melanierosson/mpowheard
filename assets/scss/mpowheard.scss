@@ -489,10 +489,56 @@ body {
 			}
 		}
 		div#powAnim.touch-anim,
-		div#powAnim2.touch-anim {
+		div#powAnim2.touch-anim,
+		div#powAnim3.touch-anim {
 			animation-name: touchAnim;
 			animation-duration: 4s;
 			animation-iteration-count: infinite; 
+		}
+		div.pow-anim3 {
+			@media screen and (min-width:62rem) {
+				div#powAnim3 {
+					position:absolute;
+					top:3rem;
+					left:24rem;
+					z-index:3;
+					margin-top:6rem;
+	      			margin-left:7rem;
+	      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
+					background: url('../images/dots.png') 0px 0px repeat;
+					background-size:10.625rem 10.625rem;
+					height: 8.75rem;
+					width: 8.75rem;
+					transform: rotate(-140deg);
+					clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+				}
+				div#powAnimBorder3 {
+					position:absolute;
+					top:3.3rem;
+					left:23.8rem;
+					z-index:1;
+					margin-top:5rem;
+	      			margin-left:6.5rem;
+					background-color: $pink;
+					height: 10.25rem;
+					width: 10.1rem;
+					transform: rotate(-142deg);
+					clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+				}
+			}
+			div.powAnims3 {
+				opacity:0;
+			}
+			@media screen and (max-width:47.9375) {
+				div.powAnims3 {
+					display:none;
+				}
+			}
+			@media screen and (min-width:48rem) and (max-width:61.9375rem) {
+				div.powAnims3 {
+					display:none;
+				}
+			}
 		}
 	}
 	footer {
