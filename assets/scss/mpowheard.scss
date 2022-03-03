@@ -359,6 +359,13 @@ body {
 			}
 		}
 	}
+	.top-main.row {
+		@media screen and (max-width:61.9375rem) {
+			h1, h2, p, a {
+				text-align:center !important;
+			}
+		}
+	}
 	section {
 		h1 {
 			font-weight:700;
