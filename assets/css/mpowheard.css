@@ -347,6 +347,13 @@ body nav.navbar li.nav-item:hover a {
   body .top-main.row h1, body .top-main.row h2, body .top-main.row p, body .top-main.row a {
     text-align: center !important;
   }
+  body .top-main.row h2, body .top-main.row p, body .top-main.row a {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  body .top-main.row p, body .top-main.row a {
+    line-spacing: 1.5rem;
+  }
 }
 body section h1 {
   font-weight: 700;
