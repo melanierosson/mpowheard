@@ -42,18 +42,24 @@ body {
 	.letter-spacing {
 		letter-spacing: 0.05rem;
 	}
-	article.light-gray {
+	header.light-gray, div.light-gray, section.light-gray {
 		background-color:#F9F9F9;
+	}
+	article.light-gray  {
 		width: 500%;
     	margin-left: -200%;
+	}
+	header.white, div.white, section.white {
+		background-color:$white;
 	}
 	article.white {
-		background-color:$white;
 		width: 500%;
     	margin-left: -200%;
 	}
-	article.light-yellow {
+	header.light-yellow, div.light-yellow, section.light-yellow {
 		background-color:#FFFFE3;
+	}
+	article.light-yellow {
 		width: 500%;
     	margin-left: -200%;
 	}
