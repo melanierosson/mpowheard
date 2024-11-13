@@ -20,7 +20,9 @@ $graydarker: #555555;
 $graydarkest: #333333;
 $graydark: #777777;
 $graylightest: #EFEFEF;
-
+body.light-gray {
+	background-color:#F9F9F9 !important;
+}
 body {
 	background-color:$white;
 	font-family: "Montserrat", "sans serif";
@@ -42,21 +44,21 @@ body {
 	.letter-spacing {
 		letter-spacing: 0.05rem;
 	}
-	header.light-gray, div.light-gray, section.light-gray {
-		background-color:#F9F9F9;
+	.light-gray {
+		background-color:#F9F9F9 ;
 	}
 	article.light-gray  {
 		width: 500%;
     	margin-left: -200%;
 	}
-	header.white, div.white, section.white {
+	.white {
 		background-color:$white;
 	}
 	article.white {
 		width: 500%;
     	margin-left: -200%;
 	}
-	header.light-yellow, div.light-yellow, section.light-yellow {
+	.light-yellow {
 		background-color:#FFFFE3;
 	}
 	article.light-yellow {

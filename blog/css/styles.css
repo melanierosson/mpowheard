@@ -10676,6 +10676,9 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  max-width:1200px;
+  margin-right:auto;
+  margin-left:auto;
 }
 header.masthead:before {
   content: "";

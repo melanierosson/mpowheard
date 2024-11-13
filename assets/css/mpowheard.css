@@ -1,3 +1,7 @@
+body.light-gray {
+  background-color: #F9F9F9 !important;
+}
+
 body {
   background-color: #FFFFFF;
   font-family: "Montserrat", "sans serif";
@@ -20,21 +24,21 @@ body .extra-bottom {
 body .letter-spacing {
   letter-spacing: 0.05rem;
 }
-body header.light-gray, body div.light-gray, body section.light-gray {
+body .light-gray {
   background-color: #F9F9F9;
 }
 body article.light-gray {
   width: 500%;
   margin-left: -200%;
 }
-body header.white, body div.white, body section.white {
+body .white {
   background-color: #FFFFFF;
 }
 body article.white {
   width: 500%;
   margin-left: -200%;
 }
-body header.light-yellow, body div.light-yellow, body section.light-yellow {
+body .light-yellow {
   background-color: #FFFFE3;
 }
 body article.light-yellow {
