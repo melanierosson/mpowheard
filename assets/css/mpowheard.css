@@ -31,7 +31,7 @@ body article.light-gray {
   width: 500%;
   margin-left: -200%;
 }
-body .white {
+body .white, body .white-bg {
   background-color: #FFFFFF;
 }
 body article.white {
