@@ -58,7 +58,7 @@ function optionsPage() {
 			pricePkg: null,
 			priceNoPkg: null,
 			title: `E-Commerce Site (Small)`,
-			descr: `This is a Shopify Online Store with 5-20 different products (other features will need to be added separately). ` +
+			descr: `This is a Shopify online store with 5-20 different products (other features will need to be added separately). ` +
 			`Package includes light content strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing ` +
 			`does not include domain and hosting costs.</small>`,
 			multi: null
@@ -68,7 +68,7 @@ function optionsPage() {
 			pricePkg: null,
 			priceNoPkg: null,
 			title: `E-Commerce Site (Large)`,
-			descr: `This is a Shopify Online Store with 20-50+ different products (other features will need to be added separately). ` +
+			descr: `This is a Shopify online store with 20-50+ different products (other features will need to be added separately). ` +
 			`Package includes light content strategy, copywriting, SEO, and optimized images.<br/><small>*Pricing ` +
 			`does not include domain and hosting costs.</small>`,
 			multi: null
