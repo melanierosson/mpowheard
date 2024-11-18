@@ -10792,6 +10792,7 @@ header.masthead .post-heading .meta a {
   display:flex;
   flex-direction:row;
   box-shadow: 0 0 2.5rem #ddd;
+  height:100%;
 }
 .post-preview:hover {
   cursor:pointer;
@@ -10844,6 +10845,7 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-descr > .post-subtitle {
   font-weight: 300;
   margin-bottom: 0.625rem;
+  line-height:1.25rem;
   font-size:1rem;
 }
 .post-preview > .post-descr > .post-meta {
