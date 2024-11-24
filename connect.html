@@ -76,6 +76,9 @@
           <li  id="nav-connect" class="nav-item active" onclick="window.location.assign('connect.html')">
             <a class="nav-link" href="./connect.html">Connect</a>
           </li>
+          <li id="nav-blog" class="nav-item" onclick="window.location.assign('/blog/index.html')">
+            <a class="nav-link" href="./blog/index.html">Blog</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -188,6 +191,7 @@
     gsap.fromTo("#nav-why", {opacity: 0, x: 500}, {delay: 1.2, duration: 1, opacity: 1, x: 0});
     gsap.fromTo("#nav-opt", {opacity: 0, x: 500}, {delay: 1.4, duration: 1, opacity: 1, x: 0});
     gsap.fromTo("#nav-connect", {opacity: 0, x: 500}, {delay: 1.6, duration: 1, opacity: 1, x: 0});
+    gsap.fromTo("#nav-blog", {opacity: 0, x: 500}, {delay: 1.8, duration: 1, opacity: 1, x: 0});
     // Fix these scroll-based animations later
     gsap.fromTo("#social-title-container", {opacity: 0}, {delay: 2, duration: 1, opacity: 1});
     gsap.fromTo("#contact-title-container", {opacity: 0}, {delay: 2.2, duration: 1, opacity: 1});
