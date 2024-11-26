@@ -282,6 +282,25 @@ body {
 			}
 		}
 	}
+	.back-blog {
+		padding:10px;
+		max-width:100px;
+		max-height:42px;
+		background-color:white;
+		border-radius:50px;
+		text-decoration:none;
+		text-align:center;
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15), 0 5px 10px 0 rgba(0, 0, 0, 0.14);
+		a, a:hover {
+			text-decoration:none;
+		}
+	}
+	.back-blog:hover {
+		text-decoration:none;
+		background-color:#EBFCFF;
+		cursor:pointer;
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+	}
 	
 	nav.navbar {
 		background-color: $yellow;
