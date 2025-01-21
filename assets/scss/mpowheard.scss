@@ -1,5 +1,6 @@
 $yellow: #FBFE3B;
-$lyellow: #FEFFC6;
+$lyellow: #ffffe5;
+$lightyellow:#ffff98;
 $cyan: #00E2FF;
 $hcyan: #00E2FF55;
 $lcyan: #98F3FF;
@@ -19,7 +20,7 @@ $white: #FFFFFF;
 $graydarker: #555555;
 $graydarkest: #333333;
 $graydark: #777777;
-$graylightest: #EFEFEF;
+$graylightest: #EBEBEB;
 body.light-gray {
 	background-color:#F9F9F9 !important;
 }
@@ -238,16 +239,16 @@ body {
 		justify-content: flex-end;
 		width:100%;
 		button#cta {
-			background-color: $pink;
-			border: 0.0625rem solid $yellow;
+			background-color: $cyan;
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
+			border: 0.0625rem solid $lpink;
+			box-shadow: 0 0 2.5rem $lpink;
 			font-weight: 600;
-			box-shadow: 0 0 2.5rem $lyellow;
-			color: $white;
+			color: $graydarkest;
 			text-transform: uppercase;
 			padding: 0.625rem 1.25rem;
 			border-radius:5rem;
 			letter-spacing:0.1rem;
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, $pink);
 			width:13.75rem;
 			height:3.75rem;
 			font-size:1.25rem;
@@ -255,10 +256,11 @@ body {
 			margin-top:1.5rem;
 		}
 		button#cta:hover {
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
-			color: $graydarkest;
-			border: 0.0625rem solid $lpink;
-			box-shadow: 0 0 2.5rem $lpink;
+			background-color: $pink;
+			border: 0.0625rem solid $yellow;
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, $pink);
+			color: $white;
+			box-shadow: 0 0 2.5rem $lyellow;
 		}
 		@media screen and (max-width:61.9375rem) {
 			button#cta {
@@ -303,12 +305,13 @@ body {
 	}
 	
 	nav.navbar {
-		background-color: $yellow;
+		background-color:#ebebeb;
+		border-bottom: 4px solid $yellow;
 		color: $black;
 		height:3.75rem;
 		padding-top:0;
 		padding-bottom:0;
-		box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+		// box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
 		// start ---- mobile nav
 		span.navbar-toggler-icon img {
 			display:none;
@@ -351,7 +354,7 @@ body {
 		}
 		li.active{
 			@media screen and (min-width:62rem) {
-				border-bottom: 0.3125rem solid $pink;
+				border-bottom: 0.3125rem solid $cyan;
 				a {
 					margin-bottom:-0.3125rem;
 				}
@@ -452,20 +455,23 @@ body {
 				z-index:3;
 				margin-top:4.5rem;
       			margin-left:3.6rem;
-      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 60px inset;
+      			// box-shadow: rgb(0 0 0 / 90%) 0px 0px 60px inset;
       			@media screen and (max-width:47.9375rem) {
 					margin-left:1.5rem;
 				}
 				@media screen and (min-width:75rem) {
 					margin-left:6.6rem;
 				}
-				background: url('../images/dots.png') 0px 0px repeat;
-				background-size:10.625rem 10.625rem;
+				// background: url('../images/dots.png') 0px 0px repeat;
+				background-color:#ebebeb;
+				// background-size:10.625rem 10.625rem;
 				height: 23.75rem;
 				width: 26.875rem;
-				clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+				// clip-path: polygon(18% 11%,18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+				clip-path: polygon(17% 11%, 17% 11%, 45% 26%, 44% 26%, 69% 1%, 69% 1%, 69% 26%, 69% 26%, 95% 16%, 95% 16%, 83% 40%, 83% 40%, 99% 43%, 100% 42%, 75% 64%, 74% 66%, 91% 86%, 90% 85%, 67% 81%, 66% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 92%, 35% 91%, 29% 72%, 30% 71%, 13% 96%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%)
 			}
 			div#powAnimBorder {
+				opacity:0;
 				position:absolute;
 				top:0;
 				z-index:1;
@@ -477,7 +483,9 @@ body {
 				@media screen and (min-width:75rem) {
 					margin-left:5.6rem;
 				}
-				background-color: $pink;
+				// background-color: $pink;
+				background: url("../images/blast-bg-v07.jpg");
+				background-position: middle center;
 				height: 26rem;
 				width: 29rem;
 				transform: rotate(-1deg);
@@ -493,9 +501,10 @@ body {
 					z-index:3;
 					margin-top:6rem;
 	      			margin-left:3.3rem;
-	      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
-					background: url('../images/dots.png') 0px 0px repeat;
-					background-size:10.625rem 10.625rem;
+	      			// box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
+					// background: url('../images/dots.png') 0px 0px repeat;
+					background-color:#ebebeb;
+					// background-size:10.625rem 10.625rem;
 					height: 11.875rem;
 					width: 13.4375rem;
 					transform: rotate(-190deg);
@@ -508,7 +517,9 @@ body {
 					z-index:1;
 					margin-top:5.1rem;
 	      			margin-left:2.4rem;
-					background-color: $pink;
+					// background-color: $pink;
+					background: url("../images/blast-bg-v07.jpg");
+					background-position: middle center;
 					height: 13.75rem;
 					width: 15rem;
 					transform: rotate(-191deg);
@@ -529,9 +540,9 @@ body {
 				}
 			}
 		}
-		div#powAnim.touch-anim,
-		div#powAnim2.touch-anim,
-		div#powAnim3.touch-anim {
+		div#powAnimBorder.touch-anim,
+		div#powAnimBorder2.touch-anim,
+		div#powAnimBorder3.touch-anim {
 			animation-name: touchAnim;
 			animation-duration: 4s;
 			animation-iteration-count: infinite; 
@@ -545,9 +556,10 @@ body {
 					z-index:3;
 					margin-top:6rem;
 	      			margin-left:7rem;
-	      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
-					background: url('../images/dots.png') 0px 0px repeat;
-					background-size:10.625rem 10.625rem;
+	      			// box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
+					// background: url('../images/dots.png') 0px 0px repeat;
+					background-color:#ebebeb;
+					// background-size:10.625rem 10.625rem;
 					height: 8.75rem;
 					width: 8.75rem;
 					transform: rotate(-140deg);
@@ -560,7 +572,9 @@ body {
 					z-index:1;
 					margin-top:5rem;
 	      			margin-left:6.5rem;
-					background-color: $pink;
+					// background-color: $pink;
+					background: url("../images/blast-bg-v07.jpg");
+					background-position: middle center;
 					height: 10.25rem;
 					width: 10.1rem;
 					transform: rotate(-142deg);
@@ -664,7 +678,8 @@ body {
 			box-shadow: 0 0 2.5rem $graylightest;
 			// border-radius: 1.875rem;
 			div.opt-header {
-				// border-radius:1.875rem 1.875rem 0 0;
+				border-radius:1.875rem 1.875rem 0 0;
+				background-color: $graylightest;
 				display:flex;
 				justify-content:center;
 				align-items:center;
@@ -677,8 +692,10 @@ body {
 				}
 			}
 			div.opt.row {
+				background-color: $graylightest;
 				div {
-					border-color: $graylightest;
+					
+					border-color: $white;
 					border-style: solid;
 					border-width: 0.125rem 0 0 0;
 					display:flex;
@@ -717,7 +734,7 @@ body {
 				// display:block;
 				// z-index:50;
 				// padding: 1.25rem 1.875rem;
-				background-color: $cyanlightest;
+				background-color: $cyanlightest !important;
 				cursor: pointer;
 			}
 		}
@@ -1012,10 +1029,17 @@ body {
 				background: rgba(0 0 0 / 70%);
 				color: $white;
 				&:hover {
-					background:rgba(235 252 255 / 94%);
-					background-image: linear-gradient(to bottom right, rgba(254 255 198 / 80%), rgba(235 252 255 / 88%), rgba(235 252 255 / 94%));
-					color: $black;
+					// background:rgba(235 252 255 / 94%);
+					// background-image: linear-gradient(to bottom right, rgba(254 255 198 / 80%), rgba(235 252 255 / 88%), rgba(235 252 255 / 94%));
+					// color: $black;
+					background: rgba(0 0 0 / 80%);
 					cursor: pointer;
+					h4 {
+						color: $lcyan;
+					}
+					h5 {
+						color: $lightyellow;
+					}
 				}
 				h4 {
 					font-size:2rem;

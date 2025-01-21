@@ -8,9 +8,9 @@ function is_touch_device() {
   }  
 }
 
-const largePow = document.getElementById('powAnim');
-const largePow2 = document.getElementById('powAnim2');
-const largePow3 = document.getElementById('powAnim3');
+const largePow = document.getElementById('powAnimBorder');
+const largePow2 = document.getElementById('powAnimBorder2');
+const largePow3 = document.getElementById('powAnimBorder3');
 
 function followMouse(e) {
 	x = e.clientX;

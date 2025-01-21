@@ -241,16 +241,16 @@ body div.cta {
   width: 100%;
 }
 body div.cta button#cta {
-  background-color: #FF0093;
-  border: 0.0625rem solid #FBFE3B;
+  background-color: #00E2FF;
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
+  border: 0.0625rem solid #FFBEE3;
+  box-shadow: 0 0 2.5rem #FFBEE3;
   font-weight: 600;
-  box-shadow: 0 0 2.5rem #FEFFC6;
-  color: #FFFFFF;
+  color: #333333;
   text-transform: uppercase;
   padding: 0.625rem 1.25rem;
   border-radius: 5rem;
   letter-spacing: 0.1rem;
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, #FF0093);
   width: 13.75rem;
   height: 3.75rem;
   font-size: 1.25rem;
@@ -258,10 +258,11 @@ body div.cta button#cta {
   margin-top: 1.5rem;
 }
 body div.cta button#cta:hover {
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
-  color: #333333;
-  border: 0.0625rem solid #FFBEE3;
-  box-shadow: 0 0 2.5rem #FFBEE3;
+  background-color: #FF0093;
+  border: 0.0625rem solid #FBFE3B;
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, #FF0093);
+  color: #FFFFFF;
+  box-shadow: 0 0 2.5rem #ffffe5;
 }
 @media screen and (max-width: 61.9375rem) {
   body div.cta button#cta {
@@ -296,12 +297,12 @@ body .back-blog:hover {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 body nav.navbar {
-  background-color: #FBFE3B;
+  background-color: #ebebeb;
+  border-bottom: 4px solid #FBFE3B;
   color: #000000;
   height: 3.75rem;
   padding-top: 0;
   padding-bottom: 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 body nav.navbar span.navbar-toggler-icon img {
   display: none;
@@ -318,7 +319,7 @@ body nav.navbar span.navbar-toggler-icon img {
 }
 @media screen and (max-width: 61.9375rem) {
   body nav.navbar ul.navbar-nav {
-    background-color: #FEFFC6;
+    background-color: #ffffe5;
     padding: 0.625rem 1.25rem;
   }
   body nav.navbar ul.navbar-nav li.nav-item {
@@ -345,7 +346,7 @@ body nav.navbar a:hover {
 }
 @media screen and (min-width: 62rem) {
   body nav.navbar li.active {
-    border-bottom: 0.3125rem solid #FF0093;
+    border-bottom: 0.3125rem solid #00E2FF;
   }
   body nav.navbar li.active a {
     margin-bottom: -0.3125rem;
@@ -367,7 +368,7 @@ body nav.navbar li.nav-item:hover {
 }
 @media screen and (min-width: 62rem) {
   body nav.navbar li.nav-item:hover {
-    background-color: #FEFFC6;
+    background-color: #ffffe5;
   }
 }
 body nav.navbar li.nav-item:hover a {
@@ -448,13 +449,11 @@ body section div.pow-anim div#powAnim {
   z-index: 3;
   margin-top: 4.5rem;
   margin-left: 3.6rem;
-  box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 60px inset;
-  background: url("../images/dots.png") 0px 0px repeat;
-  background-size: 10.625rem 10.625rem;
+  background-color: #ebebeb;
   height: 23.75rem;
   width: 26.875rem;
-  -webkit-clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
-          clip-path: polygon(18% 11%, 18% 11%, 45% 26%, 45% 26%, 71% 0%, 71% 0%, 69% 25%, 69% 25%, 95% 18%, 95% 18%, 83% 40%, 83% 40%, 100% 44%, 100% 44%, 75% 65%, 75% 65%, 91% 86%, 91% 86%, 67% 82%, 67% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 93%, 35% 93%, 30% 75%, 30% 75%, 13% 100%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+  -webkit-clip-path: polygon(17% 11%, 17% 11%, 45% 26%, 44% 26%, 69% 1%, 69% 1%, 69% 26%, 69% 26%, 95% 16%, 95% 16%, 83% 40%, 83% 40%, 99% 43%, 100% 42%, 75% 64%, 74% 66%, 91% 86%, 90% 85%, 67% 81%, 66% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 92%, 35% 91%, 29% 72%, 30% 71%, 13% 96%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
+          clip-path: polygon(17% 11%, 17% 11%, 45% 26%, 44% 26%, 69% 1%, 69% 1%, 69% 26%, 69% 26%, 95% 16%, 95% 16%, 83% 40%, 83% 40%, 99% 43%, 100% 42%, 75% 64%, 74% 66%, 91% 86%, 90% 85%, 67% 81%, 66% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 92%, 35% 91%, 29% 72%, 30% 71%, 13% 96%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
 }
 @media screen and (max-width: 47.9375rem) {
   body section div.pow-anim div#powAnim {
@@ -467,12 +466,14 @@ body section div.pow-anim div#powAnim {
   }
 }
 body section div.pow-anim div#powAnimBorder {
+  opacity: 0;
   position: absolute;
   top: 0;
   z-index: 1;
   margin-top: 3.3rem;
   margin-left: 2.6rem;
-  background-color: #FF0093;
+  background: url("../images/blast-bg-v07.jpg");
+  background-position: middle center;
   height: 26rem;
   width: 29rem;
   transform: rotate(-1deg);
@@ -497,9 +498,7 @@ body section div.pow-anim div#powAnimBorder {
     z-index: 3;
     margin-top: 6rem;
     margin-left: 3.3rem;
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 40px inset;
-    background: url("../images/dots.png") 0px 0px repeat;
-    background-size: 10.625rem 10.625rem;
+    background-color: #ebebeb;
     height: 11.875rem;
     width: 13.4375rem;
     transform: rotate(-190deg);
@@ -513,7 +512,8 @@ body section div.pow-anim div#powAnimBorder {
     z-index: 1;
     margin-top: 5.1rem;
     margin-left: 2.4rem;
-    background-color: #FF0093;
+    background: url("../images/blast-bg-v07.jpg");
+    background-position: middle center;
     height: 13.75rem;
     width: 15rem;
     transform: rotate(-191deg);
@@ -534,9 +534,9 @@ body section div.pow-anim2 div.powAnims2 {
     display: none;
   }
 }
-body section div#powAnim.touch-anim,
-body section div#powAnim2.touch-anim,
-body section div#powAnim3.touch-anim {
+body section div#powAnimBorder.touch-anim,
+body section div#powAnimBorder2.touch-anim,
+body section div#powAnimBorder3.touch-anim {
   animation-name: touchAnim;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -549,9 +549,7 @@ body section div#powAnim3.touch-anim {
     z-index: 3;
     margin-top: 6rem;
     margin-left: 7rem;
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 40px inset;
-    background: url("../images/dots.png") 0px 0px repeat;
-    background-size: 10.625rem 10.625rem;
+    background-color: #ebebeb;
     height: 8.75rem;
     width: 8.75rem;
     transform: rotate(-140deg);
@@ -565,7 +563,8 @@ body section div#powAnim3.touch-anim {
     z-index: 1;
     margin-top: 5rem;
     margin-left: 6.5rem;
-    background-color: #FF0093;
+    background: url("../images/blast-bg-v07.jpg");
+    background-position: middle center;
     height: 10.25rem;
     width: 10.1rem;
     transform: rotate(-142deg);
@@ -715,7 +714,7 @@ body footer {
   padding-top: 2.5rem;
 }
 #options article.opts div.container {
-  box-shadow: 0 0 2.5rem #EFEFEF;
+  box-shadow: 0 0 2.5rem #EBEBEB;
 }
 @media screen and (min-width: 62rem) {
   #options article.opts div.container.opt-onetime {
@@ -738,6 +737,8 @@ body footer {
   }
 }
 #options article.opts div.container div.opt-header {
+  border-radius: 1.875rem 1.875rem 0 0;
+  background-color: #EBEBEB;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -749,8 +750,11 @@ body footer {
   margin-bottom: 0;
   text-align: center;
 }
+#options article.opts div.container div.opt.row {
+  background-color: #EBEBEB;
+}
 #options article.opts div.container div.opt.row div {
-  border-color: #EFEFEF;
+  border-color: #FFFFFF;
   border-style: solid;
   border-width: 0.125rem 0 0 0;
   display: flex;
@@ -776,7 +780,7 @@ body footer {
   justify-content: flex-end;
 }
 #options article.opts div.container div.opt.row:hover {
-  background-color: #EBFCFF;
+  background-color: #EBFCFF !important;
   cursor: pointer;
 }
 @media screen and (max-width: 61.9375rem) {
@@ -1087,10 +1091,14 @@ body footer {
   color: #FFFFFF;
 }
 #why article section.our-work .bg-overlay:hover {
-  background: rgba(235, 252, 255, 0.94);
-  background-image: linear-gradient(to bottom right, rgba(254, 255, 198, 0.8), rgba(235, 252, 255, 0.88), rgba(235, 252, 255, 0.94));
-  color: #000000;
+  background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
+}
+#why article section.our-work .bg-overlay:hover h4 {
+  color: #98F3FF;
+}
+#why article section.our-work .bg-overlay:hover h5 {
+  color: #ffff98;
 }
 #why article section.our-work .bg-overlay h4 {
   font-size: 2rem;
