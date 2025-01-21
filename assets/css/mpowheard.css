@@ -297,7 +297,7 @@ body .back-blog:hover {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 body nav.navbar {
-  background-color: #ebebeb;
+  background-color: #F2F2F2;
   border-bottom: 4px solid #FBFE3B;
   color: #000000;
   height: 3.75rem;
@@ -449,7 +449,7 @@ body section div.pow-anim div#powAnim {
   z-index: 3;
   margin-top: 4.5rem;
   margin-left: 3.6rem;
-  background-color: #ebebeb;
+  background-color: #F2F2F2;
   height: 23.75rem;
   width: 26.875rem;
   -webkit-clip-path: polygon(17% 11%, 17% 11%, 45% 26%, 44% 26%, 69% 1%, 69% 1%, 69% 26%, 69% 26%, 95% 16%, 95% 16%, 83% 40%, 83% 40%, 99% 43%, 100% 42%, 75% 64%, 74% 66%, 91% 86%, 90% 85%, 67% 81%, 66% 82%, 58% 100%, 58% 100%, 45% 84%, 45% 84%, 35% 92%, 35% 91%, 29% 72%, 30% 71%, 13% 96%, 13% 100%, 13% 77%, 13% 77%, 0% 77%, 0% 77%, 15% 51%, 15% 51%, 0% 29%, 0% 29%, 18% 30%, 18% 30%);
@@ -498,7 +498,7 @@ body section div.pow-anim div#powAnimBorder {
     z-index: 3;
     margin-top: 6rem;
     margin-left: 3.3rem;
-    background-color: #ebebeb;
+    background-color: #F2F2F2;
     height: 11.875rem;
     width: 13.4375rem;
     transform: rotate(-190deg);
@@ -549,7 +549,7 @@ body section div#powAnimBorder3.touch-anim {
     z-index: 3;
     margin-top: 6rem;
     margin-left: 7rem;
-    background-color: #ebebeb;
+    background-color: #F2F2F2;
     height: 8.75rem;
     width: 8.75rem;
     transform: rotate(-140deg);
@@ -714,7 +714,7 @@ body footer {
   padding-top: 2.5rem;
 }
 #options article.opts div.container {
-  box-shadow: 0 0 2.5rem #EBEBEB;
+  box-shadow: 0 0 2.5rem #E7E7E7;
 }
 @media screen and (min-width: 62rem) {
   #options article.opts div.container.opt-onetime {
@@ -738,7 +738,7 @@ body footer {
 }
 #options article.opts div.container div.opt-header {
   border-radius: 1.875rem 1.875rem 0 0;
-  background-color: #EBEBEB;
+  background-color: #E7E7E7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -751,7 +751,7 @@ body footer {
   text-align: center;
 }
 #options article.opts div.container div.opt.row {
-  background-color: #EBEBEB;
+  background-color: #E7E7E7;
 }
 #options article.opts div.container div.opt.row div {
   border-color: #FFFFFF;
