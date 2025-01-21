@@ -4,9 +4,19 @@ body.light-gray {
 
 body {
   background-color: #FFFFFF;
-  font-family: "Montserrat", "sans serif";
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   overflow-x: hidden !important;
   color: #333333;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body nav {
+  font-family: "Montserrat", "DM Sans", sans-serif;
+}
+body .body-font {
+  font-family: "DM Sans", sans-serif;
 }
 body .hotpink {
   color: #FF0093;
@@ -715,6 +725,7 @@ body footer {
 }
 #options article.opts div.container {
   box-shadow: 0 0 2.5rem #E7E7E7;
+  border-radius: 1.875rem;
 }
 @media screen and (min-width: 62rem) {
   #options article.opts div.container.opt-onetime {
@@ -904,9 +915,10 @@ body footer {
   }
 }
 #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-  background-color: #F9F9F9;
+  background-color: #E7E7E7;
   padding: 1rem 1.25rem;
   margin: 1rem 1.25rem;
+  border-radius: 1.875rem;
 }
 @media screen and (min-width: 36rem) {
   #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {

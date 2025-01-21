@@ -26,9 +26,19 @@ body.light-gray {
 }
 body {
 	background-color:$white;
-	font-family: "Montserrat", "sans serif";
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 	overflow-x: hidden !important;
 	color:$graydarkest;
+	h1, h2, h3, h4, h5, h6, nav {
+		font-family: "Montserrat", "DM Sans", sans-serif;
+	}
+	.body-font {
+		font-family: "DM Sans", sans-serif;
+	}
 	.hotpink {
 		color: $pink;
 	}
@@ -676,7 +686,7 @@ body {
 				width:90%;
 			}
 			box-shadow: 0 0 2.5rem $graylightest;
-			// border-radius: 1.875rem;
+			border-radius: 1.875rem;
 			div.opt-header {
 				border-radius:1.875rem 1.875rem 0 0;
 				background-color: $graylightest;
@@ -837,10 +847,10 @@ body {
 					justify-content: space-around;
 				}
 				article.opt-modal {
-					background-color:#F9F9F9;
+					background-color:$graylightest;
 					padding:1rem 1.25rem;
 					margin:1rem 1.25rem;
-					// border-radius:1.875rem;
+					border-radius:1.875rem;
 					@media screen and (min-width:36rem) {
 						width:50%;
 					}
