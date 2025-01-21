@@ -320,7 +320,7 @@ body {
 		color: $black;
 		height:3.75rem;
 		padding-top:0;
-		padding-bottom:0;
+		padding-bottom:4px;
 		// box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
 		// start ---- mobile nav
 		span.navbar-toggler-icon img {
@@ -364,9 +364,9 @@ body {
 		}
 		li.active{
 			@media screen and (min-width:62rem) {
-				border-bottom: 0.3125rem solid $cyan;
+				border-bottom: 4px solid $cyan;
 				a {
-					margin-bottom:-0.3125rem;
+					margin-bottom:-4px;
 				}
 			}
 			a {
@@ -385,7 +385,7 @@ body {
 		}
 		li.nav-item:hover {
 			// @media screen and (min-width:62rem) {
-			// 	border-bottom: 0.3125rem solid $cyan;
+			// 	border-bottom: 0.3125rem solid $yellow;
 			// 	a {
 			// 		margin-bottom:-0.3125rem;
 			// 	}

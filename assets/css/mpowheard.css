@@ -312,7 +312,7 @@ body nav.navbar {
   color: #000000;
   height: 3.75rem;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 4px;
 }
 body nav.navbar span.navbar-toggler-icon img {
   display: none;
@@ -356,10 +356,10 @@ body nav.navbar a:hover {
 }
 @media screen and (min-width: 62rem) {
   body nav.navbar li.active {
-    border-bottom: 0.3125rem solid #00E2FF;
+    border-bottom: 4px solid #00E2FF;
   }
   body nav.navbar li.active a {
-    margin-bottom: -0.3125rem;
+    margin-bottom: -4px;
   }
 }
 body nav.navbar li.active a {
