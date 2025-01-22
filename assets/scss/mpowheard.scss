@@ -316,11 +316,11 @@ body {
 	
 	nav.navbar {
 		background-color:#F2F2F2;
-		border-bottom: 4px solid $yellow;
+		// border-bottom: 4px solid $yellow;
 		color: $black;
 		height:3.75rem;
 		padding-top:0;
-		padding-bottom:4px;
+		padding-bottom:0;
 		// box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
 		// start ---- mobile nav
 		span.navbar-toggler-icon img {
@@ -336,7 +336,7 @@ body {
 		}
 		ul.navbar-nav {
 			@media screen and (max-width:61.9375rem) {
-				background-color:$lyellow;
+				background-color:$graylightest;
 				padding:0.625rem 1.25rem;
 				li.nav-item {
 					text-align:right;
