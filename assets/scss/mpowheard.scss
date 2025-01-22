@@ -371,6 +371,7 @@ body {
 			color: $graydarkest !important;
 			letter-spacing:0.1rem;
 			font-weight: 600;
+			margin-bottom:-4px;
 		}
 		a:hover {
 			color: $pink !important;
@@ -404,7 +405,8 @@ body {
 			// 	}
 			// }
 			@media screen and (min-width:62rem) {
-				background-color:$lyellow;
+				// background-color:$lyellow;
+				border-bottom: 4px solid $yellow;
 			}
 			cursor:pointer;
 			a {

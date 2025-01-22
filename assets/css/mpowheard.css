@@ -362,6 +362,7 @@ body nav.navbar a:link, body nav.navbar a:visited {
   color: #333333 !important;
   letter-spacing: 0.1rem;
   font-weight: 600;
+  margin-bottom: -4px;
 }
 body nav.navbar a:hover {
   color: #FF0093 !important;
@@ -390,7 +391,7 @@ body nav.navbar li.nav-item:hover {
 }
 @media screen and (min-width: 62rem) {
   body nav.navbar li.nav-item:hover {
-    background-color: #ffffe5;
+    border-bottom: 4px solid #FBFE3B;
   }
 }
 body nav.navbar li.nav-item:hover a {
