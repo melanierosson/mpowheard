@@ -18,6 +18,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, body nav {
 body .body-font {
   font-family: "DM Sans", sans-serif;
 }
+body a.no-underline, body a.no-underline:hover {
+  text-decoration: none;
+}
+body a.no-underline.hotpink:hover {
+  color: #BF5693;
+}
 body .hotpink {
   color: #FF0093;
 }
@@ -38,6 +44,13 @@ body .light-gray {
   background-color: #F9F9F9;
 }
 body article.light-gray {
+  width: 500%;
+  margin-left: -200%;
+}
+body .gray {
+  background-color: #E7E7E7;
+}
+body article.gray {
   width: 500%;
   margin-left: -200%;
 }

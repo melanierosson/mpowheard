@@ -39,6 +39,12 @@ body {
 	.body-font {
 		font-family: "DM Sans", sans-serif;
 	}
+	a.no-underline, a.no-underline:hover {
+		text-decoration:none;
+	}
+	a.no-underline.hotpink:hover {
+		color:$gpink;
+	}
 	.hotpink {
 		color: $pink;
 	}
@@ -59,6 +65,13 @@ body {
 		background-color:#F9F9F9 ;
 	}
 	article.light-gray  {
+		width: 500%;
+    	margin-left: -200%;
+	}
+	.gray {
+		background-color:#E7E7E7;
+	}
+	article.gray {
 		width: 500%;
     	margin-left: -200%;
 	}
