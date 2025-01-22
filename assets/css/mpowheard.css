@@ -312,12 +312,15 @@ body .back-blog {
 }
 body .back-blog a, body .back-blog a:hover {
   text-decoration: none;
+  color: #333333;
   font-weight: 500;
 }
 body .back-blog:hover {
   text-decoration: none;
-  border: 4px solid #B4F6FF;
   cursor: pointer;
+}
+body .back-blog:hover a, body .back-blog:hover a:hover {
+  color: #FF0093 !important;
 }
 body nav.navbar {
   background-color: #F2F2F2;
