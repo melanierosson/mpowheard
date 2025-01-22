@@ -358,6 +358,7 @@ body {
 		}
 		// end ---- mobile nav
 		a.navbar-brand {
+			margin-bottom:-4px;
 			@media screen and (max-width:61.9375rem) {
 				padding-top:0;
 			}
@@ -375,6 +376,7 @@ body {
 		}
 		a:hover {
 			color: $pink !important;
+			margin-bottom:-4px;
 		}
 		li.active{
 			@media screen and (min-width:62rem) {
@@ -385,6 +387,7 @@ body {
 			}
 			a {
 				color: $graydarker !important;
+				margin-bottom:-4px;
 			}
 			&:hover {
 				a {
@@ -407,10 +410,12 @@ body {
 			@media screen and (min-width:62rem) {
 				// background-color:$lyellow;
 				border-bottom: 4px solid $yellow;
+				margin-bottom:-4px;
 			}
 			cursor:pointer;
 			a {
 				color: $pink !important;
+				margin-bottom:-4px;
 			}
 		}
 	}

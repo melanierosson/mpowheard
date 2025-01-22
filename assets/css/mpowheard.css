@@ -348,6 +348,9 @@ body nav.navbar span.navbar-toggler-icon img {
     text-align: right;
   }
 }
+body nav.navbar a.navbar-brand {
+  margin-bottom: -4px;
+}
 @media screen and (max-width: 61.9375rem) {
   body nav.navbar a.navbar-brand {
     padding-top: 0;
@@ -366,6 +369,7 @@ body nav.navbar a:link, body nav.navbar a:visited {
 }
 body nav.navbar a:hover {
   color: #FF0093 !important;
+  margin-bottom: -4px;
 }
 @media screen and (min-width: 62rem) {
   body nav.navbar li.active {
@@ -377,6 +381,7 @@ body nav.navbar a:hover {
 }
 body nav.navbar li.active a {
   color: #555555 !important;
+  margin-bottom: -4px;
 }
 body nav.navbar li.active:hover a {
   color: #FF0093 !important;
@@ -392,10 +397,12 @@ body nav.navbar li.nav-item:hover {
 @media screen and (min-width: 62rem) {
   body nav.navbar li.nav-item:hover {
     border-bottom: 4px solid #FBFE3B;
+    margin-bottom: -4px;
   }
 }
 body nav.navbar li.nav-item:hover a {
   color: #FF0093 !important;
+  margin-bottom: -4px;
 }
 @media screen and (max-width: 61.9375rem) {
   body .top-main.row h1, body .top-main.row h2, body .top-main.row p, body .top-main.row a {
