@@ -329,7 +329,7 @@ body {
 	
 	nav.navbar {
 		background-color:#F2F2F2;
-		// border-bottom: 4px solid $yellow;
+		border-bottom: 4px solid #F2F2F2;
 		color: $black;
 		height:3.75rem;
 		padding-top:0;
@@ -376,18 +376,14 @@ body {
 		}
 		a:hover {
 			color: $pink !important;
-			margin-bottom:-4px;
 		}
 		li.active{
 			@media screen and (min-width:62rem) {
 				border-bottom: 4px solid $cyan;
-				a {
-					margin-bottom:-4px;
-				}
+				margin-bottom:-4px;
 			}
 			a {
 				color: $graydarker !important;
-				margin-bottom:-4px;
 			}
 			&:hover {
 				a {
@@ -415,7 +411,6 @@ body {
 			cursor:pointer;
 			a {
 				color: $pink !important;
-				margin-bottom:-4px;
 			}
 		}
 	}

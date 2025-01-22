@@ -10786,7 +10786,8 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview {
-  background-color:#FFFFFF;
+  background-color:#FFF;
+  border:4px solid #FFF;
   padding:10px 10px;
   margin-top:30px;
   display:flex;
@@ -10798,10 +10799,11 @@ header.masthead .post-heading .meta a {
   cursor:pointer;
   /* opacity:0.8; */
   box-shadow: 0;
+  border:4px solid #98F3FF;
   h1, h2, h3, span, p, a {
     color:#FF0093 !important;
   }
-  background-color:#EBFCFF;
+  
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
