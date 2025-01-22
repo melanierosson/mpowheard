@@ -781,6 +781,7 @@ body footer {
   background-color: #E7E7E7;
 }
 #options article.opts div.container div.opt.row div {
+  text-align: center;
   border-color: #FFFFFF;
   border-style: solid;
   border-width: 0.125rem 0 0 0;
@@ -801,12 +802,17 @@ body footer {
   }
 }
 #options article.opts div.container div.opt.row div:first-of-type {
-  justify-content: flex-start;
+  justify-content: center;
 }
 #options article.opts div.container div.opt.row div:nth-of-type(2) {
   justify-content: flex-end;
 }
+#options article.opts div.container div.opt.row:last-of-type {
+  padding-bottom: 0.25rem;
+  border-radius: 0 0 1.875rem 1.875rem;
+}
 #options article.opts div.container div.opt.row:hover {
+  color: #FF0093;
   background-color: #EBFCFF !important;
   cursor: pointer;
 }
