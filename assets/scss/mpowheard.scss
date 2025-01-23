@@ -813,13 +813,14 @@ body {
 		width:100vw;
 		height:100vh;
 		overflow:hidden;
-		background-color:#EFEFEF77;
+		background-color:#aaaaaa45;
 		top:0;
 		left:0;
 		z-index:2000;
 		section#opt-modal {
 			min-width:18.75rem;
 			max-width: 40.625rem;
+			border-radius:1rem;
 			@media screen and (max-width:35.9375rem) {
 				width:98%;
 				margin-top:0.25rem;
@@ -839,7 +840,7 @@ body {
 			min-height:15.625rem;
 			background-color:$white;
 			border: 0.0625rem solid $cyanlight;
-			box-shadow: 0 0 3.75rem $cyanlighter;
+			// box-shadow: 0 0 3.75rem $cyanlighter;
 			padding:1rem;
 			div.close-btn {
 				width:1.5rem;
@@ -874,7 +875,7 @@ body {
 					background-color:$graylightest;
 					padding:1rem 1.25rem;
 					margin:1rem 1.25rem;
-					border-radius:1.875rem;
+					border-radius:1rem;
 					@media screen and (min-width:36rem) {
 						width:50%;
 					}

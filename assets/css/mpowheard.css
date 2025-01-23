@@ -856,7 +856,7 @@ body footer {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: rgba(239, 239, 239, 0.4666666667);
+  background-color: rgba(170, 170, 170, 0.2705882353);
   top: 0;
   left: 0;
   z-index: 2000;
@@ -875,10 +875,10 @@ body footer {
 #options div#modal-overlay.enabled section#opt-modal {
   min-width: 18.75rem;
   max-width: 40.625rem;
+  border-radius: 1rem;
   min-height: 15.625rem;
   background-color: #FFFFFF;
   border: 0.0625rem solid #B4F6FF;
-  box-shadow: 0 0 3.75rem #D9FAFF;
   padding: 1rem;
 }
 @media screen and (max-width: 35.9375rem) {
@@ -943,7 +943,7 @@ body footer {
   background-color: #E7E7E7;
   padding: 1rem 1.25rem;
   margin: 1rem 1.25rem;
-  border-radius: 1.875rem;
+  border-radius: 1rem;
 }
 @media screen and (min-width: 36rem) {
   #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
