@@ -262,12 +262,11 @@ body {
 		justify-content: flex-end;
 		width:100%;
 		button#cta {
-			background-color: $cyan;
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
-			border: 0.0625rem solid $lpink;
-			box-shadow: 0 0 2.5rem $lpink;
-			font-weight: 600;
+			background-color: $yellow;
+			border: 0.0625rem solid $white;
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $yellow, #FF7CC7);
 			color: $graydarkest;
+			font-weight: 600;
 			text-transform: uppercase;
 			padding: 0.625rem 1.25rem;
 			border-radius:5rem;
@@ -279,11 +278,11 @@ body {
 			margin-top:1.5rem;
 		}
 		button#cta:hover {
-			background-color: $pink;
-			border: 0.0625rem solid $yellow;
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, $pink);
-			color: $white;
-			box-shadow: 0 0 2.5rem $lyellow;
+			background-color: $cyan;
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
+			border: 0.0625rem solid $white;
+			color: $graydarkest;
+			// box-shadow: 0 0 2.5rem $lyellow;
 		}
 		@media screen and (max-width:61.9375rem) {
 			button#cta {

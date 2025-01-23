@@ -264,12 +264,11 @@ body div.cta {
   width: 100%;
 }
 body div.cta button#cta {
-  background-color: #00E2FF;
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
-  border: 0.0625rem solid #FFBEE3;
-  box-shadow: 0 0 2.5rem #FFBEE3;
-  font-weight: 600;
+  background-color: #FBFE3B;
+  border: 0.0625rem solid #FFFFFF;
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FBFE3B, #FF7CC7);
   color: #333333;
+  font-weight: 600;
   text-transform: uppercase;
   padding: 0.625rem 1.25rem;
   border-radius: 5rem;
@@ -281,11 +280,10 @@ body div.cta button#cta {
   margin-top: 1.5rem;
 }
 body div.cta button#cta:hover {
-  background-color: #FF0093;
-  border: 0.0625rem solid #FBFE3B;
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FF7CC7, #FF0093);
-  color: #FFFFFF;
-  box-shadow: 0 0 2.5rem #ffffe5;
+  background-color: #00E2FF;
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
+  border: 0.0625rem solid #FFFFFF;
+  color: #333333;
 }
 @media screen and (max-width: 61.9375rem) {
   body div.cta button#cta {
