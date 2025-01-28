@@ -854,7 +854,7 @@ body footer {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: rgba(170, 170, 170, 0.2705882353);
+  background-color: rgba(80, 80, 80, 0.2705882353);
   top: 0;
   left: 0;
   z-index: 2000;
@@ -1127,7 +1127,6 @@ body footer {
 }
 #why article section.our-work .bg-overlay:hover {
   background: rgba(0, 0, 0, 0.8);
-  cursor: pointer;
 }
 #why article section.our-work .bg-overlay:hover h4 {
   color: #98F3FF;
@@ -1144,6 +1143,58 @@ body footer {
   padding: 2rem;
   flex-basis: 100%;
   margin-bottom: 0;
+}
+@media screen and (max-width: 567px) {
+  #why article section.our-work .bg-overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  #why article section.our-work .bg-overlay h4 {
+    color: #98F3FF;
+  }
+  #why article section.our-work .bg-overlay h5 {
+    color: #ffff98;
+  }
+}
+#why article section#partners div#mobile-partner-logos-row {
+  margin: auto;
+}
+#why article section#partners div#mobile-partner-logos-row div {
+  text-align: center;
+  margin: auto;
+}
+#why article section#partners div#mobile-partner-logos-row div img {
+  width: 50vw;
+  height: auto;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 260px !important;
+}
+#why article section#partners div#mobile-partner-logos-row div img.shewhitepapers {
+  max-width: 200px !important;
+  height: auto;
+}
+#why article section#partners div#partner-logos-row ul.partners-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 2rem 0;
+  margin: 0;
+}
+#why article section#partners div#partner-logos-row ul.partners-list li a.partner-link, #why article section#partners div#partner-logos-row ul.partners-list li a.partner-link:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+#why article section#partners div#partner-logos-row ul.partners-list li img {
+  width: 20vw;
+  height: auto;
+}
+@media screen and (min-width: 1200px) {
+  #why article section#partners div#partner-logos-row ul.partners-list li img {
+    width: 10vw;
+    height: auto;
+  }
 }
 @media screen and (min-width: 36rem) {
   #why article #review-container {

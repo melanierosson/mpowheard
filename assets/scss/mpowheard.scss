@@ -812,7 +812,7 @@ body {
 		width:100vw;
 		height:100vh;
 		overflow:hidden;
-		background-color:#aaaaaa45;
+		background-color:#50505045;
 		top:0;
 		left:0;
 		z-index:2000;
@@ -938,12 +938,34 @@ body {
 		padding:1rem 0;
   		margin:auto;
 	}
+	// .review-text {
+	// 	transition: display 2s, animation 2s;
+	// }
 	.review-text.item {
+		// position:absolute;
 		display:none;
+		// opacity: 0;
+		// left: -100px;
+		// transition: 1s;
+		// transform: translate(-100px, 0);
+		// -webkit-transition: display 2s, transform 1.9s;
+		// transition: display 2s, transform 1.9s;
 	}
 	.review-text.item.active {
 		display:inline;
+		// opacity: 1;
+		// left: 0;
+		// animation: showReview 2s 1;
+		// transition: 1s;
 	}
+	// @keyframes showReview {
+	// 	0%   {transform: translate(200px, 0) !important;}
+	// 	25%  {transform: translate(150px, 0) !important;}
+	// 	50%  {transform: translate(100px, 0) !important;}
+	// 	75%  {transform: translate(50px, 0) !important;}
+	// 	100% {transform: translate(0, 0) !important;}
+	// }
+
 	.left-arrow.carousel-control, .right-arrow.carousel-control {
 		i.fa {
 			font-size:2rem;
@@ -951,6 +973,7 @@ body {
 		i.fa:hover {
 			cursor:pointer;
 		}
+		
 	}
 	.mobile-review-slide-buttons {
 		@media screen and (max-width:35.9375rem) {
@@ -1067,7 +1090,7 @@ body {
 					// background-image: linear-gradient(to bottom right, rgba(254 255 198 / 80%), rgba(235 252 255 / 88%), rgba(235 252 255 / 94%));
 					// color: $black;
 					background: rgba(0 0 0 / 80%);
-					cursor: pointer;
+					// cursor: pointer;
 					h4 {
 						color: $lcyan;
 					}
@@ -1085,6 +1108,60 @@ body {
 					flex-basis: 100%;
 					margin-bottom:0;
 
+				}
+				@media screen and (max-width:567px) {
+					background: rgba(0 0 0 / 80%);
+					h4 {
+						color: $lcyan;
+					}
+					h5 {
+						color: $lightyellow;
+					}
+				}
+			}
+		}
+		section#partners {
+			div#mobile-partner-logos-row {
+				margin:auto;
+				div {
+					text-align:center;
+					margin:auto;
+					img {
+						width:50vw;
+						height:auto;
+						margin:auto;
+						padding-top:1rem;
+						padding-bottom:1rem;
+						max-width:260px !important;
+					}
+					img.shewhitepapers {
+						max-width:200px !important;
+						height:auto;
+					}
+				}
+			}
+			div#partner-logos-row {
+				ul.partners-list {
+					display:flex;
+					flex-direction:row;
+					justify-content:space-around;
+					list-style-type: none;
+					padding:2rem 0;
+					margin:0;
+					li {
+						a.partner-link, a.partner-link:hover {
+							text-decoration:none !important;
+							cursor:pointer;
+						}
+						img {
+							width:20vw;
+							height:auto;
+							@media screen and (min-width:1200px) {
+								width:10vw;
+								height:auto;
+							}
+						}
+					} 
 				}
 			}
 		}
@@ -1151,4 +1228,3 @@ body {
 	 	}
 	}
 }
-
