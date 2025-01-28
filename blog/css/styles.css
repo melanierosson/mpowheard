@@ -10763,7 +10763,7 @@ header.masthead .post-heading .meta a {
     font-size: 2.5rem;
   }
   header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   header.masthead .post-heading .subheading {
     font-size: 1.875rem;
@@ -10815,8 +10815,8 @@ header.masthead .post-heading .meta a {
 @media (min-width: 1200px) {
   .post-preview > .post-img {
     width:50%;
-    background-size:contain;
-    background-position:center top;
+    background-size:cover !important;
+    background-position:center top !important;
   }
   .post-preview > .post-descr {
     width:50%;
