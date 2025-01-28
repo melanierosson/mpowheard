@@ -1170,8 +1170,8 @@ body footer {
   padding-bottom: 1rem;
   max-width: 260px !important;
 }
-#why article section#partners div#mobile-partner-logos-row div img.shewhitepapers {
-  max-width: 200px !important;
+#why article section#partners div#mobile-partner-logos-row div img.shewhitepapers, #why article section#partners div#mobile-partner-logos-row div img.detailedbypanem {
+  max-width: 220px !important;
   height: auto;
 }
 #why article section#partners div#partner-logos-row ul.partners-list {
