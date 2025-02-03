@@ -622,16 +622,10 @@ body .footer {
   padding: 0.2rem 0.5rem;
   color: #FFFFFF;
 }
-body .footer-v2.frontpage {
-  z-index: 99999;
-  position: absolute;
-  bottom: 0 !important;
-  margin-bottom: 0 !important;
-}
 body .footer-v2 {
   width: 100vw;
   margin: 0;
-  background-color: #E7E7E7;
+  background-color: #F2F2F2;
   padding: 2rem 0 0.2rem 0;
   color: #333333;
 }

@@ -21,6 +21,7 @@ $graydarker: #555555;
 $graydarkest: #333333;
 $graydark: #777777;
 $graylightest: #E7E7E7;
+$graymostlightest: #F2F2F2;
 body.light-gray {
 	background-color:#F9F9F9 !important;
 }
@@ -335,8 +336,8 @@ body {
 	}
 	
 	nav.navbar {
-		background-color:#F2F2F2;
-		border-bottom: 4px solid #F2F2F2;
+		background-color:$graymostlightest;
+		border-bottom: 4px solid $graymostlightest;
 		color: $black;
 		height:3.75rem;
 		padding-top:0;
@@ -495,7 +496,7 @@ body {
 					margin-left:6.6rem;
 				}
 				// background: url('../images/dots.png') 0px 0px repeat;
-				background-color:#F2F2F2;
+				background-color:$graymostlightest;
 				// background-size:10.625rem 10.625rem;
 				height: 23.75rem;
 				width: 26.875rem;
@@ -535,7 +536,7 @@ body {
 	      			margin-left:3.3rem;
 	      			// box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
 					// background: url('../images/dots.png') 0px 0px repeat;
-					background-color:#F2F2F2;
+					background-color:$graymostlightest;
 					// background-size:10.625rem 10.625rem;
 					height: 11.875rem;
 					width: 13.4375rem;
@@ -590,7 +591,7 @@ body {
 	      			margin-left:7rem;
 	      			// box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
 					// background: url('../images/dots.png') 0px 0px repeat;
-					background-color:#F2F2F2;
+					background-color:$graymostlightest;
 					// background-size:10.625rem 10.625rem;
 					height: 8.75rem;
 					width: 8.75rem;
@@ -635,16 +636,16 @@ body {
     	padding: 0.2rem 0.5rem;
     	color:$white;
 	}
-	.footer-v2.frontpage {
-		z-index:99999;
-		position:absolute;
-		bottom:0 !important;
-		margin-bottom:0 !important;
-	}
+	// .footer-v2.frontpage {
+	// 	z-index:99999;
+	// 	position:absolute;
+	// 	bottom:0 !important;
+	// 	margin-bottom:0 !important;
+	// }
 	.footer-v2 {
 		width:100vw;
 		margin:0;
-		background-color:$graylightest;	
+		background-color:$graymostlightest;	
     	padding: 2rem 0 0.2rem 0;
     	color:$graydarkest;
 		a, a:link, a:active, a:visited {
