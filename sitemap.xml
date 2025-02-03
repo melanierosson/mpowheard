@@ -3,34 +3,63 @@
 
 <url>
   <loc>http://mpowheard.com/</loc>
-  <lastmod>2021-04-16T17:33:13+00:00</lastmod>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://mpowheard.com/index.html</loc>
-  <lastmod>2021-04-16T17:33:13+00:00</lastmod>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>http://mpowheard.com/why.html</loc>
-  <lastmod>2021-04-16T17:33:13+00:00</lastmod>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://mpowheard.com/options.html</loc>
-  <lastmod>2021-04-16T17:33:13+00:00</lastmod>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.70</priority>
 </url>
 <url>
   <loc>http://mpowheard.com/connect.html</loc>
-  <lastmod>2021-04-16T17:33:13+00:00</lastmod>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.60</priority>
 </url>
-
+<url>
+  <loc>http://mpowheard.com/blog/index.html</loc>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://mpowheard.com/blog/unusual-marketing-strategies-to-supercharge-your-brand.html</loc>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://mpowheard.com/blog/ux-specialists-your-secret-weapon.html</loc>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://mpowheard.com/blog/seo-myths-that-are-hurting-your-business.html</loc>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://mpowheard.com/blog/future-of-digital-marketing-trends.html</loc>
+  <lastmod>2025-01-02T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.40</priority>
+</url>
 
 </urlset>
