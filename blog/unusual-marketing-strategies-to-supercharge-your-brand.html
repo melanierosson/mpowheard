@@ -217,8 +217,71 @@
         </article>
         
         <!-- Footer -->
-        <footer class="copyright footer fixed-bottom text-right">
+        <!-- <footer class="copyright footer fixed-bottom text-right">
             <small class="pr-3">&copy; <span class="cyan" id="currentYear">2021</span> MPowheard Agency</small>
+        </footer> -->
+        <footer class="footer-v2">
+            <div class="container">
+            <div class="row">
+            <div class="col-6 order-1 col-md-4 footer-col-1">
+                <p>
+                    <a href="../index.html">Home</a><br />
+                    <a href="../why.html#story">About</a><br />
+                    <a href="../why.html#partners">Partners</a><br />
+                    <a href="../why.html#testimonials">Testimonials</a>
+                </p>
+            </div>
+            <div class="col-6 order-3 order-md-2 col-md-4 footer-col-2 d-none d-md-inline-block">
+                <p>
+                    1-Page Static Sites<br />
+                    E-Commerce<br />
+                    Marketing Partner<br />
+                    Design Partner
+                </p>
+            </div>
+            <div class="col-6 col-md-4 order-2 order-md-3 footer-col-3 d-none d-md-inline-block">
+                <p>
+                    <a href="index.html" class="active">Blog</a><br />
+                    <a href="mailto:ourteam@mpowheard.com">
+                        <i class="footer-icons fa-solid fa-envelope" aria-label="Email MPowheard"></i> &nbsp;
+                    </a>
+                    <a href="http://instagram.com/mpowheard" target="_blank">
+                        <i class="footer-icons fa-brands fa-instagram" aria-label="MPowheard on Instagram"></i> &nbsp;
+                      </a>
+                      <a href="https://www.linkedin.com/company/105029999" target="_blank">
+                        <i class="footer-icons fa-brands fa-linkedin" aria-label="MPowheard on LinkedIn"></i> &nbsp;
+                      </a>
+                      <a href="https://www.facebook.com/mpowheard/" target="_blank">
+                        <i class="footer-icons fa-brands fa-facebook" aria-label="MPowheard on Facebook"></i>
+                      </a><br />
+                    <i class="fa-solid fa-location-dot"></i> Las Vegas, NV, USA
+                </p>
+            </div>
+            <div class="col-6 order-2 col-md-4 footer-col-2 d-inline-block d-md-none mobile-second-col">
+                <p>
+                    <a href="index.html" class="active">Blog</a><br />
+                    <a href="../options.html#services">Services</a><br />
+                    <a href="mailto:ourteam@mpowheard.com">
+                        <i class="footer-icons fa-solid fa-envelope mt-4 mb-n4" aria-label="Email MPowheard"></i> &nbsp;
+                    </a>
+                    <a href="http://instagram.com/mpowheard" target="_blank">
+                        <i class="footer-icons fa-brands fa-instagram mt-4 mb-n4" aria-label="MPowheard on Instagram"></i> &nbsp;
+                    </a>
+                    <a href="https://www.linkedin.com/company/105029999" target="_blank">
+                        <i class="footer-icons fa-brands fa-linkedin mt-4 mb-n4" aria-label="MPowheard on LinkedIn"></i> &nbsp;
+                    </a>
+                    <a href="https://www.facebook.com/mpowheard/" target="_blank">
+                        <i class="footer-icons fa-brands fa-facebook mt-4 mb-n4 mr-0" aria-label="MPowheard on Facebook"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-12 order-last copyright pt-2">
+                <p>
+                    <small>Since 2020 &nbsp; | &nbsp; <strong>&copy; <span id="currentYear">2021</span> <span class="hotpink">MPowheard</span> Agency</strong></small>
+                </p>
+            </div>
+            </div>
+            </div>
         </footer>
 
         <!-- GSAP Animations -->
@@ -226,11 +289,13 @@
 
         <script>
             gsap.fromTo(".navbar", {y:-200}, {duration: 1, y: 0});
-            gsap.fromTo(".footer", {y:200}, {duration: 1, y: 0});
+            gsap.fromTo(".footer-v2", {y:200}, {duration: 1, y: 0});
             gsap.fromTo("#nav-why", {opacity: 0, x: 500}, {delay: 1.2, duration: 1, opacity: 1, x: 0});
             gsap.fromTo("#nav-opt", {opacity: 0, x: 500}, {delay: 1.4, duration: 1, opacity: 1, x: 0});
             gsap.fromTo("#nav-connect", {opacity: 0, x: 500}, {delay: 1.6, duration: 1, opacity: 1, x: 0});
             gsap.fromTo("#nav-blog", {opacity: 0, x: 500}, {delay: 1.8, duration: 1, opacity: 1, x: 0});
+            gsap.fromTo(".masthead", {opacity: 0, x: 500}, {delay: 2, duration: 1, opacity: 1, x: 0});
+            gsap.fromTo(".white-bg", {opacity: 0, x: 500}, {delay: 2, duration: 1, opacity: 1, x: 0});
         </script>
 
         <!-- Bootstrap core JavaScript -->
@@ -240,7 +305,7 @@
         <!-- Custom JS -->
         <script src="../assets/js/mpowheard.js"></script>
         <script src="../assets/js/frontpage.js"></script>
-
+        <script src="../assets/js/includes.js"></script>
 
 
         <script>

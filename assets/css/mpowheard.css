@@ -33,6 +33,9 @@ body .lightpink {
 body .cyan {
   color: #B4F6FF;
 }
+body .yellow {
+  color: #FBFE3B;
+}
 body .extra-bottom {
   padding-bottom: 4rem;
   margin-bottom: 2rem;
@@ -612,12 +615,76 @@ body section div.pow-anim3 div.powAnims3 {
     display: none;
   }
 }
-body footer {
+body .footer {
   width: 100vw;
   margin: 0;
   background-color: #333333;
   padding: 0.2rem 0.5rem;
   color: #FFFFFF;
+}
+body .footer-v2.frontpage {
+  z-index: 99999;
+  position: absolute;
+  bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+body .footer-v2 {
+  width: 100vw;
+  margin: 0;
+  background-color: #E7E7E7;
+  padding: 2rem 0 0.2rem 0;
+  color: #333333;
+}
+body .footer-v2 a, body .footer-v2 a:link, body .footer-v2 a:active, body .footer-v2 a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+body .footer-v2 a:hover {
+  text-decoration: none;
+  color: #FF0093;
+}
+body .footer-v2 .row {
+  margin-right: auto;
+  margin-left: auto;
+}
+body .footer-v2 .row p {
+  line-height: 1.75rem;
+}
+@media screen and (min-width: 992px) {
+  body .footer-v2 .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5%;
+  }
+  body .footer-v2 .row .footer-col-1, body .footer-v2 .row .footer-col-2, body .footer-v2 .row .footer-col-3 {
+    max-width: 25%;
+  }
+}
+@media screen and (min-width: 767px) {
+  body .footer-v2 .row .footer-col-1 {
+    text-align: left;
+  }
+  body .footer-v2 .row .footer-col-2 {
+    text-align: center;
+  }
+  body .footer-v2 .row .footer-col-3 {
+    text-align: right;
+  }
+}
+body .mobile-second-col p {
+  text-align: right !important;
+}
+body .copyright {
+  margin-right: 0;
+  padding-right: 0;
+}
+body .copyright p {
+  line-height: 1.5rem !important;
+  text-align: center !important;
+}
+body .footer-icons {
+  font-size: 1.5rem;
+  margin: 0.8rem 0.1rem;
 }
 
 @keyframes touchAnim {
@@ -727,255 +794,79 @@ body footer {
     background-position: 170px 170px;
   }
 }
-#options div.col-lg-6:nth-of-type(2) {
-  display: flex;
-  align-items: flex-end;
-  align-content: flex-end;
+#options article a.ourwork-link:hover {
+  text-decoration: none !important;
 }
-#options article.opts {
-  width: 100%;
-  max-width: 42.5rem;
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-  padding-top: 2.5rem;
-}
-#options article.opts div.container {
-  box-shadow: 0 0 2.5rem #E7E7E7;
-  border-radius: 1.875rem;
-}
-@media screen and (min-width: 62rem) {
-  #options article.opts div.container.opt-onetime {
-    margin-left: 0;
-  }
-}
-@media screen and (min-width: 62rem) {
-  #options article.opts div.container.opt-misc {
-    margin-right: 0;
-  }
-}
-@media screen and (max-width: 61.9375rem) {
-  #options article.opts div.container {
-    width: 99%;
-  }
-}
-@media screen and (min-width: 62rem) {
-  #options article.opts div.container {
-    width: 90%;
-  }
-}
-#options article.opts div.container div.opt-header {
-  border-radius: 1.875rem 1.875rem 0 0;
-  background-color: #E7E7E7;
+#options article section.our-work {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  text-align: center;
-  padding: 1.25rem;
-}
-#options article.opts div.container div.opt-header h3 {
-  margin-bottom: 0;
-  text-align: center;
-}
-#options article.opts div.container div.opt.row {
-  background-color: #E7E7E7;
-}
-#options article.opts div.container div.opt.row div {
-  text-align: center;
-  border-color: #FFFFFF;
-  border-style: solid;
-  border-width: 0.125rem 0 0 0;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  padding: 0.4375rem 0.625rem;
-}
-#options article.opts div.container div.opt.row div p {
-  margin-bottom: 0;
-}
-#options article.opts div.container div.opt.row div p a {
-  color: #FF0093 !important;
-}
-@media screen and (max-width: 23.375rem) {
-  #options article.opts div.container div.opt.row div p {
-    font-size: 0.875rem;
-  }
-}
-#options article.opts div.container div.opt.row div:first-of-type {
-  justify-content: center;
-}
-#options article.opts div.container div.opt.row div:nth-of-type(2) {
-  justify-content: flex-end;
-}
-#options article.opts div.container div.opt.row:last-of-type {
-  padding-bottom: 0.25rem;
-  border-radius: 0 0 1.875rem 1.875rem;
-}
-#options article.opts div.container div.opt.row:hover {
-  color: #FF0093;
-  background-color: #EBFCFF !important;
-  cursor: pointer;
-}
-@media screen and (max-width: 61.9375rem) {
-  #options article#opt-misc {
-    margin-bottom: 4.5rem;
-  }
-}
-@media screen and (max-width: 61.9375rem) {
-  #options p.opt-lead.desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 62rem) {
-  #options p.opt-lead.desktop {
-    display: inline;
-  }
-}
-@media screen and (max-width: 61.9375rem) {
-  #options p.opt-lead.mobile {
-    display: inline;
-    font-size: 0.825rem;
-  }
-}
-@media screen and (min-width: 62rem) {
-  #options p.opt-lead.mobile {
-    display: none;
-  }
-}
-#options div#modal-overlay {
-  display: none;
-}
-#options div#modal-overlay.enabled {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: rgba(80, 80, 80, 0.2705882353);
-  top: 0;
-  left: 0;
-  z-index: 2000;
-}
-@media screen and (max-width: 35.9375rem) {
-  #options div#modal-overlay.enabled {
-    align-items: flex-start;
-    overflow-y: visible;
-  }
-}
-@media screen and (min-width: 36rem) {
-  #options div#modal-overlay.enabled {
-    align-items: center;
-  }
-}
-#options div#modal-overlay.enabled section#opt-modal {
-  min-width: 18.75rem;
-  max-width: 40.625rem;
-  border-radius: 1rem;
-  min-height: 15.625rem;
-  background-color: #FFFFFF;
-  border: 0.0625rem solid #B4F6FF;
-  padding: 1rem;
-}
-@media screen and (max-width: 35.9375rem) {
-  #options div#modal-overlay.enabled section#opt-modal {
-    width: 98%;
-    margin-top: 0.25rem;
-  }
-}
-@media screen and (min-width: 36rem) and (max-width: 61.9375rem) {
-  #options div#modal-overlay.enabled section#opt-modal {
-    width: 90%;
-  }
-}
-@media screen and (min-width: 62rem) and (max-width: 74.9375rem) {
-  #options div#modal-overlay.enabled section#opt-modal {
-    width: 75%;
-  }
-}
-@media screen and (min-width: 75rem) and (max-width: 87.4375rem) {
-  #options div#modal-overlay.enabled section#opt-modal {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 87.5rem) {
-  #options div#modal-overlay.enabled section#opt-modal {
-    width: 50%;
-  }
-}
-#options div#modal-overlay.enabled section#opt-modal div.close-btn {
-  width: 1.5rem;
-  height: 1.5rem;
-  color: #777;
-  display: flex;
-  font-size: 120%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  padding: 0;
-  margin: -0.5rem 0 0 -0.5rem;
-  text-transform: uppercase;
-}
-#options div#modal-overlay.enabled section#opt-modal div.close-btn:hover {
-  cursor: pointer;
-  background-color: rgba(255, 190, 227, 0.3);
-  color: #FF0093;
-}
-#options div#modal-overlay.enabled section#opt-modal div.opts {
-  display: flex;
-}
-@media screen and (max-width: 35.9375rem) {
-  #options div#modal-overlay.enabled section#opt-modal div.opts {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-@media screen and (min-width: 36rem) {
-  #options div#modal-overlay.enabled section#opt-modal div.opts {
-    justify-content: space-around;
-  }
-}
-#options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-  background-color: #E7E7E7;
-  padding: 1rem 1.25rem;
-  margin: 1rem 1.25rem;
-  border-radius: 1rem;
-}
-@media screen and (min-width: 36rem) {
-  #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 47.9375rem) {
-  #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal {
-    margin: 0.625rem 0.625rem 1rem 0.625rem;
-  }
-}
-#options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal p.opt-sub.price-pkg {
-  margin-bottom: 0;
-}
-@media screen and (min-width: 36rem) {
-  #options div#modal-overlay.enabled section#opt-modal div.opts article.opt-modal.single {
-    width: 70%;
-  }
-}
-#options div#modal-overlay.enabled section#opt-modal h6 {
-  font-weight: 600;
-}
-#options div#modal-overlay.enabled section#opt-modal p.connect-cta a {
-  color: #FF0093;
-}
-#options div#modal-overlay.enabled section#opt-modal p.connect-cta a:hover {
-  color: #BF5693;
-  text-decoration: none;
-}
-#options div#modal-overlay.enabled section#opt-modal p.connect-cta a.icon:hover {
-  text-decoration: none;
-}
-#options section.left-side, #options section.right-side, #options p.opt-lead {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 5px solid #FF0093;
+  height: 350px;
   opacity: 0;
+}
+#options article section.our-work.small-business {
+  background-image: url("../images/milsdiner.jpg");
+}
+#options article section.our-work.ecommerce {
+  background-image: url("../images/detailedbypanem.jpg");
+  margin-top: 2.5rem;
+}
+#options article section.our-work.education {
+  background-image: url("../images/shewhitepapers.jpg");
+  margin-top: 2.5rem;
+}
+#options article section.our-work.branding {
+  background-image: url("../images/cramcryptos.jpg");
+  margin-top: 2.5rem;
+}
+#options article section.our-work .bg-overlay {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: #FFFFFF;
+}
+#options article section.our-work .bg-overlay:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+#options article section.our-work .bg-overlay:hover h4 {
+  color: #98F3FF;
+}
+#options article section.our-work .bg-overlay:hover h5 {
+  color: #ffff98;
+}
+#options article section.our-work .bg-overlay h4 {
+  font-size: 2rem;
+  flex-basis: 100%;
+}
+#options article section.our-work .bg-overlay p {
+  text-align: center;
+  padding: 2rem;
+  flex-basis: 100%;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 567px) {
+  #options article section.our-work .bg-overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  #options article section.our-work .bg-overlay h4 {
+    color: #98F3FF;
+  }
+  #options article section.our-work .bg-overlay h5 {
+    color: #ffff98;
+  }
 }
 
 #connect h4.social a {
@@ -1079,80 +970,6 @@ body footer {
   }
   #why article.story section.col-12.col-sm-6.section-content:nth-of-type(2) {
     padding-left: 5.5rem;
-  }
-}
-#why article a.ourwork-link:hover {
-  text-decoration: none !important;
-}
-#why article section.our-work {
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border: 5px solid #FF0093;
-  height: 400px;
-  opacity: 0;
-}
-#why article section.our-work.small-business {
-  background-image: url("../images/milsdiner.jpg");
-}
-#why article section.our-work.ecommerce {
-  background-image: url("../images/detailedbypanem.jpg");
-  margin-top: 2.5rem;
-}
-#why article section.our-work.education {
-  background-image: url("../images/shewhitepapers.jpg");
-  margin-top: 2.5rem;
-}
-#why article section.our-work.branding {
-  background-image: url("../images/cramcryptos.jpg");
-  margin-top: 2.5rem;
-}
-#why article section.our-work .bg-overlay {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background: rgba(0, 0, 0, 0.7);
-  color: #FFFFFF;
-}
-#why article section.our-work .bg-overlay:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
-#why article section.our-work .bg-overlay:hover h4 {
-  color: #98F3FF;
-}
-#why article section.our-work .bg-overlay:hover h5 {
-  color: #ffff98;
-}
-#why article section.our-work .bg-overlay h4 {
-  font-size: 2rem;
-  flex-basis: 100%;
-}
-#why article section.our-work .bg-overlay p {
-  text-align: center;
-  padding: 2rem;
-  flex-basis: 100%;
-  margin-bottom: 0;
-}
-@media screen and (max-width: 567px) {
-  #why article section.our-work .bg-overlay {
-    background: rgba(0, 0, 0, 0.8);
-  }
-  #why article section.our-work .bg-overlay h4 {
-    color: #98F3FF;
-  }
-  #why article section.our-work .bg-overlay h5 {
-    color: #ffff98;
   }
 }
 #why article section#partners div#mobile-partner-logos-row {

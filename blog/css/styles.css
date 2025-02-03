@@ -10767,6 +10767,7 @@ header.masthead .post-heading .meta a {
   }
   header.masthead .post-heading .subheading {
     font-size: 1.875rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -10849,7 +10850,7 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-descr > .post-subtitle {
   font-weight: 300;
   margin-bottom: 0.625rem;
-  line-height:1.25rem;
+  line-height:1.4rem;
   font-size:1rem;
 }
 .post-preview > .post-descr > .post-meta {

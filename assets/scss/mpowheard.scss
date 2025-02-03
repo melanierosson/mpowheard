@@ -54,6 +54,9 @@ body {
 	.cyan {
 		color: $cyanlight;
 	}
+	.yellow {
+		color: $yellow;
+	}
 	.extra-bottom {
 		padding-bottom: 4rem;
     	margin-bottom: 2rem;
@@ -625,12 +628,75 @@ body {
 			}
 		}
 	}
-	footer {
+	.footer {
 		width:100vw;
 		margin:0;
 		background-color:$graydarkest;	
     	padding: 0.2rem 0.5rem;
     	color:$white;
+	}
+	.footer-v2.frontpage {
+		z-index:99999;
+		position:absolute;
+		bottom:0 !important;
+		margin-bottom:0 !important;
+	}
+	.footer-v2 {
+		width:100vw;
+		margin:0;
+		background-color:$graylightest;	
+    	padding: 2rem 0 0.2rem 0;
+    	color:$graydarkest;
+		a, a:link, a:active, a:visited {
+			text-decoration:none;
+			color:$graydarkest;
+		}
+		a:hover {
+			text-decoration:none;
+			color: $pink;
+		}
+		.row {
+			// max-width: 1140px !important;
+			margin-right: auto;
+			margin-left: auto;
+			p {
+				line-height:1.75rem;
+			}
+			@media screen and (min-width:992px) {
+				display:flex;
+				justify-content:space-between;
+				gap: 7.5%;
+				.footer-col-1, .footer-col-2, .footer-col-3 {
+					max-width:25%;
+				}
+			}
+			@media screen and (min-width:767px) {
+				.footer-col-1 {
+					text-align:left;
+				}
+				.footer-col-2 {
+					text-align:center;
+				}
+				.footer-col-3 {
+					text-align:right;
+				}
+			}
+		}
+	}
+	.mobile-second-col p {
+		text-align:right !important;
+	}
+	.copyright {
+		margin-right:0;
+		padding-right:0;
+		p {
+			line-height:1.5rem !important;
+			text-align:center !important;
+		}
+	}
+	.footer-icons {
+		font-size:1.5rem;
+		margin:0.8rem 0.1rem;	
 	}
 }
 
@@ -675,241 +741,84 @@ body {
 
 
 #options {
-	div.col-lg-6:nth-of-type(2) {
-		display:flex;
-		align-items:flex-end;
-		align-content:flex-end;
-	}
-	article.opts {
-		width:100%;
-		max-width:42.5rem;
-		display:flex;
-		justify-content:center;
-		align-content:flex-end;
-		padding-top:2.5rem;
-		div.container {
-			&.opt-onetime {
-				@media screen and (min-width:62rem) {
-					margin-left:0;
-				}
-			}
-			&.opt-misc {
-				@media screen and (min-width:62rem) {
-					margin-right:0;
-				}
-			}
-			@media screen and (max-width:61.9375rem) {
-				width:99%;
-			}
-			@media screen and (min-width:62rem) {
-				width:90%;
-			}
-			box-shadow: 0 0 2.5rem $graylightest;
-			border-radius: 1.875rem;
-			div.opt-header {
-				border-radius:1.875rem 1.875rem 0 0;
-				background-color: $graylightest;
-				display:flex;
-				justify-content:center;
-				align-items:center;
-				align-content:center;
-				text-align:center;
-				padding:1.25rem;
-				h3 {
-					margin-bottom:0;
-					text-align:center;
-				}
-			}
-			div.opt.row {
-				background-color: $graylightest;
-				div {
-					text-align:center;
-					border-color: $white;
-					border-style: solid;
-					border-width: 0.125rem 0 0 0;
-					display:flex;
-					align-content:center;
-					align-items:center;
-					padding: 0.4375rem 0.625rem;
-					p {
-						margin-bottom:0;
-						a {
-							color: $pink !important;
-						}
-						@media screen and (max-width:23.375rem) {
-							font-size:0.875rem;
-						}
-					}
-				}
-				div:first-of-type {
-					justify-content:center;
-				}
-				div:nth-of-type(2) {
-					justify-content:flex-end;
-				}
-			}
-
-			div.opt.row:last-of-type {
-				padding-bottom:0.25rem;
-				border-radius:0 0 1.875rem 1.875rem;
-				div:first-of-type {
-					// border-radius:0 0 0 1.875rem;
-				}
-				div:nth-of-type(2) {
-					// border-radius:0 0 1.875rem 0;
-				}
-			}
-			div.opt.row:hover {
-				// border: 0.0625rem solid $cyanlight;
-				// box-shadow: 0 0 2.5rem $cyanlighter;
-				// position:absolute;
-				// display:block;
-				// z-index:50;
-				// padding: 1.25rem 1.875rem;
-				color:$pink;
-				background-color: $cyanlightest !important;
-				cursor: pointer;
-			}
+	article {
+		a.ourwork-link:hover {
+			text-decoration:none !important;
 		}
-	}
-	article#opt-misc {
-		@media screen and (max-width:61.9375rem) {
-			margin-bottom:4.5rem;
-		}
-	}
-	p.opt-lead.desktop {
-		@media screen and (max-width:61.9375rem) {
-			display:none;
-		}
-		@media screen and (min-width:62rem) {
-			display:inline;
-		}
-	}
-	p.opt-lead.mobile {
-		@media screen and (max-width:61.9375rem) {
-			display:inline;
-			font-size:0.825rem;
-		}
-		@media screen and (min-width:62rem) {
-			display:none;
-		}
-	}
-	div#modal-overlay {
-		display:none;
-	}
-	div#modal-overlay.enabled {
-		display:flex;
-		@media screen and (max-width:35.9375rem) {
-			align-items:flex-start;
-			overflow-y:visible;
-		}
-		@media screen and (min-width:36rem) {
+		section.our-work {
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display:flex;
+			justify-content: center;
 			align-items:center;
-		}
-		justify-content:center;
-		align-content:center;
-		position:fixed;
-		width:100vw;
-		height:100vh;
-		overflow:hidden;
-		background-color:#50505045;
-		top:0;
-		left:0;
-		z-index:2000;
-		section#opt-modal {
-			min-width:18.75rem;
-			max-width: 40.625rem;
-			border-radius:1rem;
-			@media screen and (max-width:35.9375rem) {
-				width:98%;
-				margin-top:0.25rem;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			border: 5px solid $pink;
+			height:350px;
+			opacity:0;
+			&.small-business {
+				background-image: url("../images/milsdiner.jpg");
 			}
-			@media screen and (min-width:36rem) and (max-width:61.9375rem) {
-				width:90%;
+			&.ecommerce {
+				background-image: url("../images/detailedbypanem.jpg");
+				margin-top:2.5rem;
 			}
-			@media screen and (min-width:62rem) and (max-width:74.9375rem) {
-				width:75%;
+			&.education {
+				background-image: url("../images/shewhitepapers.jpg");
+				margin-top:2.5rem;
 			}
-			@media screen and (min-width:75rem) and (max-width:87.4375rem) {
-				width:60%;
+			&.branding {
+				background-image: url("../images/cramcryptos.jpg");
+				margin-top:2.5rem;
 			}
-			@media screen and (min-width:87.5rem) {
-				width:50%;
-			}
-			min-height:15.625rem;
-			background-color:$white;
-			border: 0.0625rem solid $cyanlight;
-			// box-shadow: 0 0 3.75rem $cyanlighter;
-			padding:1rem;
-			div.close-btn {
-				width:1.5rem;
-				height:1.5rem;
-				// background-color:#efefef;
-				color:#777;
-				display:flex;
-				// font-weight:600;
-				font-size:120%;
-				justify-content:center;
+			.bg-overlay {
+				width: 100%;
+			    height: 100%;
+			    background-repeat:no-repeat;
+			    background-size: cover;
+			    display:flex;
+			    flex-wrap: wrap;
+				justify-content: center;
 				align-items:center;
 				align-content:center;
-				padding:0;
-				margin: -0.5rem 0 0 -0.5rem;
-				text-transform:uppercase;
-			}
-			div.close-btn:hover {
-				cursor:pointer;
-				background-color:rgba(255, 190, 227, 0.3);
-				color:$pink;
-			}
-			div.opts {
-				display:flex;
-				@media screen and (max-width:35.9375rem) {
-					flex-wrap:wrap;
-					justify-content: center;
-				}
-				@media screen and (min-width:36rem) {
-					justify-content: space-around;
-				}
-				article.opt-modal {
-					background-color:$graylightest;
-					padding:1rem 1.25rem;
-					margin:1rem 1.25rem;
-					border-radius:1rem;
-					@media screen and (min-width:36rem) {
-						width:50%;
+				background: rgba(0 0 0 / 70%);
+				color: $white;
+				&:hover {
+					// background:rgba(235 252 255 / 94%);
+					// background-image: linear-gradient(to bottom right, rgba(254 255 198 / 80%), rgba(235 252 255 / 88%), rgba(235 252 255 / 94%));
+					// color: $black;
+					background: rgba(0 0 0 / 80%);
+					// cursor: pointer;
+					h4 {
+						color: $lcyan;
 					}
-					@media screen and (max-width:47.9375rem) {
-						margin:0.625rem 0.625rem 1rem 0.625rem;
-					}
-					p.opt-sub.price-pkg {
-						margin-bottom:0;
+					h5 {
+						color: $lightyellow;
 					}
 				}
-				article.opt-modal.single {
-					@media screen and (min-width:36rem) {
-						width:70%;
+				h4 {
+					font-size:2rem;
+					flex-basis: 100%;
+				}
+				p {
+					text-align:center;
+					padding:2rem;
+					flex-basis: 100%;
+					margin-bottom:0;
+
+				}
+				@media screen and (max-width:567px) {
+					background: rgba(0 0 0 / 80%);
+					h4 {
+						color: $lcyan;
 					}
-				}
-			}
-			h6 {
-				font-weight:600;
-			}
-			p.connect-cta {
-				a {
-					color:$pink;
-				}
-				a:hover {
-					color:$gpink;
-					text-decoration: none;
-				}
-				a.icon:hover {
-					text-decoration: none;
+					h5 {
+						color: $lightyellow;
+					}
 				}
 			}
 		}
-	}
-	section.left-side, section.right-side, p.opt-lead {
-		opacity:0;
 	}
 }
 
@@ -1043,83 +952,6 @@ body {
 		}
 	}
 	article {
-		a.ourwork-link:hover {
-			text-decoration:none !important;
-		}
-		section.our-work {
-			background-position: top center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			display:flex;
-			justify-content: center;
-			align-items:center;
-			margin-top: 2rem;
-			margin-bottom: 2rem;
-			border: 5px solid $pink;
-			height:400px;
-			opacity:0;
-			&.small-business {
-				background-image: url("../images/milsdiner.jpg");
-			}
-			&.ecommerce {
-				background-image: url("../images/detailedbypanem.jpg");
-				margin-top:2.5rem;
-			}
-			&.education {
-				background-image: url("../images/shewhitepapers.jpg");
-				margin-top:2.5rem;
-			}
-			&.branding {
-				background-image: url("../images/cramcryptos.jpg");
-				margin-top:2.5rem;
-			}
-			.bg-overlay {
-				width: 100%;
-			    height: 100%;
-			    background-repeat:no-repeat;
-			    background-size: cover;
-			    display:flex;
-			    flex-wrap: wrap;
-				justify-content: center;
-				align-items:center;
-				align-content:center;
-				background: rgba(0 0 0 / 70%);
-				color: $white;
-				&:hover {
-					// background:rgba(235 252 255 / 94%);
-					// background-image: linear-gradient(to bottom right, rgba(254 255 198 / 80%), rgba(235 252 255 / 88%), rgba(235 252 255 / 94%));
-					// color: $black;
-					background: rgba(0 0 0 / 80%);
-					// cursor: pointer;
-					h4 {
-						color: $lcyan;
-					}
-					h5 {
-						color: $lightyellow;
-					}
-				}
-				h4 {
-					font-size:2rem;
-					flex-basis: 100%;
-				}
-				p {
-					text-align:center;
-					padding:2rem;
-					flex-basis: 100%;
-					margin-bottom:0;
-
-				}
-				@media screen and (max-width:567px) {
-					background: rgba(0 0 0 / 80%);
-					h4 {
-						color: $lcyan;
-					}
-					h5 {
-						color: $lightyellow;
-					}
-				}
-			}
-		}
 		section#partners {
 			div#mobile-partner-logos-row {
 				margin:auto;
