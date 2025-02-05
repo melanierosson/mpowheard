@@ -907,6 +907,7 @@ body .footer-icons {
     display: flex;
     align-items: center;
     align-content: center;
+    font-size: 1.75rem;
   }
   #why .mobile-review-slide-buttons .left-arrow.carousel-control {
     justify-content: flex-end;
@@ -1007,10 +1008,16 @@ body .footer-icons {
     height: auto;
   }
 }
+#why article #review-container section.section-content {
+  min-height: 550px;
+}
 @media screen and (min-width: 36rem) {
   #why article #review-container {
     display: flex;
     flex-direction: row;
+  }
+  #why article #review-container section.section-content {
+    min-height: 400px;
   }
 }
 

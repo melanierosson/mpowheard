@@ -854,6 +854,7 @@ body {
 	.review-text.item {
 		// position:absolute;
 		display:none;
+		// transition: display 250ms;
 		// opacity: 0;
 		// left: -100px;
 		// transition: 1s;
@@ -863,6 +864,7 @@ body {
 	}
 	.review-text.item.active {
 		display:inline;
+		// transition: display 250ms;
 		// opacity: 1;
 		// left: 0;
 		// animation: showReview 2s 1;
@@ -894,14 +896,19 @@ body {
 				display:flex;
 				align-items:center;
 				align-content:center;
+				font-size:1.75rem;
 			}
 			.left-arrow.carousel-control {
 				justify-content:flex-end;
-				i.fa {padding-right:1rem;}
+				i.fa {
+					padding-right:1rem;
+				}
 			}
 			.right-arrow.carousel-control {
 				justify-content:flex-start;
-				i.fa {padding-left:1rem;}
+				i.fa {
+					padding-left:1rem;
+				}
 			}
 		}
 		@media screen and (min-width:35.94rem) {
@@ -999,9 +1006,15 @@ body {
 			}
 		}
 		#review-container {
+			section.section-content {
+				min-height:550px;
+			}
 			@media screen and (min-width:36rem) {
 				display:flex;
 				flex-direction:row;
+				section.section-content {
+					min-height:400px;
+				}
 			}
 		}
 	}
