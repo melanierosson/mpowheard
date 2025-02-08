@@ -895,7 +895,10 @@ body .footer-icons {
   font-size: 2rem;
 }
 #why .left-arrow.carousel-control i.fa:hover, #why .right-arrow.carousel-control i.fa:hover {
-  cursor: pointer;
+  cursor: pointer !important;
+}
+#why .left-arrow.carousel-control:hover, #why .right-arrow.carousel-control:hover {
+  cursor: pointer !important;
 }
 @media screen and (max-width: 35.9375rem) {
   #why .mobile-review-slide-buttons {

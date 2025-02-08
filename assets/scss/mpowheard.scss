@@ -883,9 +883,12 @@ body {
 			font-size:2rem;
 		}
 		i.fa:hover {
-			cursor:pointer;
+			cursor:pointer !important;
 		}
 		
+	}
+	.left-arrow.carousel-control:hover, .right-arrow.carousel-control:hover {
+		cursor:pointer !important;
 	}
 	.mobile-review-slide-buttons {
 		@media screen and (max-width:35.9375rem) {
