@@ -819,6 +819,11 @@ body .footer-icons {
   background-image: url("../images/cramcryptos.jpg");
   margin-top: 2.5rem;
 }
+#options article section.our-work.wireframes {
+  background-image: url("../images/ux-figma.jpg");
+  margin-top: 2.5rem;
+  background-position: middle center;
+}
 #options article section.our-work .bg-overlay {
   width: 100%;
   height: 100%;
