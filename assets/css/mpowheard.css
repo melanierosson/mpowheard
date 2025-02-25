@@ -502,7 +502,7 @@ body section div.pow-anim div#powAnimBorder {
   z-index: 1;
   margin-top: 3.3rem;
   margin-left: 2.6rem;
-  background: radial-gradient(#777777, #00E2FF, #FF0093, #FBFE3B, #FBFE3B);
+  background: radial-gradient(#00E2FF, #00E2FF, #FF0093, #FBFE3B, #FBFE3B);
   height: 26rem;
   width: 29rem;
   transform: rotate(-1deg);
