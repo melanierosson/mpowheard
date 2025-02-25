@@ -502,7 +502,7 @@ body section div.pow-anim div#powAnimBorder {
   z-index: 1;
   margin-top: 3.3rem;
   margin-left: 2.6rem;
-  background: radial-gradient(#00E2FF, #00E2FF, #FF0093, #FBFE3B, #FBFE3B);
+  background: radial-gradient(#00E2FF, #00E2FF, #00E2FF, #FF0093, #FBFE3B, #FBFE3B);
   height: 26rem;
   width: 29rem;
   transform: rotate(-1deg);
@@ -541,7 +541,7 @@ body section div.pow-anim div#powAnimBorder {
     z-index: 1;
     margin-top: 5.1rem;
     margin-left: 2.4rem;
-    background: radial-gradient(closest-side at 60% 55%, #FBFE3B, #FBFE3B, #FF0093, #00E2FF);
+    background: radial-gradient(farthest-side at 60% 55%, #FBFE3B, #FBFE3B, #FF0093, #00E2FF);
     height: 13.75rem;
     width: 15rem;
     transform: rotate(-191deg);
@@ -591,7 +591,7 @@ body section div#powAnimBorder3.touch-anim {
     z-index: 1;
     margin-top: 5rem;
     margin-left: 6.5rem;
-    background: radial-gradient(farthest-side at 60% 55%, #FBFE3B, #FBFE3B, #00E2FF, #FF0093);
+    background: radial-gradient(closest-side at 60% 55%, #FBFE3B, #FBFE3B, #00E2FF, #FF0093);
     height: 10.25rem;
     width: 10.1rem;
     transform: rotate(-142deg);

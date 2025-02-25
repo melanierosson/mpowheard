@@ -517,7 +517,7 @@ body {
 					margin-left:5.6rem;
 				}
 				// background-color: $pink;
-				background:  radial-gradient(#00E2FF,#00E2FF,#FF0093,#FBFE3B,#FBFE3B);
+				background:  radial-gradient(#00E2FF,#00E2FF,#00E2FF,#FF0093,#FBFE3B,#FBFE3B);
 				// background-position: middle center;
 				height: 26rem;
 				width: 29rem;
@@ -551,7 +551,7 @@ body {
 					margin-top:5.1rem;
 	      			margin-left:2.4rem;
 					// background-color: $pink;
-					background: radial-gradient(closest-side at 60% 55%, #FBFE3B,#FBFE3B,#FF0093,#00E2FF);
+					background: radial-gradient(farthest-side at 60% 55%, #FBFE3B,#FBFE3B,#FF0093,#00E2FF);
 					// background-position: middle center;
 					height: 13.75rem;
 					width: 15rem;
@@ -606,7 +606,7 @@ body {
 					margin-top:5rem;
 	      			margin-left:6.5rem;
 					// background-color: $pink;
-					background: radial-gradient(farthest-side at 60% 55%, #FBFE3B,#FBFE3B,#00E2FF,#FF0093);
+					background: radial-gradient(closest-side at 60% 55%, #FBFE3B,#FBFE3B,#00E2FF,#FF0093);
 					// background-position: middle center;
 					height: 10.25rem;
 					width: 10.1rem;
