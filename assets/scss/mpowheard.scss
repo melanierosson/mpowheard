@@ -517,8 +517,11 @@ body {
 					margin-left:5.6rem;
 				}
 				// background-color: $pink;
-				background:  radial-gradient(#00E2FF,#00E2FF,#00E2FF,#FF0093,#FBFE3B,#FBFE3B);
-				// background-position: middle center;
+				box-shadow: 40px 40px 40px rgb(0 0 0 / 90%);
+				background: radial-gradient($yellow,$yellow,$yellow,$pink,$graydark,$cyan,$cyan,$cyan);
+				// background-image: url('/assets/images/blast-bg-v07.jpg');
+				// opacity: 0.7;
+				background-position: middle center;
 				height: 26rem;
 				width: 29rem;
 				transform: rotate(-1deg);
@@ -551,7 +554,8 @@ body {
 					margin-top:5.1rem;
 	      			margin-left:2.4rem;
 					// background-color: $pink;
-					background: radial-gradient(farthest-side at 60% 55%, #FBFE3B,#FBFE3B,#FF0093,#00E2FF);
+					box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px;
+					background: radial-gradient($yellow,$yellow,$pink,$cyan,$graydark);
 					// background-position: middle center;
 					height: 13.75rem;
 					width: 15rem;
@@ -589,7 +593,7 @@ body {
 					z-index:3;
 					margin-top:6rem;
 	      			margin-left:7rem;
-	      			// box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px inset;
+	      			box-shadow: rgb(0 0 0 / 90%) 0px 0px 40px;
 					// background: url('../images/dots.png') 0px 0px repeat;
 					background-color:$graymostlightest;
 					// background-size:10.625rem 10.625rem;
@@ -606,7 +610,7 @@ body {
 					margin-top:5rem;
 	      			margin-left:6.5rem;
 					// background-color: $pink;
-					background: radial-gradient(closest-side at 60% 55%, #FBFE3B,#FBFE3B,#00E2FF,#FF0093);
+					background: radial-gradient($graydark,$yellow,$cyan,$pink,$pink);
 					// background-position: middle center;
 					height: 10.25rem;
 					width: 10.1rem;
