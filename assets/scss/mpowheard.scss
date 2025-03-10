@@ -268,7 +268,7 @@ body {
 		button#cta {
 			background-color: $yellow;
 			border: 0.0625rem solid $white;
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, $yellow, #FF7CC7);
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $yellow, $gpink);
 			color: $graydarkest;
 			font-weight: 600;
 			text-transform: uppercase;
@@ -432,7 +432,7 @@ body {
 				padding-top:0.5rem;
 			}
 			p, a {
-				line-spacing:1.5rem;
+				line-height:1.5rem;
 			}
 		}
 	}

@@ -269,7 +269,7 @@ body div.cta {
 body div.cta button#cta {
   background-color: #FBFE3B;
   border: 0.0625rem solid #FFFFFF;
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FBFE3B, #FF7CC7);
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FBFE3B, #BF5693);
   color: #333333;
   font-weight: 600;
   text-transform: uppercase;
@@ -413,7 +413,7 @@ body nav.navbar li.nav-item:hover a {
     padding-top: 0.5rem;
   }
   body .top-main.row p, body .top-main.row a {
-    line-spacing: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 body section h1 {
