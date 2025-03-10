@@ -10857,7 +10857,7 @@ header.masthead .post-heading .meta a {
     width:100%;
     height:200px;
     background-size:cover !important;
-    background-position: center top !important;
+    background-position: center top;
   }
   .post-preview > .post-descr {
     width:100%;
