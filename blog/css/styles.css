@@ -125,7 +125,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 }
 
@@ -10667,13 +10667,33 @@ footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.post-feature-img {
+  width:300px;
+  height:200px;
+  background-size: cover;
+}
+@media screen and (min-width:768px) {
+  .post-feature-img {
+    width:500px;
+    height:350px;
+    background-size: cover;
+  }
+}
+@media screen and (min-width:992px) {
+  .post-feature-img {
+    width:600px;
+    height:400px;
+    background-size: cover;
+  }
+}
+
 header.masthead {
   position: relative;
-  margin-bottom: 3rem;
-  padding-top: calc(8rem + 57px);
-  padding-bottom: 8rem;
+  margin-bottom: 0;
+  padding-top: calc(2rem + 57px);
+  padding-bottom: 1rem;
   background: no-repeat center center;
-  background-color: #6c757d;
+  background-color: #fff;
   background-size: cover;
   background-attachment: scroll;
   max-width:1200px;
@@ -10687,7 +10707,7 @@ header.masthead:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #212529;
+  background-color: #f2f2f2;
   opacity: 0.5;
 }
 header.masthead.blog-home {
@@ -10708,7 +10728,7 @@ header.masthead.blog-home:before {
 }
 header.masthead .page-heading,
 header.masthead .post-heading {
-  color: #fff;
+  color: #333;
 }
 header.masthead .page-heading,
 header.masthead .site-heading {
@@ -10717,7 +10737,7 @@ header.masthead .site-heading {
 header.masthead .page-heading h1, header.masthead .page-heading .h1,
 header.masthead .site-heading h1,
 header.masthead .site-heading .h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight:700;
 }
 header.masthead .page-heading .subheading,
@@ -10740,30 +10760,35 @@ header.masthead .post-heading .subheading {
 header.masthead .post-heading .subheading {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0.75rem 0 2rem;
+  margin: 0.75rem 0 1rem;
   font-family: inherit;
 }
 header.masthead .post-heading .meta {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
   font-style: italic;
   font-family: inherit;
+  padding-bottom:1.25rem;
 }
 header.masthead .post-heading .meta a {
-  color: #fff;
+  color: #333;
+}
+.htxt-norm-style {
+  font-size: 1rem;
+  font-weight: bold;
 }
 @media (min-width: 992px) {
   header.masthead {
     padding-top: 7.5rem;
-    padding-bottom: 5.5rem;
+    /* padding-bottom: 5.5rem; */
   }
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
   header.masthead .site-heading h1,
   header.masthead .site-heading .h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
   header.masthead .post-heading .subheading {
     font-size: 1.875rem;
