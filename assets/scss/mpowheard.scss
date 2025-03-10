@@ -268,7 +268,7 @@ body {
 		button#cta {
 			background-color: $yellow;
 			border: 0.0625rem solid $white;
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, $yellow, $gpink);
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
 			color: $graydarkest;
 			font-weight: 600;
 			text-transform: uppercase;
@@ -280,12 +280,15 @@ body {
 			font-size:1.25rem;
 			margin-right:1.5rem;
 			margin-top:1.5rem;
+			box-shadow: 0 0 2.5rem $lpink;
+			border:none;
 		}
 		button#cta:hover {
+			border:none;
 			background-color: $cyan;
-			background: radial-gradient(10rem 5.625rem at 1.25rem top, $cyanlight, $cyan);
+			background: radial-gradient(10rem 5.625rem at 1.25rem top, $lyellow, $yellow);
 			border: 0.0625rem solid $white;
-			color: $graydarkest;
+			color: $pink;
 			// box-shadow: 0 0 2.5rem $lyellow;
 		}
 		@media screen and (max-width:61.9375rem) {

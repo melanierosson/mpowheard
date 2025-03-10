@@ -269,7 +269,7 @@ body div.cta {
 body div.cta button#cta {
   background-color: #FBFE3B;
   border: 0.0625rem solid #FFFFFF;
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #FBFE3B, #BF5693);
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
   color: #333333;
   font-weight: 600;
   text-transform: uppercase;
@@ -281,12 +281,15 @@ body div.cta button#cta {
   font-size: 1.25rem;
   margin-right: 1.5rem;
   margin-top: 1.5rem;
+  box-shadow: 0 0 2.5rem #FFBEE3;
+  border: none;
 }
 body div.cta button#cta:hover {
+  border: none;
   background-color: #00E2FF;
-  background: radial-gradient(10rem 5.625rem at 1.25rem top, #B4F6FF, #00E2FF);
+  background: radial-gradient(10rem 5.625rem at 1.25rem top, #ffffe5, #FBFE3B);
   border: 0.0625rem solid #FFFFFF;
-  color: #333333;
+  color: #FF0093;
 }
 @media screen and (max-width: 61.9375rem) {
   body div.cta button#cta {
