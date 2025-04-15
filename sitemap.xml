@@ -33,7 +33,13 @@
 </url>
 <url>
   <loc>https://mpowheard.com/blog/index.html</loc>
-  <lastmod>2025-03-09T17:33:13+00:00</lastmod>
+  <lastmod>2025-04-15T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://mpowheard.com/blog/index2.html</loc>
+  <lastmod>2025-04-15T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 </url>
@@ -76,6 +82,12 @@
 <url>
   <loc>https://mpowheard.com/blog/how-influencer-marketing-boosts-your-brands-credibility.html</loc>
   <lastmod>2025-03-10T17:33:13+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://mpowheard.com/blog/blog/why-video-marketing-is-a-must-and-how-to-get-started.html</loc>
+  <lastmod>2025-04-15T17:33:13+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.40</priority>
 </url>
